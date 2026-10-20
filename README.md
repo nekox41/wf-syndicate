@@ -103,169 +103,311 @@ python3 scripts/update_market.py --watch --interval 1800 \
 
 这是结构示例。`orders: null` 表示无卖单；抓取失败会附带 `statisticsError` 或 `ordersError`。`completedAt: null` 表示本轮尚未完成，`updatedAt` 是最近一次文件保存时间，各字段的更新时间反映其实际新鲜程度。
 
-## Nginx 完整部署流程
+## Nginx 部署：升级现有 syndicate 站点
 
-以下步骤以 **Ubuntu 24.04 LTS、systemd、Nginx** 为例。需要有 sudo 权限的服务器；将 `example.com` 的 DNS 指向服务器，并在云安全组及服务器防火墙允许入站 TCP 80、443。脚本需要出站 DNS 与 HTTPS。只有 IP 时可先部署 HTTP，HTTPS 步骤需要域名。
+本流程按你现有的服务器布局设计，操作用户为 `ubuntu`，Nginx 和 Let's Encrypt 证书已经配置好。保留域名、HTTPS 和其他站点，不需要重新申请证书或新建第二个站点配置。
 
-约定源码放在 `/opt/wf-syndicate`，公开文件放在 `/var/www/wf-syndicate`。仅复制网页和 JSON 到站点目录，脚本、Git 数据和测试留在源码目录。
+| 项目 | 路径 / 配置 |
+| --- | --- |
+| 域名 | `https://syndicate.aameow.com` |
+| Nginx 配置 | `/etc/nginx/sites-available/syndicate` |
+| 公开站点目录 | `/var/www/syndicate` |
+| 现有证书 | `/etc/letsencrypt/live/syndicate.aameow.com/` |
+| 新增源码目录 | `/home/ubuntu/wf-syndicate`，不对外提供 |
+| 行情输出 | `/var/www/syndicate/market-data.json` |
+| 定时任务用户 | `ubuntu` |
 
-### 1. 安装环境并获取源码
+原站点只有内联 CSS、JavaScript 的 `index.html` 和 `favicon.ico`。新版还需要 `styles.css`、`app.js`、`items.json`、`market-data.json`；不能只替换 HTML。最终公开目录应包含：
+
+```text
+/var/www/syndicate/
+├── index.html
+├── styles.css
+├── app.js
+├── favicon.ico
+├── items.json
+└── market-data.json
+```
+
+源码、脚本和 Git 数据留在 `/home/ubuntu/wf-syndicate`，不要把整个仓库放进公开目录。
+
+### 1. 备份原站点与 Nginx 配置
+
+以下命令在服务器上以 `ubuntu` 用户执行：
+
+```bash
+SYNDICATE_BACKUP_DIR="/home/ubuntu/syndicate-backups/$(date +%Y%m%d-%H%M%S)"
+mkdir -p "$SYNDICATE_BACKUP_DIR"
+sudo cp -a /etc/nginx/sites-available/syndicate "$SYNDICATE_BACKUP_DIR/nginx.conf"
+sudo cp -a /var/www/syndicate "$SYNDICATE_BACKUP_DIR/site"
+printf '备份位置：%s\n' "$SYNDICATE_BACKUP_DIR"
+```
+
+记下打印的目录供回滚使用。此步骤不改动正在提供服务的文件。
+
+### 2. 获取新版源码与准备权限
+
+已有 Nginx，无需重新安装。确认 Python 版本至少为 3.10：
 
 ```bash
 sudo apt update
-sudo apt install -y nginx python3 git ca-certificates curl
+sudo apt install -y python3 git ca-certificates curl
 python3 --version
-sudo systemctl enable --now nginx
 
-# 替换为你自己的仓库地址；提交并推送需要部署的文件后再克隆
+# 替换为实际仓库地址；使用 ubuntu 用户克隆，不使用 sudo git clone
 REPO_URL='https://github.com/YOUR_NAME/wf-syndicate.git'
-sudo git clone "$REPO_URL" /opt/wf-syndicate
+git clone "$REPO_URL" /home/ubuntu/wf-syndicate
 ```
 
-也可将完整仓库上传到 `/opt/wf-syndicate`。确认 `items.json`、`scripts/`、`deploy/` 等均已包含在上传或提交中。
+如果已经上传或克隆到该目录，跳过 `git clone`，在目录中更新源码即可。部署前确认 `items.json`、`scripts/`、`deploy/` 均已提交推送或上传。
 
-### 2. 创建更新用户并发布静态文件
-
-首次部署创建专用用户；已有该用户时跳过 `useradd`。
+你的 `/var/www/syndicate` 目录目前归 `root:root` 所有，虽然已有文件归 `ubuntu`，更新脚本仍无法在目录中创建临时文件并原子替换 JSON。因此只调整这个站点目录的所有者：
 
 ```bash
-sudo useradd --system --user-group --create-home \
-  --home-dir /var/lib/wf-market --shell /usr/sbin/nologin wf-market
-sudo install -d -o wf-market -g wf-market -m 755 /var/www/wf-syndicate
-sudo install -m 644 /opt/wf-syndicate/index.html /opt/wf-syndicate/styles.css \
-  /opt/wf-syndicate/app.js /opt/wf-syndicate/favicon.ico \
-  /opt/wf-syndicate/items.json /var/www/wf-syndicate/
-sudo -u wf-market test -r /opt/wf-syndicate/items.json
+sudo chown ubuntu:ubuntu /var/www/syndicate
+sudo chmod 755 /var/www/syndicate
+test -w /var/www/syndicate
+test -r /home/ubuntu/wf-syndicate/items.json
 ```
 
-更新用户需要能读取源码，并能写入站点目录（原子替换需要目录写权限）；Nginx 只需目录遍历和文件读取权限。如果上传工具将源码设为私有权限，请为更新用户补充读取权限。
+不需要修改 `/var/www` 或其他站点的所有权，也不需要 `chmod 777`。Nginx 通过目录的 755 和文件的 644 权限读取内容；更新脚本输出文件也会设为 644。
 
-### 3. 配置并启用 HTTP 站点
+### 3. 安装行情服务，生成首份线上数据
+
+仓库提供的 service 已按上述用户和路径配置：
+
+```ini
+[Unit]
+Description=Update Warframe Syndicate market snapshot
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/home/ubuntu/wf-syndicate
+ExecStart=/usr/bin/python3 /home/ubuntu/wf-syndicate/scripts/update_market.py --items /home/ubuntu/wf-syndicate/items.json --output /var/www/syndicate/market-data.json
+TimeoutStartSec=45min
+UMask=0022
+```
+
+安装服务并先抓取一轮，此时旧 HTML 仍可正常访问：
 
 ```bash
-sudo install -m 644 /opt/wf-syndicate/deploy/nginx.conf \
-  /etc/nginx/sites-available/wf-syndicate
-sudo nano /etc/nginx/sites-available/wf-syndicate
+sudo install -m 644 /home/ubuntu/wf-syndicate/deploy/wf-market-update.service \
+  /home/ubuntu/wf-syndicate/deploy/wf-market-update.timer /etc/systemd/system/
+sudo systemctl daemon-reload
+sudo systemctl start wf-market-update.service
 ```
 
-把 `server_name example.com;` 改为实际域名；仅使用 IP 时可写服务器 IP。模板内容如下：
+最后一条命令会等待整轮抓取，通常约 8–15 分钟。可以在另一个终端查看进度：
+
+```bash
+sudo journalctl -u wf-market-update.service -f
+```
+
+在日志终端按 Ctrl+C 仅停止跟随日志，不停止服务。抓取结束后检查：
+
+```bash
+sudo systemctl show wf-market-update.service -p Result -p ExecMainStatus
+python3 -c 'import json; d=json.load(open("/var/www/syndicate/market-data.json")); print(d["updatedAt"], d["processed"], d["total"], d["completedAt"])'
+```
+
+`Result=success`、`ExecMainStatus=0` 表示整轮无错误；`processed` 应等于 `total` 且 `completedAt` 非空。首次失败可查日志后重新执行 `systemctl start`；不要另开 `--watch` 或第二份抓取程序。部分失败仍会保留成功数据和旧值。
+
+### 4. 替换现有 Nginx 配置
+
+原有配置对 CSS、JS 缓存七天。新版资源文件名没有内容哈希，更新后可能继续加载旧脚本，因此将 CSS、JS 改为使用前重新验证，图片和图标继续缓存七天；行情文件禁止缓存。
+
+将 `/etc/nginx/sites-available/syndicate` 替换为下列完整内容（仓库 `deploy/nginx.conf` 与此一致）：
 
 ```nginx
+# Install as /etc/nginx/sites-available/syndicate.
 server {
     listen 80;
     listen [::]:80;
-    server_name example.com;
-    root /var/www/wf-syndicate;
+    server_name syndicate.aameow.com;
+    return 301 https://$host$request_uri;
+}
+
+server {
+    listen 443 ssl;
+    listen [::]:443 ssl;
+    server_name syndicate.aameow.com;
+
+    ssl_certificate /etc/letsencrypt/live/syndicate.aameow.com/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/syndicate.aameow.com/privkey.pem;
+
+    root /var/www/syndicate;
     index index.html;
     autoindex off;
 
-    access_log /var/log/nginx/wf-syndicate.access.log;
-    error_log /var/log/nginx/wf-syndicate.error.log;
-
-    gzip on;
-    gzip_vary on;
-    gzip_min_length 1024;
-    gzip_types text/css application/javascript application/json;
+    access_log /var/log/nginx/syndicate.access.log;
+    error_log /var/log/nginx/syndicate.error.log;
 
     location = /market-data.json {
         add_header Cache-Control "no-store" always;
         try_files $uri =404;
     }
+
     location / {
         add_header Cache-Control "no-cache" always;
         try_files $uri $uri/ =404;
     }
+
+    location ~* \.(png|jpg|jpeg|gif|svg|webp|woff2?|ico)$ {
+        expires 7d;
+        try_files $uri =404;
+    }
+
     location ~ /\. {
         deny all;
     }
+
+    gzip on;
+    gzip_vary on;
+    gzip_types text/plain text/css application/javascript application/json image/svg+xml;
+    gzip_min_length 1024;
 }
 ```
 
-行情禁止缓存，其他文件允许缓存但使用前需要重新验证；不存在的 JSON 返回 404，不返回 HTML。静态文件路径与配置重载方式可参考 [Nginx 官方入门指南](https://nginx.org/en/docs/beginners_guide.html)。
+证书路径及 HTTP 到 HTTPS 的跳转沿用你的现有配置。可直接复制模板后验证、平滑重载：
 
 ```bash
-sudo ln -s /etc/nginx/sites-available/wf-syndicate /etc/nginx/sites-enabled/wf-syndicate
+sudo install -m 644 /home/ubuntu/wf-syndicate/deploy/nginx.conf \
+  /etc/nginx/sites-available/syndicate
+ls -l /etc/nginx/sites-enabled/
 sudo nginx -t
 sudo systemctl reload nginx
-curl -I -H 'Host: example.com' http://127.0.0.1/
 ```
 
-将测试命令里的域名同样替换。链接已经存在时不必重复创建。已有其他网站时保留其配置；通过匹配的 `server_name` 区分站点。启用 UFW 的服务器还需允许 `Nginx Full`；使用 SSH 管理时保留现有 SSH 放行规则。
-
-### 4. 安装每小时更新的 systemd 定时器
+已有站点通常已经启用。确认 `sites-enabled` 中有一个指向该配置的链接即可，链接名称不必相同；只有完全没有启用链接时，才执行：
 
 ```bash
-sudo install -m 644 /opt/wf-syndicate/deploy/wf-market-update.service \
-  /opt/wf-syndicate/deploy/wf-market-update.timer /etc/systemd/system/
-sudo systemctl daemon-reload
+sudo ln -s /etc/nginx/sites-available/syndicate /etc/nginx/sites-enabled/syndicate
+sudo nginx -t
+sudo systemctl reload nginx
+```
 
-# 手动运行首次抓取；此命令会等待约 8–15 分钟
-sudo systemctl start wf-market-update.service
+若 `nginx -t` 失败，先修正错误，不执行 reload。不修改其他站点或重新运行 Certbot 申请证书。缓存规则与重载方式参考 [Nginx 响应头文档](https://nginx.org/en/docs/http/ngx_http_headers_module.html) 和 [官方入门指南](https://nginx.org/en/docs/beginners_guide.html)。
 
-# 首次抓取成功后，启用每小时运行及开机自动恢复
+### 5. 发布新版网页
+
+先放置新版依赖，最后替换入口 HTML，避免新页面引用尚未上传的资源：
+
+```bash
+sudo install -m 644 /home/ubuntu/wf-syndicate/styles.css \
+  /home/ubuntu/wf-syndicate/app.js /home/ubuntu/wf-syndicate/favicon.ico \
+  /home/ubuntu/wf-syndicate/items.json /var/www/syndicate/
+sudo install -m 644 /home/ubuntu/wf-syndicate/index.html /var/www/syndicate/
+```
+
+不要把仓库里的历史 `market-data.json` 覆盖到线上，使用第 3 步生成的文件。静态文件更新不需要重启 Nginx。
+
+检查域名访问、跳转、资源和缓存头：
+
+```bash
+curl -I http://syndicate.aameow.com/
+curl -I https://syndicate.aameow.com/
+curl -I https://syndicate.aameow.com/styles.css
+curl -I https://syndicate.aameow.com/app.js
+curl -I https://syndicate.aameow.com/items.json
+curl -I https://syndicate.aameow.com/market-data.json
+```
+
+HTTP 应返回 301，HTTPS 页面及资源应返回 200。CSS、JS 应有 `Cache-Control: no-cache`，行情应有 `Cache-Control: no-store`。如需绕过外部 DNS/CDN 验证服务器自身，可使用：
+
+```bash
+curl --resolve syndicate.aameow.com:443:127.0.0.1 \
+  -I https://syndicate.aameow.com/market-data.json
+```
+
+浏览器打开 <https://syndicate.aameow.com>，强制刷新后检查计算器、策略、集团切换和销量周期切换。已经按旧规则缓存七天的 CSS、JS 不会因为服务器改规则而立即失效；曾访问过拆分版本的用户首次需强制刷新，有 CDN 时同步清理其资源缓存。
+
+### 6. 启用每小时自动更新
+
+首轮数据确认正常后启用定时器：
+
+```bash
 sudo systemctl enable --now wf-market-update.timer
 sudo systemctl list-timers --all wf-market-update.timer
 ```
 
-服务以 `wf-market` 用户执行脚本，明确指定源码 `items.json` 和站点目录的输出路径；超时时间为 45 分钟。定时器使用 `OnCalendar=hourly`，每小时整点触发；`Persistent=true` 在关机错过任务后补跑。服务仍在运行时不会启动另一份，详见 [systemd timer 文档](https://www.freedesktop.org/software/systemd/man/260/systemd.timer.html)。不要同时运行另一份 `--watch` 或 cron 任务。
+定时器使用 `OnCalendar=hourly` 在每小时整点运行，`Persistent=true` 会在停机错过任务后补跑；同一 service 还在运行时不会启动另一份。具体行为参考 [systemd timer 文档](https://www.freedesktop.org/software/systemd/man/260/systemd.timer.html)。不要再同时配置 cron 或 `--watch`。
 
 ```bash
-# 查看执行结果与日志
-sudo systemctl status wf-market-update.service
+# 查看最近执行结果和日志
+sudo systemctl status wf-market-update.timer
+sudo systemctl show wf-market-update.service -p Result -p ExecMainStatus
 sudo journalctl -u wf-market-update.service -n 50 --no-pager
 
-# 检查对外行情、缓存头和抓取完成情况
-curl -I -H 'Host: example.com' http://127.0.0.1/market-data.json
-curl -fsS -H 'Host: example.com' http://127.0.0.1/market-data.json \
-  | python3 -c 'import json,sys; d=json.load(sys.stdin); print(d["updatedAt"], d["processed"], d["total"], d["completedAt"])'
+# 需要时手动触发同一服务，不启动另一份进程
+sudo systemctl start wf-market-update.service
 ```
 
-首次抓取成功后，oneshot 服务可能显示 `inactive (dead)`，这是正常完成状态；应同时检查退出状态、日志和 timer 的下次运行时间。部分接口失败会标记本轮失败，但已写入的成功结果和旧数据仍可使用，下一小时继续更新。
+oneshot 服务完成后显示 `inactive (dead)` 属于正常状态，应结合退出状态和 timer 的下次运行时间判断。数据生成后无需 reload Nginx；网页可点击“重新读取行情”，打开期间也会每小时读取文件。
 
-### 5. 配置 HTTPS
+### 7. 沿用现有 HTTPS 续期
 
-确保 HTTP 站点已能通过真实域名从公网访问，域名 A/AAAA 记录正确，且 TCP 80、443 可达：
+你已经有有效证书，此次升级无需重新申请。保留现有续期机制，可检查：
 
 ```bash
-sudo apt install -y certbot python3-certbot-nginx
-sudo certbot --nginx -d example.com
-sudo nginx -t
+sudo certbot certificates
 sudo certbot renew --dry-run
-sudo systemctl list-timers --all certbot.timer
+sudo systemctl list-timers --all | grep -i certbot
 ```
 
-按提示填写邮箱并启用 HTTP 到 HTTPS 重定向。如果还要支持 `www`，先为它配置 DNS 和 `server_name`，再为 Certbot 加上 `-d www.example.com`。使用发行版安装方式时检查证书续期定时器已启用；安装方式不同请参考 [Ubuntu TLS 证书指南](https://ubuntu.com/server/docs/how-to/security/obtain-tls-certificates/)。
+若使用 snap 或 cron，续期任务名称和位置可能不同，沿用原本安装方式。完整替换配置时如原文件还包含自定义 TLS 参数或 Certbot 相关 include，请一并保留。HTTPS 证书操作参考 [Ubuntu TLS 指南](https://ubuntu.com/server/docs/how-to/security/obtain-tls-certificates/)。
 
-### 6. 更新版本与日常维护
+### 8. 后续更新与回滚
+
+后续更新先停止定时器和正在运行的抓取任务，再更新源码：
 
 ```bash
-# 避免更新物品目录与正在抓取的任务交错
 sudo systemctl stop wf-market-update.timer
 sudo systemctl stop wf-market-update.service
-sudo git -C /opt/wf-syndicate pull --ff-only
-sudo install -m 644 /opt/wf-syndicate/index.html /opt/wf-syndicate/styles.css \
-  /opt/wf-syndicate/app.js /opt/wf-syndicate/favicon.ico \
-  /opt/wf-syndicate/items.json /var/www/wf-syndicate/
+git -C /home/ubuntu/wf-syndicate pull --ff-only
+sudo install -m 644 /home/ubuntu/wf-syndicate/styles.css \
+  /home/ubuntu/wf-syndicate/app.js /home/ubuntu/wf-syndicate/favicon.ico \
+  /home/ubuntu/wf-syndicate/items.json /var/www/syndicate/
+sudo install -m 644 /home/ubuntu/wf-syndicate/index.html /var/www/syndicate/
 sudo systemctl start wf-market-update.service
 sudo systemctl start wf-market-update.timer
 ```
 
-站点目录里的 `market-data.json` 不要用仓库旧快照覆盖。普通网页更新无需重载 Nginx；修改其配置后执行 `nginx -t` 和 reload。若更新了 systemd 模板，重新安装模板、执行 `systemctl daemon-reload`，再重启 timer。
+如果 `deploy/` 中的 service 或 timer 有修改，先重新安装这两个文件、执行 `sudo systemctl daemon-reload`，再启动服务和定时器。Nginx 配置仅在有意更新时复制，保留服务器后来添加的 TLS 设置，并先执行 `nginx -t` 再 reload。
+
+回滚到最初单文件页面时，将下方路径改为第 1 步记录的真实备份目录：
+
+```bash
+SYNDICATE_BACKUP_DIR='/home/ubuntu/syndicate-backups/实际备份时间'
+sudo systemctl stop wf-market-update.timer
+sudo systemctl stop wf-market-update.service
+sudo cp -a "$SYNDICATE_BACKUP_DIR/site/." /var/www/syndicate/
+sudo cp -a "$SYNDICATE_BACKUP_DIR/nginx.conf" /etc/nginx/sites-available/syndicate
+sudo nginx -t
+sudo systemctl reload nginx
+```
+
+该步骤恢复旧入口和旧配置，新版附加文件可以保留；原内联页面不会引用它们。若决定长期停用行情更新，再执行 `sudo systemctl disable wf-market-update.timer`。
 
 ## 故障排查
 
 | 现象 | 检查方式 |
 | --- | --- |
-| 行情文件 404 | 确认脚本输出为 `/var/www/wf-syndicate/market-data.json`，首次抓取已经写入文件 |
-| 页面 403 | 检查目录的遍历权限、文件读取权限和 Nginx error log |
-| 打开默认欢迎页 | 检查 DNS、请求的 Host、`server_name` 与站点启用链接是否匹配 |
-| `Permission denied` | 确认 `wf-market` 可读 `/opt/wf-syndicate`，可写站点目录，而不只是可写旧 JSON |
-| 数据过期 | 检查 timer 是否启用、脚本日志、服务器 DNS 及到市场 API 的 HTTPS 连接 |
-| API 返回 429 / 5xx | 脚本会限速及重试；确认没有同时运行 watch、cron 或第二份抓取服务 |
-| 浏览器仍请求市场 API | 强制刷新，检查实际部署的 `app.js`，清理 CDN 缓存；当前版本只读取本地 JSON |
-| 更新后仍显示旧行情 | 点击“重新读取行情”，检查 `updatedAt`、字段更新时间及 CDN 是否缓存了 JSON |
+| 页面没有样式或交互 | `/var/www/syndicate` 是否包含 `styles.css`、`app.js`，访问资源是否为 200 |
+| 行情文件 404 | 服务是否输出到 `/var/www/syndicate/market-data.json`，首次抓取是否已写入文件 |
+| 页面 403 | 检查目录 755、文件 644，以及 Nginx error log |
+| `Permission denied` | 目录原来为 `root:root`；确认 `ubuntu` 可写站点目录，可读源码和输入 JSON |
+| 打开旧页面 | 确认更新的是 `/var/www/syndicate`，检查启用的配置、浏览器和 CDN 缓存 |
+| CSS、JS 仍旧缓存七天 | 删除原缓存正则中的 `css|js`；用 `nginx -T` 和 `curl -I` 检查实际生效规则 |
+| 行情过期 | 检查 timer 是否启用、执行日志、服务器 DNS 及到市场 API 的 HTTPS 连接 |
+| API 返回 429 / 5xx | 脚本会限速重试；检查是否另有 watch、cron 或重复抓取进程 |
+| 浏览器仍请求市场 API | 强制刷新并检查线上 `app.js`；当前版本只读取本地 JSON |
+| 证书错误 | 检查原证书路径、有效期和既有续期机制，确认 DNS 指向正确服务器 |
 
-Nginx 日志位于 `/var/log/nginx/wf-syndicate.access.log` 和 `/var/log/nginx/wf-syndicate.error.log`。可用 `sudo nginx -T` 查看实际加载的完整配置。
+模板日志位于 `/var/log/nginx/syndicate.access.log` 和 `/var/log/nginx/syndicate.error.log`。可用 `sudo nginx -T` 查看完整配置，用 `sudo journalctl -u wf-market-update.service` 查看抓取日志。
 
 ## 开发与验证
 

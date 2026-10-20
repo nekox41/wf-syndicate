@@ -8,6 +8,6 @@ Type=oneshot
 User=ubuntu
 Group=ubuntu
 WorkingDirectory=/home/ubuntu/wf-syndicate
-ExecStart=/usr/bin/python3 /home/ubuntu/wf-syndicate/scripts/update_market.py --items /home/ubuntu/wf-syndicate/items.json --output /var/www/syndicate/market-data.json
+ExecStart=/usr/bin/python3 /home/ubuntu/wf-syndicate/scripts/update_market.py --items /home/ubuntu/wf-syndicate/allitems.json --output /var/www/syndicate/market-data.json
 TimeoutStartSec=45min
 UMask=0022

@@ -7,7 +7,7 @@
 - **声望计算器**：选择集团、段位和声望额度，查看自身、同盟、对立、敌对集团的声望变化与每日上限；支持勋章兑换估算。
 - **运营策略**：展示集团关系矩阵、两种运营轴、阶段建议及每日收益示例。
 - **集团好物**：手动选择集团，仅渲染当前集团的紧凑文字卡片，不创建物品图片节点或下载图片。卡片显示物品名称、兑换所需声望、销量及首位卖单价格，名称链接到 Warframe Market。
-- **周期切换**：默认按所选集团的 48 小时销量降序排列，也可切换 90 天；未知销量排在已知销量后。
+- **周期切换**：默认按所选集团 0 级物品的 48 小时销量排序，可切换 90 天及满级；无等级物品使用同一份数据，未知销量排在已知销量后。集团卡片采用其 `colour` 与 `backgroundColour` 的配色。
 - **数据状态**：显示行情更新时间、后台抓取进度、缺失数据及超过两小时未更新提示；可手动重新读取行情，页面打开期间也会每小时读取一次。
 
 ## 架构与目录
@@ -15,7 +15,7 @@
 ```text
 浏览器 ──同源读取──> Nginx / 静态服务器
                         ├── index.html、styles.css、app.js
-                        ├── items.json（集团兑换目录）
+                        ├── allitems.json（集团兑换目录）
                         └── market-data.json（行情快照）
                                   ↑ 原子替换
                          Python 定时更新脚本
@@ -28,7 +28,12 @@
 | `index.html` | 三个页面的标记和控件 |
 | `styles.css` | 黑白红界面、响应式布局及紧凑卡片 |
 | `app.js` | 声望计算、页面切换、集团筛选、行情排序与读取 |
-| `items.json` | 按集团组织的可交易物品、兑换条件及市场标识 |
+| `ExportSyndicates.json` | 游戏导出的集团目录，清洗后仅保留五个集团属性 |
+| `items.json` | Warframe Market 原始物品目录（`data` 数组），不直接供网页读取 |
+| `allitems.json` | 匹配后的集团可交易目录，包含中文名称、物品 i18n、slug、maxRank |
+| `syndicate-names.json` | browse.wf 中文集团名缓存，重复生成时复用 |
+| `items-match-report.json` | 匹配数量及未匹配物品列表，用于检查遗漏 |
+| `scripts/build_items.py` | 清洗集团目录、匹配市场物品及解析中文名称 |
 | `market-data.json` | 按物品 slug 去重的行情及更新时间 |
 | `scripts/update_market.py` | 行情抓取、失败重试、定时循环及文件写入 |
 | `deploy/` | Nginx 配置及 systemd 服务、定时器模板 |
@@ -54,10 +59,24 @@ python3 -m http.server 8000
 
 ### 数据含义
 
-- `items.json` 保存集团元信息与 `favours` 列表；物品包含 `storeItem`、`standingCost`、`requiredLevel` 及来自市场目录的 `i18n`、`slug`、`id`、`gameRef`。
+- `allitems.json` 保存集团元信息与 `favours` 列表；物品包含 `storeItem`、`standingCost`、`requiredLevel` 及来自市场目录的 `i18n`、`slug`、`maxRank`。
 - 行情采用 **PC 市场**，每种 slug 仅请求一组接口，同一物品在不同集团间共享数据。
-- 销量取 `/v1/items/{slug}/statistics` 的 `statistics_closed`，分别累加 `48hours`、`90days` 的 `volume`，包含不同等级的记录；不统计 `statistics_live`。
-- 价格取 `/v2/orders/item/{slug}/top` 的 `data.sell[0].platinum`，单位为白金 `P`。这只是首条卖单报价，不保证实际成交；无卖单显示“暂无卖单”。
+- 销量取 `/v1/items/{slug}/statistics` 的 `statistics_closed`。有等级物品分别按 `mod_rank=0` 和 `mod_rank=maxRank` 累加 `48hours`、`90days` 的 `volume`；忽略中间等级。无等级物品只累计没有 `mod_rank` 的记录，不统计 `statistics_live`。每种物品的统计接口只请求一次。
+- 价格取 `/v2/orders/item/{slug}/top` 的 `data.sell[0].platinum`，单位为白金 `P`。有等级物品分别请求 `?rank=0` 和 `?rank=maxRank`；无等级物品只请求一次且不传 rank。这只是首条卖单报价，不保证实际成交；无卖单显示“暂无卖单”。
+
+### 目录清洗与补漏
+
+更新游戏导出 `ExportSyndicates.json` 和市场原始目录 `items.json` 后，先运行：
+
+```bash
+python3 scripts/build_items.py
+```
+
+脚本会清洗 `ExportSyndicates.json`，每个集团只保留 `name`、`description`、`colour`、`backgroundColour`、`favours`；按 `storeItem` 和 `gameRef` 的路径末段匹配，重名时用去掉 `/StoreItems` 的完整路径区分，无法消除歧义则报错，不随意选择。
+
+匹配成功的兑换记录补充 `slug`、`i18n`、`maxRank`（缺省为 0），未匹配记录从最终 `allitems.json` 移除，并写入 `items-match-report.json`。集团名称通过 `https://browse.wf` 加原名称路径读取 `zh`，缓存到 `syndicate-names.json`；新名称未缓存时需要网络。原始市场目录不修改，清洗后的导出仍保留名称路径，便于重新生成。
+
+网页、行情脚本和部署服务均读取 `allitems.json`，不再把原始市场目录当作集团目录。重新生成目录后需更新行情；新增或修正物品可通过匹配报告核查。配色中的 `0x00RRGGBB` 使用最后六位转换成网页颜色。
 
 ### 运行方式
 
@@ -70,12 +89,12 @@ python3 scripts/update_market.py --watch
 
 # 自定义周期、输入和输出
 python3 scripts/update_market.py --watch --interval 1800 \
-  --items /path/to/items.json --output /path/to/market-data.json
+  --items /path/to/allitems.json --output /path/to/market-data.json
 ```
 
 默认输入输出相对于仓库位置，不依赖当前工作目录。`--interval` 单位是秒，默认 3600；一轮超过间隔时结束后开始下一轮，不并行运行两轮。按 Ctrl+C 停止。部署时推荐下文的 systemd 定时器，与 `--watch` 二选一。
 
-所有工作线程与重试共享限速器，请求开始至少间隔 510 毫秒，每秒最多两次。限流或临时网络错误最多尝试三次。当前约 441 种物品需访问两个接口，一轮通常约 8–15 分钟，网络异常时可能更久。
+所有工作线程与重试共享限速器，请求开始至少间隔 510 毫秒，每秒最多两次。限流或临时网络错误最多尝试三次。当前目录有 659 种物品，其中 474 种有等级，共需约 1792 次请求（统计一次，报价一至两次）；一轮通常约 15–25 分钟，网络异常时可能更久。
 
 每处理 20 种物品及整轮结束时，使用临时文件和原子替换保存结果，网页不会读到未写完的 JSON。单个接口失败保留旧值、旧时间并记录错误；没有旧值则显示数据缺失，不伪装成零销量。一次性模式出现失败时退出码为 1，循环模式记录后继续下一轮。
 
@@ -83,25 +102,36 @@ python3 scripts/update_market.py --watch --interval 1800 \
 
 ```json
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "platform": "pc",
   "startedAt": "2026-10-20T06:00:00+00:00",
-  "updatedAt": "2026-10-20T06:08:00+00:00",
-  "completedAt": "2026-10-20T06:08:00+00:00",
+  "updatedAt": "2026-10-20T06:15:00+00:00",
+  "completedAt": "2026-10-20T06:15:00+00:00",
   "total": 1,
   "processed": 1,
   "items": {
     "example_slug": {
-      "statistics": { "48hours": 45, "90days": 1531 },
-      "orders": 30,
-      "statisticsUpdatedAt": "2026-10-20T06:07:59+00:00",
-      "ordersUpdatedAt": "2026-10-20T06:08:00+00:00"
+      "maxRank": 3,
+      "ranks": {
+        "0": {
+          "statistics": { "48hours": 45, "90days": 1531 },
+          "orders": 10,
+          "statisticsUpdatedAt": "2026-10-20T06:14:59+00:00",
+          "ordersUpdatedAt": "2026-10-20T06:15:00+00:00"
+        },
+        "3": {
+          "statistics": { "48hours": 12, "90days": 500 },
+          "orders": 30,
+          "statisticsUpdatedAt": "2026-10-20T06:14:59+00:00",
+          "ordersUpdatedAt": "2026-10-20T06:15:00+00:00"
+        }
+      }
     }
   }
 }
 ```
 
-这是结构示例。`orders: null` 表示无卖单；抓取失败会附带 `statisticsError` 或 `ordersError`。`completedAt: null` 表示本轮尚未完成，`updatedAt` 是最近一次文件保存时间，各字段的更新时间反映其实际新鲜程度。
+这是结构示例。每个 `ranks` 对象按实际数字等级作键；无等级物品只有 `"0"`。新版为 schema 2，旧版合计行情无法可靠归属等级，不会作为分等级数据沿用；升级后请重新抓取并一并部署新版 JS、目录和行情文件。`orders: null` 表示无卖单；抓取失败会附带 `statisticsError` 或 `ordersError`。`completedAt: null` 表示本轮尚未完成，`updatedAt` 是最近一次文件保存时间，各字段的更新时间反映其实际新鲜程度。
 
 ## Nginx 部署：升级现有 syndicate 站点
 
@@ -117,7 +147,7 @@ python3 scripts/update_market.py --watch --interval 1800 \
 | 行情输出 | `/var/www/syndicate/market-data.json` |
 | 定时任务用户 | `ubuntu` |
 
-原站点只有内联 CSS、JavaScript 的 `index.html` 和 `favicon.ico`。新版还需要 `styles.css`、`app.js`、`items.json`、`market-data.json`；不能只替换 HTML。最终公开目录应包含：
+原站点只有内联 CSS、JavaScript 的 `index.html` 和 `favicon.ico`。新版还需要 `styles.css`、`app.js`、`allitems.json`、`market-data.json`；不能只替换 HTML。最终公开目录应包含：
 
 ```text
 /var/www/syndicate/
@@ -125,7 +155,7 @@ python3 scripts/update_market.py --watch --interval 1800 \
 ├── styles.css
 ├── app.js
 ├── favicon.ico
-├── items.json
+├── allitems.json
 └── market-data.json
 ```
 
@@ -159,7 +189,7 @@ REPO_URL='https://github.com/YOUR_NAME/wf-syndicate.git'
 git clone "$REPO_URL" /home/ubuntu/wf-syndicate
 ```
 
-如果已经上传或克隆到该目录，跳过 `git clone`，在目录中更新源码即可。部署前确认 `items.json`、`scripts/`、`deploy/` 均已提交推送或上传。
+如果已经上传或克隆到该目录，跳过 `git clone`，在目录中更新源码即可。部署前确认 `allitems.json`、`scripts/`、`deploy/` 均已提交推送或上传。
 
 你的 `/var/www/syndicate` 目录目前归 `root:root` 所有，虽然已有文件归 `ubuntu`，更新脚本仍无法在目录中创建临时文件并原子替换 JSON。因此只调整这个站点目录的所有者：
 
@@ -167,7 +197,7 @@ git clone "$REPO_URL" /home/ubuntu/wf-syndicate
 sudo chown ubuntu:ubuntu /var/www/syndicate
 sudo chmod 755 /var/www/syndicate
 test -w /var/www/syndicate
-test -r /home/ubuntu/wf-syndicate/items.json
+test -r /home/ubuntu/wf-syndicate/allitems.json
 ```
 
 不需要修改 `/var/www` 或其他站点的所有权，也不需要 `chmod 777`。Nginx 通过目录的 755 和文件的 644 权限读取内容；更新脚本输出文件也会设为 644。
@@ -187,7 +217,7 @@ Type=oneshot
 User=ubuntu
 Group=ubuntu
 WorkingDirectory=/home/ubuntu/wf-syndicate
-ExecStart=/usr/bin/python3 /home/ubuntu/wf-syndicate/scripts/update_market.py --items /home/ubuntu/wf-syndicate/items.json --output /var/www/syndicate/market-data.json
+ExecStart=/usr/bin/python3 /home/ubuntu/wf-syndicate/scripts/update_market.py --items /home/ubuntu/wf-syndicate/allitems.json --output /var/www/syndicate/market-data.json
 TimeoutStartSec=45min
 UMask=0022
 ```
@@ -201,7 +231,7 @@ sudo systemctl daemon-reload
 sudo systemctl start wf-market-update.service
 ```
 
-最后一条命令会等待整轮抓取，通常约 8–15 分钟。可以在另一个终端查看进度：
+最后一条命令会等待整轮抓取，通常约 15–25 分钟。可以在另一个终端查看进度：
 
 ```bash
 sudo journalctl -u wf-market-update.service -f
@@ -272,7 +302,7 @@ server {
 }
 ```
 
-证书路径及 HTTP 到 HTTPS 的跳转沿用你的现有配置。可直接复制模板后验证、平滑重载：
+证书路径及 HTTP 到 HTTPS 的跳转沿用你的现有配置。升级后站点公开目录中的旧 `items.json` 已不再使用，不要把新的原始市场目录作为网页目录发布。可直接复制模板后验证、平滑重载：
 
 ```bash
 sudo install -m 644 /home/ubuntu/wf-syndicate/deploy/nginx.conf \
@@ -299,7 +329,7 @@ sudo systemctl reload nginx
 ```bash
 sudo install -m 644 /home/ubuntu/wf-syndicate/styles.css \
   /home/ubuntu/wf-syndicate/app.js /home/ubuntu/wf-syndicate/favicon.ico \
-  /home/ubuntu/wf-syndicate/items.json /var/www/syndicate/
+  /home/ubuntu/wf-syndicate/allitems.json /var/www/syndicate/
 sudo install -m 644 /home/ubuntu/wf-syndicate/index.html /var/www/syndicate/
 ```
 
@@ -312,7 +342,7 @@ curl -I http://syndicate.aameow.com/
 curl -I https://syndicate.aameow.com/
 curl -I https://syndicate.aameow.com/styles.css
 curl -I https://syndicate.aameow.com/app.js
-curl -I https://syndicate.aameow.com/items.json
+curl -I https://syndicate.aameow.com/allitems.json
 curl -I https://syndicate.aameow.com/market-data.json
 ```
 
@@ -370,7 +400,7 @@ sudo systemctl stop wf-market-update.service
 git -C /home/ubuntu/wf-syndicate pull --ff-only
 sudo install -m 644 /home/ubuntu/wf-syndicate/styles.css \
   /home/ubuntu/wf-syndicate/app.js /home/ubuntu/wf-syndicate/favicon.ico \
-  /home/ubuntu/wf-syndicate/items.json /var/www/syndicate/
+  /home/ubuntu/wf-syndicate/allitems.json /var/www/syndicate/
 sudo install -m 644 /home/ubuntu/wf-syndicate/index.html /var/www/syndicate/
 sudo systemctl start wf-market-update.service
 sudo systemctl start wf-market-update.timer

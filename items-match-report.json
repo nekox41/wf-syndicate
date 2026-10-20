@@ -1,0 +1,4254 @@
+{
+  "retained": 861,
+  "removedCount": 1062,
+  "removed": [
+    {
+      "syndicate": "ArbitersSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Titles/ArbitersOfHexisTitle"
+    },
+    {
+      "syndicate": "ArbitersSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilArbitersOfHexisA"
+    },
+    {
+      "syndicate": "ArbitersSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Consumable/CorruptedLancerBall"
+    },
+    {
+      "syndicate": "ArbitersSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilArbitersOfHexisB"
+    },
+    {
+      "syndicate": "ArbitersSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilArbitersOfHexisC"
+    },
+    {
+      "syndicate": "ArbitersSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilArbitersOfHexisD"
+    },
+    {
+      "syndicate": "ArbitersSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/BoosterPacks/RandomSyndicateProjectionPack"
+    },
+    {
+      "syndicate": "ArbitersSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Keys/SyndicateCacheHuntBaseKeyItem"
+    },
+    {
+      "syndicate": "ArbitersSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilArbitersOfHexisE"
+    },
+    {
+      "syndicate": "ArbitersSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilArbitersOfHexisF"
+    },
+    {
+      "syndicate": "ArbitersSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilArbitersOfHexisG"
+    },
+    {
+      "syndicate": "ArbitersSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilArbitersOfHexisH"
+    },
+    {
+      "syndicate": "ArbitersSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/StoreItems/Consumables/Restoratives/SyndicateTeamEnergyTenPackBlueprint"
+    },
+    {
+      "syndicate": "ArbitersSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilArbitersOfHexisI"
+    },
+    {
+      "syndicate": "ArbitersSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilArbitersOfHexisJ"
+    },
+    {
+      "syndicate": "ArbitersSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ArbitersHexisSyndicateOrnament"
+    },
+    {
+      "syndicate": "ArbitersSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilArbitersOfHexisK"
+    },
+    {
+      "syndicate": "ArbitersSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Scarves/SyndicateAHScarf"
+    },
+    {
+      "syndicate": "ArbitersSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Game/QuartersWallpapers/SyndicateAHWallpaper"
+    },
+    {
+      "syndicate": "ArbitersSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Components/WeaponUtilityUnlockerBlueprint"
+    },
+    {
+      "syndicate": "ArbitersSyndicate",
+      "storeItem": "/Lotus/Types/StoreItems/Packages/SyndicateArmorPackAH"
+    },
+    {
+      "syndicate": "ArbitersSyndicate",
+      "storeItem": "/Lotus/Types/StoreItems/Packages/SyndicateVosforPack"
+    },
+    {
+      "syndicate": "CephalonSudaSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Titles/CephalonSudaTitle"
+    },
+    {
+      "syndicate": "CephalonSudaSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilCephalonSudaA"
+    },
+    {
+      "syndicate": "CephalonSudaSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Consumable/ShieldDroneBall"
+    },
+    {
+      "syndicate": "CephalonSudaSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilCephalonSudaB"
+    },
+    {
+      "syndicate": "CephalonSudaSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilCephalonSudaC"
+    },
+    {
+      "syndicate": "CephalonSudaSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilCephalonSudaD"
+    },
+    {
+      "syndicate": "CephalonSudaSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/BoosterPacks/RandomSyndicateProjectionPack"
+    },
+    {
+      "syndicate": "CephalonSudaSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Keys/SyndicateCacheHuntBaseKeyItem"
+    },
+    {
+      "syndicate": "CephalonSudaSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilCephalonSudaE"
+    },
+    {
+      "syndicate": "CephalonSudaSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilCephalonSudaF"
+    },
+    {
+      "syndicate": "CephalonSudaSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilCephalonSudaG"
+    },
+    {
+      "syndicate": "CephalonSudaSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilCephalonSudaH"
+    },
+    {
+      "syndicate": "CephalonSudaSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/StoreItems/Consumables/Restoratives/SyndicateTeamShieldTenPackBlueprint"
+    },
+    {
+      "syndicate": "CephalonSudaSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilCephalonSudaI"
+    },
+    {
+      "syndicate": "CephalonSudaSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilCephalonSudaJ"
+    },
+    {
+      "syndicate": "CephalonSudaSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/CephalonSudaSyndicateOrnament"
+    },
+    {
+      "syndicate": "CephalonSudaSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilCephalonSudaK"
+    },
+    {
+      "syndicate": "CephalonSudaSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Scarves/SyndicateCSScarf"
+    },
+    {
+      "syndicate": "CephalonSudaSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Game/QuartersWallpapers/SyndicateCSWallpaper"
+    },
+    {
+      "syndicate": "CephalonSudaSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Components/WeaponUtilityUnlockerBlueprint"
+    },
+    {
+      "syndicate": "CephalonSudaSyndicate",
+      "storeItem": "/Lotus/Types/StoreItems/Packages/SyndicateArmorPackCS"
+    },
+    {
+      "syndicate": "CephalonSudaSyndicate",
+      "storeItem": "/Lotus/Types/StoreItems/Packages/SyndicateVosforPack"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilConclaveB"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilConclaveC"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilConclaveD"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilConclaveE"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/BoosterPacks/RandomSyndicateProjectionPack"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Armor/LunaroSetA/LunaroSetAA"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Armor/LunaroSetA/LunaroSetAC"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Armor/LunaroSetA/LunaroSetAL"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilConclaveG"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilConclaveH"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilConclaveF"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Armor/LunaroSetB/LunaroSetBA"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Armor/LunaroSetB/LunaroSetBC"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Armor/LunaroSetB/LunaroSetBL"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilConclaveI"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilConclaveJ"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilConclaveK"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilConclaveL"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilConclaveM"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilConclaveN"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Armor/LunaroSetC/LunaroSetCA"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Armor/LunaroSetC/LunaroSetCC"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Armor/LunaroSetC/LunaroSetCL"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Scarves/ConclaveCape"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/PvP/LongGuns/PvPBraton"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/PvP/LongGuns/PvPGorgon"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/PvP/LongGuns/PvPLatron"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/PvP/Melee/PvPAckBrunt"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/PvP/Melee/PvPDragonNikana"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/PvP/Melee/PvPNikana"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/PvP/Melee/PvPSkana"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/PvP/Melee/PvPDualSkana"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/PvP/Pistols/PvPAngstrum"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/PvP/Pistols/PvPVasto"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/PvP/Pistols/PvPAkvasto"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/PvP/Pistols/PvPViper"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/PvP/Pistols/PvPTwinVipers"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/PvP/LongGuns/PvPSybaris"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/PvP/LongGuns/PvPStrun"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/PvP/Bows/PvPDaikyu"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/PvP/Melee/PvPFurax"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/PvP/Melee/PvPKronen"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/PvP/Pistols/PvPLato"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/PvP/Pistols/PvPAklato"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/PvP/Pistols/PvPLex"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/PvP/Pistols/PvPAkLex"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/PvP/LongGuns/PvPGrinlok"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/PvP/LongGuns/PvPTonkor"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/PvP/Melee/PvPJatKittag"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/PvP/Pistols/PvPMarelok"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/PvP/LongGuns/PvPSoma"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/PvP/LongGuns/PvPKarak"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/PvP/Pistols/PvPKraken"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/PvP/Pistols/PvPAkstiletto"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/PvP/Melee/PvPGlaive"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/PvP/Melee/PvPTipedo"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/PvP/LongGuns/PvPOpticor"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Components/UtilityUnlockerBlueprint"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Powersuits/Mag/Mag"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Powersuits/Volt/Volt"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Powersuits/Excalibur/Excalibur"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilConclaveO"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilConclaveP"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilConclaveQ"
+    },
+    {
+      "syndicate": "ConclaveSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/StoreItems/SlotItems/PvPLoadoutSlotItem"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Consumable/InfestedFishingSpearA"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Deimos/TrophyBlueprints/FishTrophyInfestedCommonABlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Deimos/TrophyBlueprints/FishTrophyInfestedCommonBBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Deimos/TrophyBlueprints/FishTrophyInfestedCommonCBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Deimos/TrophyBlueprints/FishTrophyInfestedCommonDBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Deimos/TrophyBlueprints/FishTrophyInfestedCommonEBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Deimos/TrophyBlueprints/FishTrophyInfestedUncommonABlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Deimos/TrophyBlueprints/FishTrophyHybridUncommonABlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Deimos/TrophyBlueprints/FishTrophyHybridUncommonBBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Deimos/TrophyBlueprints/FishTrophyOrokinUncommonABlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Deimos/TrophyBlueprints/FishTrophyOrokinRareABlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Consumable/InfestedFishingSpearB"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Game/FishBait/Infested/InfestedFishBaitB"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Deimos/TrophyBlueprints/FishTrophyHybridRareABlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Deimos/TrophyBlueprints/FishTrophyInfestedRareABlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Game/FishBait/Infested/OrokinFishBaitB"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Deimos/TrophyBlueprints/FishTrophyOrokinLegendaryABlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Infested/Pistols/InfKitGun/Barrels/InfBarrelBeam/InfModularBarrelBeamBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Infested/Pistols/InfKitGun/Barrels/InfBarrelEgg/InfModularBarrelEggBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Infested/Pistols/InfKitGun/Clips/InfClipBig/InfModularClipBigBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Infested/Pistols/InfKitGun/Clips/InfSmallClip/InfModularClipSmallBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Infested/Pistols/InfKitGun/Handles/InfPrimaryHandle/InfModularPrimaryHandleBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Infested/Pistols/InfKitGun/Handles/InfSecondaryHandle/InfModularSecondaryHandleBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/InfTransformClawsBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/InfTransformClawsWeaponBladeBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/InfTransformClawsWeaponGloveBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Infested/Pistols/InfKitGun/Clips/InfClipBig/InfModularClipBigCritStatBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Infested/Pistols/InfKitGun/Clips/InfSmallClip/InfModularClipSmallCritStatBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/InfUziBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/InfUziWeaponBarrelBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/InfUziWeaponReceiverBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/ThanotechPistolBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/ThanotechPistolBarrelBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/ThanotechPistolReceiverBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/LavosBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/ThanotechRifleBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/ThanotechRifleBarrelBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/ThanotechRifleReceiverBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/ThanotechRifleStockBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/LavosChassisBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/LavosHelmetBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/LavosSystemsBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/DeimosRecipes/Prospecting/DeimosCommonGemACutBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/DeimosRecipes/Prospecting/DeimosCommonGemBCutBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/DeimosRecipes/Prospecting/DeimosCommonOreAAlloyBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/DeimosRecipes/Prospecting/DeimosCommonOreBAlloyBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/DeimosRecipes/Prospecting/DeimosUncommonGemACutBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/DeimosRecipes/Prospecting/DeimosUncommonOreAAlloyBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/DeimosRecipes/Prospecting/DeimosRareGemACutBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/DeimosRecipes/Prospecting/DeimosRareOreAAlloyBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/BoosterPacks/RandomSyndicateProjectionPack"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/DeimosRecipes/Prospecting/DeimosEidolonGemACutBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/DeimosRecipes/Prospecting/DeimosEidolonGemBCutBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Conservation/Deimos/InfestedMaggotLureGearItem"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Conservation/Deimos/InfestedMaggotRarityBoost"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Conservation/Deimos/InfestedCritterLureGearItem"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Conservation/Deimos/InfestedCritterRarityBoost"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Conservation/Deimos/InfestedPredatorLureGearItem"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Conservation/Deimos/InfestedPredatorRarityBoost"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/DeimosRecipes/Pets/InfestedCritterAntigenBBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/DeimosRecipes/Pets/InfestedPredatorAntigenBBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/DeimosRecipes/Pets/InfestedCritterMutagenABlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/DeimosRecipes/Pets/InfestedPredatorMutagenABlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/EntratiRankOne"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Conservation/Deimos/InfestedMergooLureGearItem"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Conservation/Deimos/InfestedMergooRarityBoost"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/DeimosRecipes/Pets/InfestedCritterAntigenABlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/DeimosRecipes/Pets/InfestedPredatorAntigenABlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/DeimosRecipes/Pets/InfestedCritterMutagenBBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/DeimosRecipes/Pets/InfestedPredatorMutagenBBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/EntratiRankTwo"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Conservation/Deimos/InfestedZongroLureGearItem"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Conservation/Deimos/InfestedZongroRarityBoost"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/DeimosRecipes/Pets/InfestedCritterAntigenCBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/DeimosRecipes/Pets/InfestedPredatorAntigenCBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/DeimosRecipes/Pets/InfestedCritterMutagenCBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/DeimosRecipes/Pets/InfestedPredatorMutagenCBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipFeatureItems/InfestedFoundryBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/EntratiRankThree"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipFeatureItems/InfestedFoundryUpgradeBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/DeimosRecipes/Pets/InfestedCritterAntigenDBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/DeimosRecipes/Pets/InfestedPredatorAntigenDBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/DeimosRecipes/Pets/InfestedCritterMutagenDBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/DeimosRecipes/Pets/InfestedPredatorMutagenDBlueprint"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/EntratiRankFour"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/EntratiRankFive"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/KDrive/KDriveVelocipodSkin"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/KDrive/KDriveVelocipodUncommonSkin"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/KDrive/KDriveVelocipodRareSkin"
+    },
+    {
+      "syndicate": "EntratiSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Conservation/TranqRifleGearItem"
+    },
+    {
+      "syndicate": "NecraloidSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/DeimosRecipes/Mechs/NecromechPartChassisBlueprint"
+    },
+    {
+      "syndicate": "NecraloidSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/DeimosRecipes/Mechs/NecromechPartEngineBlueprint"
+    },
+    {
+      "syndicate": "NecraloidSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/DeimosRecipes/Mechs/NecromechPartSystemsBlueprint"
+    },
+    {
+      "syndicate": "NecraloidSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/DeimosRecipes/Mechs/NecromechPartWeaponPodBlueprint"
+    },
+    {
+      "syndicate": "NecraloidSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/NecraloidRankOne"
+    },
+    {
+      "syndicate": "NecraloidSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/DeimosRecipes/Mechs/NecromechBlueprint"
+    },
+    {
+      "syndicate": "NecraloidSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/DeimosRecipes/Mechs/ThanotechPartChassisBlueprint"
+    },
+    {
+      "syndicate": "NecraloidSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/DeimosRecipes/Mechs/ThanotechPartEngineBlueprint"
+    },
+    {
+      "syndicate": "NecraloidSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/DeimosRecipes/Mechs/ThanotechPartSystemsBlueprint"
+    },
+    {
+      "syndicate": "NecraloidSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/DeimosRecipes/Mechs/ThanotechPartWeaponPodBlueprint"
+    },
+    {
+      "syndicate": "NecraloidSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/DeimosRecipes/Mechs/ThanotechArchGunBarrelBlueprint"
+    },
+    {
+      "syndicate": "NecraloidSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/DeimosRecipes/Mechs/ThanotechArchGunReceiverBlueprint"
+    },
+    {
+      "syndicate": "NecraloidSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/DeimosRecipes/Mechs/ThanotechArchGunStockBlueprint"
+    },
+    {
+      "syndicate": "NecraloidSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/DeimosRecipes/Mechs/ThanotechGrenadeLauncherBarrelBlueprint"
+    },
+    {
+      "syndicate": "NecraloidSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/DeimosRecipes/Mechs/ThanotechGrenadeLauncherReceiverBlueprint"
+    },
+    {
+      "syndicate": "NecraloidSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/DeimosRecipes/Mechs/ThanotechGrenadeLauncherStockBlueprint"
+    },
+    {
+      "syndicate": "NecraloidSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/AvatarImageBonewidowAction"
+    },
+    {
+      "syndicate": "NecraloidSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/AvatarImageVoidrigAction"
+    },
+    {
+      "syndicate": "NecraloidSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/NecraloidRankTwo"
+    },
+    {
+      "syndicate": "NecraloidSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/DeimosRecipes/Mechs/ThanotechBlueprint"
+    },
+    {
+      "syndicate": "NecraloidSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/ThanotechArchGunBlueprint"
+    },
+    {
+      "syndicate": "NecraloidSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/ThanotechGrenadeLauncherBlueprint"
+    },
+    {
+      "syndicate": "NecraloidSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sentinels/Skins/ThanotechSentinelSkin"
+    },
+    {
+      "syndicate": "NecraloidSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sentinels/Masks/ThanoTechMask"
+    },
+    {
+      "syndicate": "NecraloidSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sentinels/Tails/ThanoTechTail"
+    },
+    {
+      "syndicate": "NecraloidSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sentinels/Wings/ThanoTechWings"
+    },
+    {
+      "syndicate": "NecraloidSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/NecraloidRankThree"
+    },
+    {
+      "syndicate": "EntratiLabSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/CaviaRankOne"
+    },
+    {
+      "syndicate": "EntratiLabSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/CaviaRankTwo"
+    },
+    {
+      "syndicate": "EntratiLabSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/CaviaRankThree"
+    },
+    {
+      "syndicate": "EntratiLabSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/CaviaRankFour"
+    },
+    {
+      "syndicate": "EntratiLabSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/CaviaRankFive"
+    },
+    {
+      "syndicate": "EntratiLabSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Offensive/MeleeDamageForActiveShields"
+    },
+    {
+      "syndicate": "EntratiLabSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Offensive/ArmorOnMeleeKill"
+    },
+    {
+      "syndicate": "EntratiLabSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Offensive/CorrosiveMeleePerAbilityCast"
+    },
+    {
+      "syndicate": "EntratiLabSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Offensive/MeleeProcsSpread"
+    },
+    {
+      "syndicate": "EntratiLabSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/MiscItems/WeaponMeleeArcaneUnlocker"
+    },
+    {
+      "syndicate": "EntratiLabSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipFeatureItems/InfestedFoundryArchonShardUpgradeFeatureBlueprint"
+    },
+    {
+      "syndicate": "EntratiLabSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/GrimoireBlueprint"
+    },
+    {
+      "syndicate": "EntratiLabSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/ConcreteFrameBlueprint"
+    },
+    {
+      "syndicate": "EntratiLabSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/ConcreteFrameChassisBlueprint"
+    },
+    {
+      "syndicate": "EntratiLabSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/ConcreteFrameHelmetBlueprint"
+    },
+    {
+      "syndicate": "EntratiLabSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/ConcreteFrameSystemsBlueprint"
+    },
+    {
+      "syndicate": "EntratiLabSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/EntSphereHammerBlueprint"
+    },
+    {
+      "syndicate": "EventSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/SynthicatorRecipes/FlareBlueBlueprint"
+    },
+    {
+      "syndicate": "EventSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/SynthicatorRecipes/FlareRedBlueprint"
+    },
+    {
+      "syndicate": "EventSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Clan/PlagueStarBadgeItem"
+    },
+    {
+      "syndicate": "EventSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Gameplay/Eidolon/Resources/CetusWispItem"
+    },
+    {
+      "syndicate": "EventSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Eidolon/FishParts/BothRareFishAPartItem"
+    },
+    {
+      "syndicate": "EventSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Eidolon/FishParts/NightRareFishAPartItem"
+    },
+    {
+      "syndicate": "EventSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Eidolon/FishParts/NightRareFishBPartItem"
+    },
+    {
+      "syndicate": "EventSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/MiscItems/Forma"
+    },
+    {
+      "syndicate": "EventSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ScarletSpearAsteroidsDeco"
+    },
+    {
+      "syndicate": "EventSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ScarletSpearPlanetDeco"
+    },
+    {
+      "syndicate": "EventSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/HemocyteSigil"
+    },
+    {
+      "syndicate": "EventSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/Events/PlagueStarGlyph"
+    },
+    {
+      "syndicate": "EventSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/Plushies/PlushyHemocyte"
+    },
+    {
+      "syndicate": "EventSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/EidolonRecipes/InfestedEventIngredientBlueprint"
+    },
+    {
+      "syndicate": "EventSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/SnipetronBlueprint"
+    },
+    {
+      "syndicate": "EventSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/DualEtherDaggerBlueprint"
+    },
+    {
+      "syndicate": "EventSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Effects/JadeLightEphemeraA"
+    },
+    {
+      "syndicate": "EventSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Effects/JadeLightEphemeraB"
+    },
+    {
+      "syndicate": "EventSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/GrnGhoulSawBladeBlueprint"
+    },
+    {
+      "syndicate": "EventSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/GrnGhoulSawChassisBlueprint"
+    },
+    {
+      "syndicate": "EventSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/GrnGhoulSawEngineBlueprint"
+    },
+    {
+      "syndicate": "EventSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/GrnGhoulSawHandleBlueprint"
+    },
+    {
+      "syndicate": "EventSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Ostron/Melee/ModularMeleeInfested/Handles/InfestedHandleOneBlueprint"
+    },
+    {
+      "syndicate": "EventSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Ostron/Melee/ModularMeleeInfested/Tips/InfestedTipTwoBlueprint"
+    },
+    {
+      "syndicate": "EventSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Ostron/Melee/ModularMeleeInfested/Handles/InfestedHandleTwoBlueprint"
+    },
+    {
+      "syndicate": "EventSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Ostron/Melee/ModularMeleeInfested/Tips/InfestedTipOneBlueprint"
+    },
+    {
+      "syndicate": "EventSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/MiscItems/FormaAura"
+    },
+    {
+      "syndicate": "EventSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Armor/InfestedShoulderArmor/InfestedShoulderArmorA"
+    },
+    {
+      "syndicate": "EventSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Effects/JadeLightEphemeraC"
+    },
+    {
+      "syndicate": "EventSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Necramech/NecraMechCHelmetB"
+    },
+    {
+      "syndicate": "EventSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/DawnsEarlyLightSigil"
+    },
+    {
+      "syndicate": "EventSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/OstronCommunitySigil"
+    },
+    {
+      "syndicate": "EventSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/EnergySigilA"
+    },
+    {
+      "syndicate": "EventSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Nightwave/InfTwoHandedKatanaSkin"
+    },
+    {
+      "syndicate": "EventSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/MiscItems/FormaUmbra"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/HexRankOne"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/HexRankTwo"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/HexRankThree"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/HexRankFour"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/HexRankFive"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Weapons/Rapier/LasOcelotRapierSkin"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Operator/Tattoos/TattooTennoB"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Operator/Tattoos/TattooTennoC"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Operator/Tattoos/TattooTennoD"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Operator/Tattoos/TattooTennoF"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/AvatarImagePixelArthur"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/AvatarImagePixelAoi"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/AvatarImagePixelAmir"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/AvatarImagePixelEleanor"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/AvatarImagePixelLettie"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/AvatarImagePixelQuincy"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Weapons/DSPistols/BroncoSpectre"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Weapons/DSPistols/FurisVekesk"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Weapons/DSPistols/LatoTekna"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Weapons/DSPistols/LexHammer"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/MiscItems/ValenceAdapter"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/Minigames/MinigameGlyphPixelPerfectA"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/Minigames/MinigameGlyphPixelPerfectB"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/Minigames/MinigameGlyphPixelPerfectC"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/Minigames/MinigameGlyphPixelPerfectD"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/Minigames/MinigameGlyphStickerA"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/Minigames/MinigameGlyphStickerB"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/Minigames/MinigameGlyphStickerC"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/Minigames/MinigameGlyphStickerD"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/Cyte09ChassisBlueprint"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/Cyte09HelmetBlueprint"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/Cyte09SystemsBlueprint"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/Cyte09Blueprint"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/TC2024AK47Blueprint"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/LasSilencedPistolBlueprint"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/LasSilencedPistolBarrelBlueprint"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/LasSilencedPistolReceiverBlueprint"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/LasSilencedPistolStockBlueprint"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/TnBeltFedRifleBlueprint"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/TnBeltFedRifleBarrelBlueprint"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/TnBeltFedRifleReceiverBlueprint"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/TnBeltFedRifleStockBlueprint"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Arcade/CaliberChicksArcadeItem"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Arcade/OlliesCrashCourseArcadeItem"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/SongItems/CC16BitGirlsSongItem"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/SongItems/CCAnnaKiGOBSongItem"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/SongItems/OnlyneArsenalSongItem"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/SongItems/OnlyneCoreContainmentSongItem"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/SongItems/CCPsychoKillianSongItem"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/SongItems/CCLundoraCallingSongItem"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/SongItems/OnlyneCutThroughSongItem"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/SongItems/OnlyneInfectionSongItem"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/SongItems/CCAnnaKiPunkSongItem"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/SongItems/CCKickOutTheGunsSongItem"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/SongItems/OnlyneNumbSongItem"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/SongItems/OnlynePartyOfYourLifetimeSongItem"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/SongItems/CCIWannaBeYourGOBSongItem"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/SongItems/CCBizMarqueBopSongItem"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/SongItems/OnlynePickASideSongItem"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/SongItems/OnlyneRottenLivesSongItem"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/SongItems/OnlyneShutItDownSongItem"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/SongItems/OnlyneTheCallSongItem"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/SongItems/OnlyneTheGreatDespairSongItem"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/SongItems/CrashCourseSongItem"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/SongItems/AliveAgainSongItem"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/SongItems/BelowZeroSongItem"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/SongItems/FromTheStarsSongItem"
+    },
+    {
+      "syndicate": "HexSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/SongItems/OnlyneTheGreatKIMSongItem"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Consumable/LibraryScanner"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Consumable/HunterTool"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/CollectorSigil"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/MiscItems/LibraryScannerEnemyWeaknessUpgrade"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/MiscItems/LibraryScannerDoubleScanUpgrade"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/MiscItems/LibraryScannerRechargeUpgrade"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/MiscItems/LibraryScannerScanSpeedUpgrade"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/MiscItems/DangerRoomKey"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sentinels/Skins/LibrarianHelios"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/CephPrimaryBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/CephHammerBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Components/UtilityUnlockerBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/TeshinGlaiveBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/Arcade"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Arcade/FlappyArcadeItem"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Arcade/WyrmiusArcadeItem"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/LisetPropSimarisOfferings"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/LisetPropSimarisResearch"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/BoosterPacks/SingleSentinelRandomArtifact"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/GlassBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/MagicianChassisBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/MagicianSystemsBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/MagicianHelmetBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/ChromaBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/ChromaChassisBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/ChromaSystemsBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/ChromaHelmetBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/HarlequinChassisBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/HarlequinSystemsBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/HarlequinHelmetBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/PriestBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/YareliBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/MummyBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/MummyChassisBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/MummySystemsBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/MummyHelmetBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/FairyBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/FairyChassisBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/FairySystemsBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/FairyHelmetBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/NidusBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/OctaviaBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/BrawlerBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/BrokenScepterBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/ArchwingRecipes/StandardArchwing/StandardArchwingBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/ArchwingRecipes/StandardArchwing/StandardArchwingChassisBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/ArchwingRecipes/StandardArchwing/StandardArchwingSystemsBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/ArchwingRecipes/StandardArchwing/StandardArchwingWingsBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/ImperatorBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/VerituxBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/RevenantBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/GarudaBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/ProteaBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/WraithBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/BrokenFrameBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Keys/BardQuest/BardQuestSequencerItem"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/SheduHeavyWeaponBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Mods/Sets/Umbra/WarframeUmbraModA"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Mods/Sets/Umbra/WarframeUmbraModB"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Mods/Sets/Umbra/WarframeUmbraModC"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Mods/Sets/Sacrifice/MeleeSacrificeModA"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Mods/Sets/Sacrifice/MeleeSacrificeModB"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/CrpGhostCatcherGlaiveBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/CrpGhostCatcherGlaivePartBlade"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/CrpGhostCatcherGlaivePartCore"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/DualEtherDaggerBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/CrpGhostCatcherGlaivePartHandle"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/SundialAxeBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/SundialPistolBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/SundialRifleBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/SundialSwordBoardBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/NWOrokinSwordBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/MacheteBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/LisetPropBallasSwordSheath"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Tenno/Bows/Omicrus/OmicrusPlayerWep"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Operator/Pistols/DrifterPistol/DrifterPistolPlayerWeapon"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Operator/Melee/DrifterTazer/DrifterTazerPlayerWep"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/DuviriDualSwordsBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/DaxDuviriKatanaBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/DaxDuviriHammerBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/DaxDuviriPolearmBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/DaxDuviriTwoHandedKatanaBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/DaxDuviriMaceShieldBlueprint"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/ImageKhoraInAction"
+    },
+    {
+      "syndicate": "LibrarySyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/TnModQuestRifleWeaponBlueprint"
+    },
+    {
+      "syndicate": "NewLokaSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Titles/NewLokaTitle"
+    },
+    {
+      "syndicate": "NewLokaSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilNewLokaA"
+    },
+    {
+      "syndicate": "NewLokaSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Consumable/AncientHealerBall"
+    },
+    {
+      "syndicate": "NewLokaSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilNewLokaB"
+    },
+    {
+      "syndicate": "NewLokaSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilNewLokaC"
+    },
+    {
+      "syndicate": "NewLokaSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilNewLokaD"
+    },
+    {
+      "syndicate": "NewLokaSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/BoosterPacks/RandomSyndicateProjectionPack"
+    },
+    {
+      "syndicate": "NewLokaSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Keys/SyndicateCacheHuntBaseKeyItem"
+    },
+    {
+      "syndicate": "NewLokaSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilNewLokaE"
+    },
+    {
+      "syndicate": "NewLokaSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilNewLokaF"
+    },
+    {
+      "syndicate": "NewLokaSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilNewLokaG"
+    },
+    {
+      "syndicate": "NewLokaSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilNewLokaH"
+    },
+    {
+      "syndicate": "NewLokaSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/StoreItems/Consumables/Restoratives/SyndicateTeamHealTenPackBlueprint"
+    },
+    {
+      "syndicate": "NewLokaSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilNewLokaI"
+    },
+    {
+      "syndicate": "NewLokaSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilNewLokaJ"
+    },
+    {
+      "syndicate": "NewLokaSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/NewLokaSyndicateOrnament"
+    },
+    {
+      "syndicate": "NewLokaSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilNewLokaK"
+    },
+    {
+      "syndicate": "NewLokaSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Scarves/SyndicateNLScarf"
+    },
+    {
+      "syndicate": "NewLokaSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Game/QuartersWallpapers/SyndicateNLWallpaper"
+    },
+    {
+      "syndicate": "NewLokaSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Components/WeaponUtilityUnlockerBlueprint"
+    },
+    {
+      "syndicate": "NewLokaSyndicate",
+      "storeItem": "/Lotus/Types/StoreItems/Packages/SyndicateArmorPackNL"
+    },
+    {
+      "syndicate": "NewLokaSyndicate",
+      "storeItem": "/Lotus/Types/StoreItems/Packages/SyndicateVosforPack"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceDamageIBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceSpeedIBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Ostron/Melee/ModularMelee01/Handle/HandleOneBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Ostron/Melee/ModularMelee01/Handle/HandleFourBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Ostron/Melee/ModularMelee01/Handle/HandleTwoBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Ostron/Melee/ModularMelee01/Handle/HandleFiveBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Ostron/Melee/ModularMelee01/Handle/HandleThreeBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Ostron/Melee/ModularMelee01/Handle/HandleSixBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Ostron/Melee/ModularMelee02/Handle/HandleNineBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Ostron/Melee/ModularMelee02/Handle/HandleTenBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Ostron/Melee/ModularMelee01/Tip/TipOneBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Ostron/Melee/ModularMelee01/Tip/TipTwoBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Ostron/Melee/ModularMelee01/Tip/TipSixBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Ostron/Melee/ModularMelee01/Tip/TipFiveBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Ostron/Melee/ModularMelee01/Tip/TipThreeBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Ostron/Melee/ModularMelee01/Tip/TipFourBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Ostron/Melee/ModularMelee02/Tip/TipNineBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Ostron/Melee/ModularMelee02/Tip/TipTenBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Ostron/Melee/ModularMelee02/Tip/TipElevenBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceDamageIIBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceSpeedIIBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceDamageICritIBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceDamageIStatusIBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceSpeedICritIBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceSpeedIStatusIBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceDamageICritIIBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceDamageIStatusIIBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceSpeedICritIIBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceSpeedIStatusIIBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceDamageIICritIBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceDamageIIStatusIBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceSpeedIICritIBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceSpeedIIStatusIBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Consumable/SpearFishingSpear"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Consumable/SpearFishingSpearB"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Consumable/SpearFishingSpearC"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Game/FishBait/GenericFishBait"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Consumable/FishingBoosts/AnglerVision"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Game/FishBait/BothUncommonFishBaitItem"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Eidolon/TrophyBlueprints/DayCommonFishATrophyBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Eidolon/TrophyBlueprints/DayCommonFishBTrophyBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Eidolon/TrophyBlueprints/DayCommonFishCTrophyBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Eidolon/TrophyBlueprints/BothCommonFishATrophyBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Eidolon/TrophyBlueprints/BothCommonFishBTrophyBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Game/FishBait/BothRareFishBaitAItem"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Eidolon/TrophyBlueprints/DayUncommonFishATrophyBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Eidolon/TrophyBlueprints/DayUncommonFishBTrophyBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Game/FishBait/NightRareFishBaitAItem"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Eidolon/TrophyBlueprints/BothUncommonFishATrophyBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Eidolon/TrophyBlueprints/BothUncommonFishBTrophyBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Consumable/FishingBoosts/SoftTouch"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Game/FishBait/NightRareFishBaitBItem"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Eidolon/TrophyBlueprints/BothRareFishATrophyBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Eidolon/TrophyBlueprints/NightRareFishATrophyBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Eidolon/TrophyBlueprints/NightRareFishBTrophyBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Eidolon/TrophyBlueprints/BothRareBootTrophyBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Game/FishBait/NightLegendaryFishBaitItem"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Eidolon/TrophyBlueprints/NightLegendaryFishATrophyBlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/Conservation/AvatarImageEidolonFish"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Consumable/MiningLaser"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/EidolonRecipes/Prospecting/CommonGemACutABlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/EidolonRecipes/Prospecting/CommonOreAAlloyABlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/EidolonRecipes/Prospecting/CommonGemBCutABlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/EidolonRecipes/Prospecting/CommonOreBAlloyABlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/OstronRankOne"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Consumable/MiningLaserB"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/EidolonRecipes/Prospecting/UncommonGemACutABlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/EidolonRecipes/Prospecting/UncommonOreAAlloyABlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/OstronRankTwo"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/BoosterPacks/RandomSyndicateProjectionPack"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/EidolonRecipes/Prospecting/RareGemACutABlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/EidolonRecipes/Prospecting/RareOreAAlloyABlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/OstronRankThree"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Consumable/MiningLaserC"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/EidolonRecipes/Prospecting/EidolonGemACutABlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/EidolonRecipes/Prospecting/EidolonGemBCutABlueprint"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/LisetPropCetusJug"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/LisetPropCetusVegBasketA"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/LisetPropCetusVegBasketB"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/LisetPropCetusVegBasketC"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/LisetPropCetusPigmentBasketSmall"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ResourceDecoItemIradite"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/OstronRankFour"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/Props/LisetPropGrnGrokdrul"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/Props/LisetPropIradite"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/Plants/LisetPropNistlebrush"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/Types/StoreItems/Packages/SyndicateArmorPackOstron"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/LisetPropCetusPigmentBasketLarge"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/LisetPropCetusStallSignA"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/LisetPropCetusStallSignB"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/LisetPropCetusStallSignC"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/LisetPropFishingBoot"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/Conservation/AvatarImageEidolonGem"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/OstronRankFive"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Conservation/ForestRodentLureGearItem"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Conservation/RarityBoosts/KuakaRarityBoost"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Conservation/BirdOfPreyLureGearItem"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Conservation/RarityBoosts/CondrocRarityBoost"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Conservation/OstronSeaBirdLureGearItem"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Conservation/RarityBoosts/MergooRarityBoost"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Conservation/VampireKavatLureGearItem"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Conservation/RarityBoosts/VampireKavatRarityBoost"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/CatbrowVampireDisinfect"
+    },
+    {
+      "syndicate": "CetusSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/Conservation/AvatarImageEidolonCritter"
+    },
+    {
+      "syndicate": "QuillsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Sentients/OperatorAmplifiers/SentTrainingAmplifier/OperatorTrainingAmpBlueprint"
+    },
+    {
+      "syndicate": "QuillsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/EidolonRecipes/SentientCoreConversionABlueprint"
+    },
+    {
+      "syndicate": "QuillsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Sentients/OperatorAmplifiers/Set1/Barrel/SentAmpSet1BarrelPartABlueprint"
+    },
+    {
+      "syndicate": "QuillsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Sentients/OperatorAmplifiers/Set1/Chassis/SentAmpSet1ChassisPartABlueprint"
+    },
+    {
+      "syndicate": "QuillsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Sentients/OperatorAmplifiers/Set1/Grip/SentAmpSet1GripPartABlueprint"
+    },
+    {
+      "syndicate": "QuillsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/OperatorArmour/OperatorArmourMonkBodyBlueprint"
+    },
+    {
+      "syndicate": "QuillsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/OperatorArmour/OperatorArmourMonkHipBlueprint"
+    },
+    {
+      "syndicate": "QuillsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/OperatorArmour/OperatorArmourSeerBodyBlueprint"
+    },
+    {
+      "syndicate": "QuillsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/OperatorArmour/OperatorArmourSeerHipBlueprint"
+    },
+    {
+      "syndicate": "QuillsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/QuillsRankOne"
+    },
+    {
+      "syndicate": "QuillsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Sentients/OperatorAmplifiers/Set1/Barrel/SentAmpSet1BarrelPartBBlueprint"
+    },
+    {
+      "syndicate": "QuillsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Sentients/OperatorAmplifiers/Set1/Chassis/SentAmpSet1ChassisPartBBlueprint"
+    },
+    {
+      "syndicate": "QuillsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Sentients/OperatorAmplifiers/Set1/Grip/SentAmpSet1GripPartBBlueprint"
+    },
+    {
+      "syndicate": "QuillsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/OperatorArmour/OperatorArmourMonkArmsBlueprint"
+    },
+    {
+      "syndicate": "QuillsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/OperatorArmour/OperatorArmourSeerArmsBlueprint"
+    },
+    {
+      "syndicate": "QuillsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/QuillsRankTwo"
+    },
+    {
+      "syndicate": "QuillsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Sentients/OperatorAmplifiers/Set1/Barrel/SentAmpSet1BarrelPartCBlueprint"
+    },
+    {
+      "syndicate": "QuillsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Sentients/OperatorAmplifiers/Set1/Chassis/SentAmpSet1ChassisPartCBlueprint"
+    },
+    {
+      "syndicate": "QuillsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Sentients/OperatorAmplifiers/Set1/Grip/SentAmpSet1GripPartCBlueprint"
+    },
+    {
+      "syndicate": "QuillsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/OperatorArmour/OperatorArmourMonkLegsBlueprint"
+    },
+    {
+      "syndicate": "QuillsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/OperatorArmour/OperatorArmourSeerLegsBlueprint"
+    },
+    {
+      "syndicate": "QuillsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/QuillsRankThree"
+    },
+    {
+      "syndicate": "QuillsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Sentients/OperatorAmplifiers/Set2/Barrel/SentAmpSet2BarrelPartABlueprint"
+    },
+    {
+      "syndicate": "QuillsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Sentients/OperatorAmplifiers/Set2/Chassis/SentAmpSet2ChassisPartABlueprint"
+    },
+    {
+      "syndicate": "QuillsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Sentients/OperatorAmplifiers/Set2/Grip/SentAmpSet2GripPartABlueprint"
+    },
+    {
+      "syndicate": "QuillsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/OperatorArmour/OperatorArmourMonkHeadBlueprint"
+    },
+    {
+      "syndicate": "QuillsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/OperatorArmour/OperatorArmourSeerHeadBlueprint"
+    },
+    {
+      "syndicate": "QuillsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/LisetPropSentientCore"
+    },
+    {
+      "syndicate": "QuillsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/LisetPropEidolonShard"
+    },
+    {
+      "syndicate": "QuillsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/QuillsRankFour"
+    },
+    {
+      "syndicate": "QuillsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Gameplay/Eidolon/Resources/CetusWispItem"
+    },
+    {
+      "syndicate": "QuillsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/LisetPropOroSigilMarker"
+    },
+    {
+      "syndicate": "QuillsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/LisetPropOperatorHoodDisplayBlack"
+    },
+    {
+      "syndicate": "QuillsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/LisetPropOperatorHoodDisplayDefault"
+    },
+    {
+      "syndicate": "QuillsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/LisetPropOperatorHoodDisplayGrey"
+    },
+    {
+      "syndicate": "QuillsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/QuillsRankFive"
+    },
+    {
+      "syndicate": "PerrinSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Titles/PerrinSequenceTitle"
+    },
+    {
+      "syndicate": "PerrinSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilPerrinSequenceA"
+    },
+    {
+      "syndicate": "PerrinSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Consumable/MoaBall"
+    },
+    {
+      "syndicate": "PerrinSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilPerrinSequenceB"
+    },
+    {
+      "syndicate": "PerrinSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilPerrinSequenceC"
+    },
+    {
+      "syndicate": "PerrinSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilPerrinSequenceD"
+    },
+    {
+      "syndicate": "PerrinSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/BoosterPacks/RandomSyndicateProjectionPack"
+    },
+    {
+      "syndicate": "PerrinSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Keys/SyndicateCacheHuntBaseKeyItem"
+    },
+    {
+      "syndicate": "PerrinSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilPerrinSequenceE"
+    },
+    {
+      "syndicate": "PerrinSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilPerrinSequenceF"
+    },
+    {
+      "syndicate": "PerrinSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilPerrinSequenceG"
+    },
+    {
+      "syndicate": "PerrinSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilPerrinSequenceH"
+    },
+    {
+      "syndicate": "PerrinSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/StoreItems/Consumables/Restoratives/SyndicateTeamEnergyTenPackBlueprint"
+    },
+    {
+      "syndicate": "PerrinSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilPerrinSequenceI"
+    },
+    {
+      "syndicate": "PerrinSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilPerrinSequenceJ"
+    },
+    {
+      "syndicate": "PerrinSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/PerrinSequenceSyndicateOrnament"
+    },
+    {
+      "syndicate": "PerrinSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilPerrinSequenceK"
+    },
+    {
+      "syndicate": "PerrinSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Scarves/SyndicatePSScarf"
+    },
+    {
+      "syndicate": "PerrinSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Game/QuartersWallpapers/SyndicatePSWallpaper"
+    },
+    {
+      "syndicate": "PerrinSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Components/WeaponUtilityUnlockerBlueprint"
+    },
+    {
+      "syndicate": "PerrinSyndicate",
+      "storeItem": "/Lotus/Types/StoreItems/Packages/SyndicateArmorPackPS"
+    },
+    {
+      "syndicate": "PerrinSyndicate",
+      "storeItem": "/Lotus/Types/StoreItems/Packages/SyndicateVosforPack"
+    },
+    {
+      "syndicate": "RadioLegion2Syndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/LoginSigilA"
+    },
+    {
+      "syndicate": "RadioLegion2Syndicate",
+      "storeItem": "/Lotus/Types/StoreItems/Packages/ColorPackB"
+    },
+    {
+      "syndicate": "RadioLegion2Syndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Camo/DesertMarelokSkin"
+    },
+    {
+      "syndicate": "RadioLegion3Syndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/LoginSigilA"
+    },
+    {
+      "syndicate": "RadioLegion3Syndicate",
+      "storeItem": "/Lotus/Types/StoreItems/Packages/ColorPackB"
+    },
+    {
+      "syndicate": "RadioLegion3Syndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Camo/DesertMarelokSkin"
+    },
+    {
+      "syndicate": "RadioLegionIntermission10Syndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/LoginSigilA"
+    },
+    {
+      "syndicate": "RadioLegionIntermission10Syndicate",
+      "storeItem": "/Lotus/Types/StoreItems/Packages/ColorPackB"
+    },
+    {
+      "syndicate": "RadioLegionIntermission10Syndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Camo/DesertMarelokSkin"
+    },
+    {
+      "syndicate": "RadioLegionIntermission11Syndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/LoginSigilA"
+    },
+    {
+      "syndicate": "RadioLegionIntermission11Syndicate",
+      "storeItem": "/Lotus/Types/StoreItems/Packages/ColorPackB"
+    },
+    {
+      "syndicate": "RadioLegionIntermission11Syndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Camo/DesertMarelokSkin"
+    },
+    {
+      "syndicate": "RadioLegionIntermission12Syndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/LoginSigilA"
+    },
+    {
+      "syndicate": "RadioLegionIntermission12Syndicate",
+      "storeItem": "/Lotus/Types/StoreItems/Packages/ColorPackB"
+    },
+    {
+      "syndicate": "RadioLegionIntermission12Syndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Camo/DesertMarelokSkin"
+    },
+    {
+      "syndicate": "RadioLegionIntermission13Syndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/LoginSigilA"
+    },
+    {
+      "syndicate": "RadioLegionIntermission13Syndicate",
+      "storeItem": "/Lotus/Types/StoreItems/Packages/ColorPackB"
+    },
+    {
+      "syndicate": "RadioLegionIntermission13Syndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Camo/DesertMarelokSkin"
+    },
+    {
+      "syndicate": "RadioLegionIntermission14Syndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/LoginSigilA"
+    },
+    {
+      "syndicate": "RadioLegionIntermission14Syndicate",
+      "storeItem": "/Lotus/Types/StoreItems/Packages/ColorPackB"
+    },
+    {
+      "syndicate": "RadioLegionIntermission14Syndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Camo/DesertMarelokSkin"
+    },
+    {
+      "syndicate": "RadioLegionIntermission15Syndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/LoginSigilA"
+    },
+    {
+      "syndicate": "RadioLegionIntermission15Syndicate",
+      "storeItem": "/Lotus/Types/StoreItems/Packages/ColorPackB"
+    },
+    {
+      "syndicate": "RadioLegionIntermission15Syndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Camo/DesertMarelokSkin"
+    },
+    {
+      "syndicate": "RadioLegionIntermission16Syndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/LoginSigilA"
+    },
+    {
+      "syndicate": "RadioLegionIntermission16Syndicate",
+      "storeItem": "/Lotus/Types/StoreItems/Packages/ColorPackB"
+    },
+    {
+      "syndicate": "RadioLegionIntermission16Syndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Camo/DesertMarelokSkin"
+    },
+    {
+      "syndicate": "RadioLegionIntermission2Syndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/LoginSigilA"
+    },
+    {
+      "syndicate": "RadioLegionIntermission2Syndicate",
+      "storeItem": "/Lotus/Types/StoreItems/Packages/ColorPackB"
+    },
+    {
+      "syndicate": "RadioLegionIntermission2Syndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Camo/DesertMarelokSkin"
+    },
+    {
+      "syndicate": "RadioLegionIntermission3Syndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/LoginSigilA"
+    },
+    {
+      "syndicate": "RadioLegionIntermission3Syndicate",
+      "storeItem": "/Lotus/Types/StoreItems/Packages/ColorPackB"
+    },
+    {
+      "syndicate": "RadioLegionIntermission3Syndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Camo/DesertMarelokSkin"
+    },
+    {
+      "syndicate": "RadioLegionIntermission4Syndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/LoginSigilA"
+    },
+    {
+      "syndicate": "RadioLegionIntermission4Syndicate",
+      "storeItem": "/Lotus/Types/StoreItems/Packages/ColorPackB"
+    },
+    {
+      "syndicate": "RadioLegionIntermission4Syndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Camo/DesertMarelokSkin"
+    },
+    {
+      "syndicate": "RadioLegionIntermission5Syndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/LoginSigilA"
+    },
+    {
+      "syndicate": "RadioLegionIntermission5Syndicate",
+      "storeItem": "/Lotus/Types/StoreItems/Packages/ColorPackB"
+    },
+    {
+      "syndicate": "RadioLegionIntermission5Syndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Camo/DesertMarelokSkin"
+    },
+    {
+      "syndicate": "RadioLegionIntermission6Syndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/LoginSigilA"
+    },
+    {
+      "syndicate": "RadioLegionIntermission6Syndicate",
+      "storeItem": "/Lotus/Types/StoreItems/Packages/ColorPackB"
+    },
+    {
+      "syndicate": "RadioLegionIntermission6Syndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Camo/DesertMarelokSkin"
+    },
+    {
+      "syndicate": "RadioLegionIntermission7Syndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/LoginSigilA"
+    },
+    {
+      "syndicate": "RadioLegionIntermission7Syndicate",
+      "storeItem": "/Lotus/Types/StoreItems/Packages/ColorPackB"
+    },
+    {
+      "syndicate": "RadioLegionIntermission7Syndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Camo/DesertMarelokSkin"
+    },
+    {
+      "syndicate": "RadioLegionIntermission8Syndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/LoginSigilA"
+    },
+    {
+      "syndicate": "RadioLegionIntermission8Syndicate",
+      "storeItem": "/Lotus/Types/StoreItems/Packages/ColorPackB"
+    },
+    {
+      "syndicate": "RadioLegionIntermission8Syndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Camo/DesertMarelokSkin"
+    },
+    {
+      "syndicate": "RadioLegionIntermission9Syndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/LoginSigilA"
+    },
+    {
+      "syndicate": "RadioLegionIntermission9Syndicate",
+      "storeItem": "/Lotus/Types/StoreItems/Packages/ColorPackB"
+    },
+    {
+      "syndicate": "RadioLegionIntermission9Syndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Camo/DesertMarelokSkin"
+    },
+    {
+      "syndicate": "RadioLegionIntermissionSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/LoginSigilA"
+    },
+    {
+      "syndicate": "RadioLegionIntermissionSyndicate",
+      "storeItem": "/Lotus/Types/StoreItems/Packages/ColorPackB"
+    },
+    {
+      "syndicate": "RadioLegionIntermissionSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Camo/DesertMarelokSkin"
+    },
+    {
+      "syndicate": "RadioLegionSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/LoginSigilA"
+    },
+    {
+      "syndicate": "RadioLegionSyndicate",
+      "storeItem": "/Lotus/Types/StoreItems/Packages/ColorPackB"
+    },
+    {
+      "syndicate": "RadioLegionSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Camo/DesertMarelokSkin"
+    },
+    {
+      "syndicate": "RedVeilSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RedVeilTitle"
+    },
+    {
+      "syndicate": "RedVeilSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilRedVeilA"
+    },
+    {
+      "syndicate": "RedVeilSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Consumable/ChargerBall"
+    },
+    {
+      "syndicate": "RedVeilSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilRedVeilB"
+    },
+    {
+      "syndicate": "RedVeilSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilRedVeilC"
+    },
+    {
+      "syndicate": "RedVeilSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilRedVeilD"
+    },
+    {
+      "syndicate": "RedVeilSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/BoosterPacks/RandomSyndicateProjectionPack"
+    },
+    {
+      "syndicate": "RedVeilSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Keys/SyndicateCacheHuntBaseKeyItem"
+    },
+    {
+      "syndicate": "RedVeilSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilRedVeilE"
+    },
+    {
+      "syndicate": "RedVeilSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilRedVeilF"
+    },
+    {
+      "syndicate": "RedVeilSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilRedVeilG"
+    },
+    {
+      "syndicate": "RedVeilSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilRedVeilH"
+    },
+    {
+      "syndicate": "RedVeilSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/StoreItems/Consumables/Restoratives/SyndicateTeamAmmoTenPackBlueprint"
+    },
+    {
+      "syndicate": "RedVeilSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilRedVeilI"
+    },
+    {
+      "syndicate": "RedVeilSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilRedVeilJ"
+    },
+    {
+      "syndicate": "RedVeilSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/RedVeilSyndicateOrnament"
+    },
+    {
+      "syndicate": "RedVeilSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilRedVeilK"
+    },
+    {
+      "syndicate": "RedVeilSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Scarves/SyndicateRVScarf"
+    },
+    {
+      "syndicate": "RedVeilSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Game/QuartersWallpapers/SyndicateRVWallpaper"
+    },
+    {
+      "syndicate": "RedVeilSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Components/WeaponUtilityUnlockerBlueprint"
+    },
+    {
+      "syndicate": "RedVeilSyndicate",
+      "storeItem": "/Lotus/Types/StoreItems/Packages/SyndicateArmorPackRV"
+    },
+    {
+      "syndicate": "RedVeilSyndicate",
+      "storeItem": "/Lotus/Types/StoreItems/Packages/SyndicateVosforPack"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Barrel/SUModularSecondaryBarrelAPartBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Barrel/SUModularSecondaryBarrelBPartBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Barrel/SUModularSecondaryBarrelCPartBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Barrel/SUModularSecondaryBarrelDPartBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Handle/SUModularSecondaryHandleAPartBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Handle/SUModularSecondaryHandleBPartBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Clip/SUModularCapIClipPartBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Clip/SUModularReloadIClipPartBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Handle/SUModularSecondaryHandleCPartBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Handle/SUModularSecondaryHandleDPartBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/SolarisUnited/Primary/SUModularPrimarySet1/Handles/SUModularPrimaryHandleAPartBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/SolarisUnited/Primary/SUModularPrimarySet1/Handles/SUModularPrimaryHandleBPartBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Clip/SUModularCapIIClipPartBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Clip/SUModularReloadIIClipPartBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Clip/SUModularCritICapIClipPartBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Clip/SUModularCritIReloadIClipPartBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Clip/SUModularStatICapIClipPartBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Clip/SUModularStatIReloadIClipPartBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/SolarisUnited/Primary/SUModularPrimarySet1/Handles/SUModularPrimaryHandleCPartBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/SolarisUnited/Primary/SUModularPrimarySet1/Handles/SUModularPrimaryHandleDPartBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Clip/SUModularCritICapIIClipPartBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Clip/SUModularCritIReloadIIClipPartBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Clip/SUModularStatICapIIClipPartBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Clip/SUModularStatIReloadIIClipPartBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Clip/SUModularCritIICapIClipPartBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Clip/SUModularCritIIReloadIClipPartBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Clip/SUModularStatIICapIClipPartBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Clip/SUModularStatIIReloadIClipPartBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Conservation/TranqRifleGearItem"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Conservation/SnowRodentLureGearItem"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Conservation/RarityBoosts/SnowRodentRarityBoost"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Consumable/RobofishSpearB"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Game/FishBait/Venus/GenericContaminant"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Conservation/SnowCritterLureGearItem"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Conservation/RarityBoosts/SnowCritterRarityBoost"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Game/FishBait/Venus/LakeContaminantTierA"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Game/FishBait/Venus/PondContaminantTierA"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Solaris/TrophyBlueprints/CorpusCoolCommonFishATrophyBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Solaris/TrophyBlueprints/CorpusWarmCommonFishATrophyBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Solaris/TrophyBlueprints/CorpusWarmCommonFishBTrophyBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Solaris/TrophyBlueprints/SolarisBothCommonFishATrophyBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Solaris/TrophyBlueprints/SolarisCoolCommonFishATrophyBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Conservation/SnowBirdLureGearItem"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Conservation/RarityBoosts/SnowBirdRarityBoost"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Game/FishBait/Venus/CaveContaminantTierA"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Game/FishBait/Venus/LakeContaminantTierB"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Solaris/TrophyBlueprints/CorpusCoolUncommonFishATrophyBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Solaris/TrophyBlueprints/CorpusWarmUncommonFishATrophyBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Solaris/TrophyBlueprints/SolarisCoolUncommonFishATrophyBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Conservation/SnowArmadilloLureGearItem"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Conservation/RarityBoosts/SnowArmadilloRarityBoost"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Game/FishBait/Venus/PondContaminantTierB"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Game/FishBait/Venus/CaveContaminantTierB"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Consumable/RobofishSpearC"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Solaris/TrophyBlueprints/CorpusBothUncommonFishATrophyBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Solaris/TrophyBlueprints/SolarisWarmRareFishATrophyBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Game/FishBait/Venus/CaveContaminantTierC"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Conservation/SnowPredatorLureGearItem"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Conservation/RarityBoosts/SnowPredatorRarityBoost"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Conservation/OrokinKubrowLureGearItem"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Conservation/RarityBoosts/OrokinKubrowRarityBoost"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Solaris/TrophyBlueprints/OrokinBothRareFishATrophyBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Solaris/TrophyBlueprints/OrokinCoolRareFishATrophyBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Solaris/TrophyBlueprints/CrewmanBootTrophyBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Conservation/LegendaryKubrowLureGearItem"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Conservation/RarityBoosts/LegendaryKubrowRarityBoost"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Fish/Solaris/TrophyBlueprints/OrokinBothLegendaryFishATrophyBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/SentinelRecipes/RadarSentinelBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/Conservation/AvatarImageVenusFish"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/Conservation/AvatarImageVenusCritter"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Consumable/MiningLaserSolaris"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/SolarisRecipes/Prospecting/SolarisCommonGemACutBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/SolarisRecipes/Prospecting/SolarisCommonOreAAlloyBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/SolarisRecipes/Prospecting/SolarisCommonGemBCutBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/SolarisRecipes/Prospecting/SolarisCommonOreBAlloyBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/SolarisRecipes/Prospecting/SolarisUncommonGemACutBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/SolarisRecipes/Prospecting/SolarisUncommonOreAAlloyBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/SolarisRankOne"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/SolarisRecipes/Prospecting/SolarisRareGemACutBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/SolarisRecipes/Prospecting/SolarisRareOreAAlloyBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/SolarisRankTwo"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/BoosterPacks/RandomSyndicateProjectionPack"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/SolarisRecipes/Prospecting/SolarisEidolonGemACutBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/SolarisRankThree"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/SolarisRecipes/Prospecting/SolarisEidolonGemBCutBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/Props/LisetPropCorpusCanister"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/Plants/LisetPropVenusTreeFull"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/SolarisRankFour"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/Types/StoreItems/Packages/SyndicateArmorPackSolaris"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/MiscItems/SolarisMiningToolSilenceUpgrade"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/MiscItems/SolarisMiningToolRangeUpgrade"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/Conservation/AvatarImageVenusGem"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/SolarisRankFive"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/MoaPetParts/MoaPetLegABlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/MoaPetParts/MoaPetLegBBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/MoaPetParts/MoaPetHeadParaBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/MoaPetParts/MoaPetEngineThricoreBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/MoaPetParts/MoaPetPayloadCryoxionBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/MoaPetParts/MoaPetHeadLambeoBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/MoaPetParts/MoaPetEngineKrisysBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/MoaPetParts/MoaPetLegCBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/MoaPetParts/MoaPetPayloadDartaBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/MoaPetParts/MoaPetHeadOloroBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/MoaPetParts/MoaPetEngineArcotekBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/MoaPetParts/MoaPetLegDBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/MoaPetParts/MoaPetPayloadAegronBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/MoaPetParts/MoaPetHeadMeleeBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/MoaPetParts/MoaPetPayloadMunitronBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/MoaPetParts/MoaPetLegMeleeBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/MoaPetParts/MoaPetPayloadHextraBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/MoaPetParts/MoaPetEngineMeleeBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/MoaPetParts/MoaPetPayloadTazronBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/MoaPetParts/MoaPetPayloadThermocorBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/MoaPetParts/MoaPetPayloadMeleeBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/SentinelCryoxionWeaponBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/SentinelTazronWeaponBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/SentinelThermocorWeaponBlueprint"
+    },
+    {
+      "syndicate": "SolarisSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/SwarmerWeaponBlueprint"
+    },
+    {
+      "syndicate": "VentKidsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Vehicles/Hoverboard/HoverboardParts/PartComponents/HoverboardSolarisA/HoverboardSolarisADeckBlueprint"
+    },
+    {
+      "syndicate": "VentKidsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Vehicles/Hoverboard/HoverboardParts/PartComponents/HoverboardSolarisA/HoverboardSolarisAEngineBlueprint"
+    },
+    {
+      "syndicate": "VentKidsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Vehicles/Hoverboard/HoverboardParts/PartComponents/HoverboardSolarisA/HoverboardSolarisAFrontBlueprint"
+    },
+    {
+      "syndicate": "VentKidsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Vehicles/Hoverboard/HoverboardParts/PartComponents/HoverboardSolarisA/HoverboardSolarisAJetBlueprint"
+    },
+    {
+      "syndicate": "VentKidsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/OperatorArmour/Solaris/SuitNArmsBlueprint"
+    },
+    {
+      "syndicate": "VentKidsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/OperatorArmour/Solaris/SuitNBodyBlueprint"
+    },
+    {
+      "syndicate": "VentKidsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/OperatorArmour/Solaris/SuitNHeadBlueprint"
+    },
+    {
+      "syndicate": "VentKidsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/OperatorArmour/Solaris/SuitNHipBlueprint"
+    },
+    {
+      "syndicate": "VentKidsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/OperatorArmour/Solaris/SuitNLegsBlueprint"
+    },
+    {
+      "syndicate": "VentKidsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/OperatorArmour/Solaris/SuitOArmsBlueprint"
+    },
+    {
+      "syndicate": "VentKidsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/OperatorArmour/Solaris/SuitOBodyBlueprint"
+    },
+    {
+      "syndicate": "VentKidsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/OperatorArmour/Solaris/SuitOHeadBlueprint"
+    },
+    {
+      "syndicate": "VentKidsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/OperatorArmour/Solaris/SuitOHipBlueprint"
+    },
+    {
+      "syndicate": "VentKidsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/OperatorArmour/Solaris/SuitOLegsBlueprint"
+    },
+    {
+      "syndicate": "VentKidsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/VentkidsRankOne"
+    },
+    {
+      "syndicate": "VentKidsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Vehicles/Hoverboard/HoverboardParts/PartComponents/HoverboardCorpusA/HoverboardCorpusADeckBlueprint"
+    },
+    {
+      "syndicate": "VentKidsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Vehicles/Hoverboard/HoverboardParts/PartComponents/HoverboardCorpusA/HoverboardCorpusAEngineBlueprint"
+    },
+    {
+      "syndicate": "VentKidsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Vehicles/Hoverboard/HoverboardParts/PartComponents/HoverboardCorpusA/HoverboardCorpusAFrontBlueprint"
+    },
+    {
+      "syndicate": "VentKidsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Vehicles/Hoverboard/HoverboardParts/PartComponents/HoverboardCorpusA/HoverboardCorpusAJetBlueprint"
+    },
+    {
+      "syndicate": "VentKidsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/VentkidsRankTwo"
+    },
+    {
+      "syndicate": "VentKidsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/VentkidsRankThree"
+    },
+    {
+      "syndicate": "VentKidsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Vehicles/Hoverboard/HoverboardParts/PartComponents/HoverboardCorpusB/HoverboardCorpusBDeckBlueprint"
+    },
+    {
+      "syndicate": "VentKidsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Vehicles/Hoverboard/HoverboardParts/PartComponents/HoverboardCorpusB/HoverboardCorpusBEngineBlueprint"
+    },
+    {
+      "syndicate": "VentKidsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Vehicles/Hoverboard/HoverboardParts/PartComponents/HoverboardCorpusB/HoverboardCorpusBFrontBlueprint"
+    },
+    {
+      "syndicate": "VentKidsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Vehicles/Hoverboard/HoverboardParts/PartComponents/HoverboardCorpusB/HoverboardCorpusBJetBlueprint"
+    },
+    {
+      "syndicate": "VentKidsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/VentkidsRankFour"
+    },
+    {
+      "syndicate": "VentKidsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Vehicles/Hoverboard/HoverboardParts/PartComponents/HoverboardCorpusC/HoverboardCorpusCDeckBlueprint"
+    },
+    {
+      "syndicate": "VentKidsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Vehicles/Hoverboard/HoverboardParts/PartComponents/HoverboardCorpusC/HoverboardCorpusCEngineBlueprint"
+    },
+    {
+      "syndicate": "VentKidsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Vehicles/Hoverboard/HoverboardParts/PartComponents/HoverboardCorpusC/HoverboardCorpusCFrontBlueprint"
+    },
+    {
+      "syndicate": "VentKidsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Vehicles/Hoverboard/HoverboardParts/PartComponents/HoverboardCorpusC/HoverboardCorpusCJetBlueprint"
+    },
+    {
+      "syndicate": "VentKidsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/TnYareliPistolBlueprint"
+    },
+    {
+      "syndicate": "VentKidsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/TnYareliPistolBarrelBlueprint"
+    },
+    {
+      "syndicate": "VentKidsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/TnYareliPistolReceiverBlueprint"
+    },
+    {
+      "syndicate": "VentKidsSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/VentkidsRankFive"
+    },
+    {
+      "syndicate": "VoxSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/OperatorArmour/Solaris/ApparatistArmsBlueprint"
+    },
+    {
+      "syndicate": "VoxSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/OperatorArmour/Solaris/ApparatistBodyBlueprint"
+    },
+    {
+      "syndicate": "VoxSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/OperatorArmour/OperatorArmourApparatistHipBlueprint"
+    },
+    {
+      "syndicate": "VoxSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/OperatorArmour/Solaris/ApparatistHeadBlueprint"
+    },
+    {
+      "syndicate": "VoxSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/OperatorArmour/Solaris/ApparatistLegsBlueprint"
+    },
+    {
+      "syndicate": "VoxSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/OperatorArmour/Solaris/GreaseWitchArmsBlueprint"
+    },
+    {
+      "syndicate": "VoxSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/OperatorArmour/Solaris/GreaseWitchBodyBlueprint"
+    },
+    {
+      "syndicate": "VoxSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/OperatorArmour/OperatorArmourGreaseHipBlueprint"
+    },
+    {
+      "syndicate": "VoxSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/OperatorArmour/Solaris/GreaseWitchHeadBlueprint"
+    },
+    {
+      "syndicate": "VoxSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/OperatorArmour/Solaris/GreaseWitchLegsBlueprint"
+    },
+    {
+      "syndicate": "VoxSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Gameplay/Venus/Resources/CorpusWidgetAItem"
+    },
+    {
+      "syndicate": "VoxSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/OperatorArmour/Solaris/SmelterArmsBlueprint"
+    },
+    {
+      "syndicate": "VoxSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/OperatorArmour/Solaris/SmelterBodyBlueprint"
+    },
+    {
+      "syndicate": "VoxSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/OperatorArmour/Solaris/SmelterHeadBlueprint"
+    },
+    {
+      "syndicate": "VoxSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/OperatorArmour/Solaris/SmelterLegsBlueprint"
+    },
+    {
+      "syndicate": "VoxSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/OperatorArmour/Solaris/TechnomancerArmsBlueprint"
+    },
+    {
+      "syndicate": "VoxSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/OperatorArmour/Solaris/TechnomancerBodyBlueprint"
+    },
+    {
+      "syndicate": "VoxSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/OperatorArmour/Solaris/TechnomancerHeadBlueprint"
+    },
+    {
+      "syndicate": "VoxSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/OperatorArmour/Solaris/TechnomancerLegsBlueprint"
+    },
+    {
+      "syndicate": "VoxSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/VoxRankOne"
+    },
+    {
+      "syndicate": "VoxSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Gameplay/Venus/Resources/CorpusWidgetBItem"
+    },
+    {
+      "syndicate": "VoxSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Corpus/OperatorAmplifiers/Set1/Barrel/CorpAmpSet1BarrelPartABlueprint"
+    },
+    {
+      "syndicate": "VoxSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Corpus/OperatorAmplifiers/Set1/Chassis/CorpAmpSet1ChassisPartABlueprint"
+    },
+    {
+      "syndicate": "VoxSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Corpus/OperatorAmplifiers/Set1/Grip/CorpAmpSet1GripPartABlueprint"
+    },
+    {
+      "syndicate": "VoxSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/PacifistBlueprint"
+    },
+    {
+      "syndicate": "VoxSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/IronframeBlueprint"
+    },
+    {
+      "syndicate": "VoxSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/VoxRankTwo"
+    },
+    {
+      "syndicate": "VoxSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Corpus/OperatorAmplifiers/Set1/Barrel/CorpAmpSet1BarrelPartBBlueprint"
+    },
+    {
+      "syndicate": "VoxSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Corpus/OperatorAmplifiers/Set1/Chassis/CorpAmpSet1ChassisPartBBlueprint"
+    },
+    {
+      "syndicate": "VoxSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Corpus/OperatorAmplifiers/Set1/Grip/CorpAmpSet1GripPartBBlueprint"
+    },
+    {
+      "syndicate": "VoxSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/PacifistChassisBlueprint"
+    },
+    {
+      "syndicate": "VoxSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/PacifistHelmetBlueprint"
+    },
+    {
+      "syndicate": "VoxSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/PacifistSystemsBlueprint"
+    },
+    {
+      "syndicate": "VoxSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Gameplay/Venus/Resources/CorpusWidgetCItem"
+    },
+    {
+      "syndicate": "VoxSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/VoxRankThree"
+    },
+    {
+      "syndicate": "VoxSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Corpus/OperatorAmplifiers/Set1/Barrel/CorpAmpSet1BarrelPartCBlueprint"
+    },
+    {
+      "syndicate": "VoxSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Corpus/OperatorAmplifiers/Set1/Chassis/CorpAmpSet1ChassisPartCBlueprint"
+    },
+    {
+      "syndicate": "VoxSyndicate",
+      "storeItem": "/Lotus/StoreItems/Weapons/Corpus/OperatorAmplifiers/Set1/Grip/CorpAmpSet1GripPartCBlueprint"
+    },
+    {
+      "syndicate": "VoxSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/VoxRankFour"
+    },
+    {
+      "syndicate": "VoxSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/VoxRankFive"
+    },
+    {
+      "syndicate": "SteelMeridianSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/Titles/SteelMeridianTitle"
+    },
+    {
+      "syndicate": "SteelMeridianSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilSteelMeridianA"
+    },
+    {
+      "syndicate": "SteelMeridianSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Restoratives/Consumable/RollerBall"
+    },
+    {
+      "syndicate": "SteelMeridianSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilSteelMeridianB"
+    },
+    {
+      "syndicate": "SteelMeridianSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilSteelMeridianC"
+    },
+    {
+      "syndicate": "SteelMeridianSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilSteelMeridianD"
+    },
+    {
+      "syndicate": "SteelMeridianSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/BoosterPacks/RandomSyndicateProjectionPack"
+    },
+    {
+      "syndicate": "SteelMeridianSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Keys/SyndicateCacheHuntBaseKeyItem"
+    },
+    {
+      "syndicate": "SteelMeridianSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilSteelMeridianE"
+    },
+    {
+      "syndicate": "SteelMeridianSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilSteelMeridianF"
+    },
+    {
+      "syndicate": "SteelMeridianSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilSteelMeridianG"
+    },
+    {
+      "syndicate": "SteelMeridianSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilSteelMeridianH"
+    },
+    {
+      "syndicate": "SteelMeridianSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/StoreItems/Consumables/Restoratives/SyndicateTeamHealTenPackBlueprint"
+    },
+    {
+      "syndicate": "SteelMeridianSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilSteelMeridianI"
+    },
+    {
+      "syndicate": "SteelMeridianSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilSteelMeridianJ"
+    },
+    {
+      "syndicate": "SteelMeridianSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/SteelMeridianSyndicateOrnament"
+    },
+    {
+      "syndicate": "SteelMeridianSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/SyndicateSigilSteelMeridianK"
+    },
+    {
+      "syndicate": "SteelMeridianSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Scarves/SyndicateSMScarf"
+    },
+    {
+      "syndicate": "SteelMeridianSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Game/QuartersWallpapers/SyndicateSMWallpaper"
+    },
+    {
+      "syndicate": "SteelMeridianSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/Components/WeaponUtilityUnlockerBlueprint"
+    },
+    {
+      "syndicate": "SteelMeridianSyndicate",
+      "storeItem": "/Lotus/Types/StoreItems/Packages/SyndicateArmorPackSM"
+    },
+    {
+      "syndicate": "SteelMeridianSyndicate",
+      "storeItem": "/Lotus/Types/StoreItems/Packages/SyndicateVosforPack"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpBarrelPlastic"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpCrateLargeA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpCrateLargeAOpen"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpCrateLargeAOpenTop"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpCrateMediumA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpCrateMediumAOpen"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpCrateMediumAOpenTop"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpCrateMediumB"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpCrateMediumBOpen"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpCrateMediumBOpenTop"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpCrateMediumC"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpCrateMediumCOpen"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpCrateMediumCOpenTop"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpCrateMediumD"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpCrateMediumDEmpty"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpCrateSmallB"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/Props/Nokko/LisetPropZARxPrpPlanterClipOnLargeA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/Props/Nokko/LisetPropZARxPrpPlanterMedC"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/Props/Nokko/LisetPropZARxPrpPlanterTroughStraight"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/Props/Nokko/LisetPropZARxPrpPlanterWallMountedA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/Plants/Nokko/LisetPropZARxFlowerBouquetC"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpCrateStackingMediumA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpCrateStackingMediumAOpen"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpCrateStackingMediumAOpenTop"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpCrateStackingMediumB"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpCrateStackingMediumC"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpCrateTankMediumA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpCrateTankMediumB"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpCubeStationary"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpFurnitureBenchA60A"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpFurnitureBenchA60B"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpFurnitureBenchA90A"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpFurnitureBenchA90B"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpFurnitureBenchASingle"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpHallwayCenterDivideA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpHallwayCenterDivideAPannelA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxGlobeLightOrb"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxGlobeLightOrbJustOrb"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxGlowStickLightA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxCeilingLightA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpEngineGeneratorA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpEngineGeneratorALight"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpFloatingGlobe"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpFloatingGlobeBase"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpFurnitureGroundLockerLongA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpFurnitureGroundLockerLongB"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpFurnitureGroundLockerShortB"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpFurnitureWallLockerLongA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpFurnitureWallLockerSmallA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpFurnitureWallLockerSmallB"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpFurnitureWallLockerTallA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpFurnitureWallLockerTallB"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpFurnitureChairA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpFurnitureClassRoomDeskA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpFurnitureTableA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxCineCabinTableA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpPlanterClipOnSmlA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpPlanterClipOnSmlAFoliageB"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxHydroPlantStationA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxHydroponicsDoor"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpFurnitureBenchB"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpFurnitureBenchB20A"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpFurnitureBenchB60A"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpFurnitureBenchB60B"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpFurnitureBenchB90A"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpFurnitureBenchB90B"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpDrinkDispenser"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpFoodCanA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpFoodCanB"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpFoodDrinkA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpFoodDrinkB"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpFoodDrinkC"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpFoodKnifeA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpFoodPouchA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpFoodSpoonA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpFoodTrayA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpGarbageBinB"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpKitchenBoiler"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpKitchenMiscApplianceA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpKitchenMiscApplianceB"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpKitchenMiscApplianceC"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpKitchenMiscApplianceD"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpKitchenMiscApplianceE"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpKitchenMiscApplianceF"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpKitchenFoodRationA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpKitchenFoodRationB"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpKitchenFoodRationC"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpKitchenFoodRationD"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpKitchenFoodRationE"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpKitchenMiscTrayA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpKitchenMixer"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpKitchenPanA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpKitchenSaladSpinner"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpKitchenSterilizer"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxLunaroCourtBannerLargeA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxLunaroCourtBannerMediumA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxParkSignMapA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpBannerFloorA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpBannerFloorB"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpFloorSealPadA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpHangingPlanets"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpHangingPlanetsB"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpLabSetA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpLabSetB"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpLabSetC"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpStatuePlinthA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpToolBoxStandingNew"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpWoodPanelWallSingleA16mA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpWoodPanelWallSingleEndCapA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpWoodPanelWallSingleEndCapB"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpClassRoomPostersAa"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpClassRoomPostersAb"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpClassRoomPostersAc"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpClassRoomPostersAd"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpClassRoomPostersAe"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpClassRoomPostersAf"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpClassRoomPostersAg"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpClassRoomPostersAh"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpClassRoomPostersAi"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxStatueChildHeroicA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxStatueChildHeroicB"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxStatueFemaleHeroicA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxStatueMaleHeroicA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxStatueMaleHeroicB"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxStatueMaleHeroicDrummerA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxStatueMaleHeroicKneelA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxStatueOrokinB"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxStatuePlatformA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxMomPortrait"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPortraitFrameAlbrecht"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPortraitFrameFemale"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPortraitFrame"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxPrpShoes"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxTrophyA"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxTrophyB"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ZarimanApartment/ZARxTrophyC"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sentinels/GardenerDethcubeSkin"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sentinels/Masks/GardenerMask"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sentinels/Tails/GardenerTail"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sentinels/Wings/GardenerWings"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/TextureOverrides/RoughMetal"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/TextureOverrides/SilkFabric"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/TextureOverrides/Ivory"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/TextureOverrides/Canvas"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/TextureOverrides/PatternWrapped"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/HoldfastsRankOne"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/HoldfastsRankTwo"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/HoldfastsRankThree"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/HoldfastsRankFour"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/Syndicate/HoldfastsRankFive"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/MiscItems/WeaponAmpArcaneUnlocker"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeSkins/VoidAngelEphemeraABlueprint"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeSkins/VoidAngelEphemeraBBlueprint"
+    },
+    {
+      "syndicate": "ZarimanSyndicate",
+      "storeItem": "/Lotus/StoreItems/Types/Items/MiscItems/ApartmentPenthouseKey"
+    }
+  ]
+}

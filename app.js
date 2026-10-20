@@ -296,6 +296,7 @@ recalc1();
   const views = [];
   let items = [];
   let period = '48hours';
+  let rankMode = '0';
   let initializing = false;
   let initialized = false;
   let loading = false;
@@ -304,7 +305,14 @@ recalc1();
   let snapshotProgress = '';
 
   function nameOf(item){ return item.i18n?.['zh-hans']?.name || item.i18n?.en?.name || item.slug; }
-  function dataOf(item){ return cache.get(item.slug) || {}; }
+  function dataOf(item){
+    const rank = rankMode === 'max' && item.maxRank > 0 ? String(item.maxRank) : '0';
+    return cache.get(item.slug)?.ranks?.[rank] || {};
+  }
+  function groupColour(value, fallback){
+    const hex = typeof value === 'string' ? value : value?.value;
+    return /^0x[0-9a-f]{8}$/i.test(hex || '') ? '#' + hex.slice(-6) : fallback;
+  }
   function element(tag, className, text){
     const node = document.createElement(tag);
     if (className) node.className = className;
@@ -317,6 +325,8 @@ recalc1();
     const group = groups[select.value];
     items = [...new Map(group.favours.map(item => [item.slug, item])).values()];
     const section = element('section', 'market-group');
+    section.style.setProperty('--group-ink', groupColour(group.colour, '#111111'));
+    section.style.setProperty('--group-paper', groupColour(group.backgroundColour, '#ffffff'));
     const heading = element('div', 'market-heading');
     heading.appendChild(element('h2', '', group.name));
     heading.appendChild(element('span', 'market-count', group.favours.length + ' 件可交易物品'));
@@ -353,8 +363,9 @@ recalc1();
       for (const { item, card, volume, price } of sorted){
         const data = dataOf(item);
         volume.textContent = data.statistics ? '销量 ' + fmtPlain(data.statistics[period]) : data.statisticsError ? '销量加载失败' : '销量 —';
-        volume.title = period === '48hours' ? '48 小时销量' : '90 天销量';
-        price.title = data.ordersError && data.orders !== undefined ? '本次更新失败，显示上次成功报价：' + (data.ordersUpdatedAt || '') : '首位卖单报价';
+        const rankLabel = item.maxRank > 0 ? (rankMode === 'max' ? '满级（' + item.maxRank + ' 级）' : '0 级') : '无等级';
+        volume.title = (period === '48hours' ? '48 小时销量' : '90 天销量') + ' · ' + rankLabel;
+        price.title = data.ordersError && data.orders !== undefined ? '本次更新失败，显示上次成功报价：' + (data.ordersUpdatedAt || '') : '首位卖单报价 · ' + rankLabel;
         if (data.statisticsError && data.statistics) volume.title += ' · 本次更新失败，显示上次成功数据：' + (data.statisticsUpdatedAt || '');
         price.textContent = data.orders === null ? '暂无卖单' : data.orders !== undefined ? fmtPlain(data.orders) + 'P' : data.ordersError ? '价格加载失败' : '—P';
         view.grid.appendChild(card);
@@ -381,18 +392,24 @@ recalc1();
       const response = await fetch('market-data.json', { cache: 'no-store' });
       if (!response.ok) throw new Error('market-data.json unavailable');
       const snapshot = await response.json();
-      if (snapshot.schemaVersion !== 1 || !snapshot.items || typeof snapshot.items !== 'object' || Array.isArray(snapshot.items) || !Number.isFinite(Date.parse(snapshot.updatedAt))) throw new Error('Invalid snapshot');
+      if (snapshot.schemaVersion !== 2 || !snapshot.items || typeof snapshot.items !== 'object' || Array.isArray(snapshot.items) || !Number.isFinite(Date.parse(snapshot.updatedAt))) throw new Error('Invalid snapshot');
       const records = new Map();
       for (const [slug, record] of Object.entries(snapshot.items)){
         if (!record || typeof record !== 'object') throw new Error('Invalid item record');
-        const data = {};
-        if (record.statistics && ['48hours', '90days'].every(k => Number.isFinite(record.statistics[k]) && record.statistics[k] >= 0)) data.statistics = record.statistics;
-        if (record.orders === null || (Number.isFinite(record.orders) && record.orders >= 0)) data.orders = record.orders;
-        data.statisticsError = record.statisticsError || !data.statistics;
-        data.ordersError = record.ordersError || data.orders === undefined;
-        data.statisticsUpdatedAt = record.statisticsUpdatedAt;
-        data.ordersUpdatedAt = record.ordersUpdatedAt;
-        records.set(slug, data);
+        if (!record.ranks || typeof record.ranks !== 'object' || Array.isArray(record.ranks)) throw new Error('Invalid rank records');
+        const ranks = {};
+        for (const [rank, value] of Object.entries(record.ranks)){
+          if (!value || typeof value !== 'object') throw new Error('Invalid rank data');
+          const data = {};
+          if (value.statistics && ['48hours', '90days'].every(k => Number.isFinite(value.statistics[k]) && value.statistics[k] >= 0)) data.statistics = value.statistics;
+          if (value.orders === null || (Number.isFinite(value.orders) && value.orders >= 0)) data.orders = value.orders;
+          data.statisticsError = value.statisticsError || !data.statistics;
+          data.ordersError = value.ordersError || data.orders === undefined;
+          data.statisticsUpdatedAt = value.statisticsUpdatedAt;
+          data.ordersUpdatedAt = value.ordersUpdatedAt;
+          ranks[rank] = data;
+        }
+        records.set(slug, { ranks });
       }
       cache.clear();
       for (const [slug, data] of records) cache.set(slug, data);
@@ -409,8 +426,8 @@ recalc1();
     status.textContent = '正在读取集团物品…';
     retry.disabled = true;
     try {
-      const response = await fetch('items.json');
-      if (!response.ok) throw new Error('items.json unavailable');
+      const response = await fetch('allitems.json');
+      if (!response.ok) throw new Error('allitems.json unavailable');
       groups = await response.json();
       select.replaceChildren();
       for (const [key, group] of Object.entries(groups)){
@@ -437,6 +454,16 @@ recalc1();
     button.addEventListener('click', () => {
       period = button.dataset.period;
       document.querySelectorAll('[data-period]').forEach(b => {
+        b.classList.toggle('active', b === button);
+        b.setAttribute('aria-pressed', String(b === button));
+      });
+      if (initialized) render();
+    });
+  });
+  document.querySelectorAll('[data-rank]').forEach(button => {
+    button.addEventListener('click', () => {
+      rankMode = button.dataset.rank;
+      document.querySelectorAll('[data-rank]').forEach(b => {
         b.classList.toggle('active', b === button);
         b.setAttribute('aria-pressed', String(b === button));
       });

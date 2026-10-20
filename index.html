@@ -575,9 +575,10 @@
         <div class="market-controls">
           <label class="market-select" for="marketSyndicate">选择集团<select id="marketSyndicate"></select></label>
           <fieldset class="market-period"><legend>销量统计周期</legend><button type="button" data-period="48hours" aria-pressed="true" class="active">48 小时</button><button type="button" data-period="90days" aria-pressed="false">90 天</button></fieldset>
+          <fieldset class="market-period"><legend>物品等级</legend><button type="button" data-rank="0" aria-pressed="true" class="active">0 级</button><button type="button" data-rank="max" aria-pressed="false">满级</button></fieldset>
           <button type="button" id="marketRetry">重新读取行情</button>
         </div>
-        <p class="market-help">当前集团按销量降序排列 · 行情每小时更新，相同物品共享数据。</p>
+        <p class="market-help">按所选等级与周期的销量排序 · 无等级物品切换后数据不变 · 行情每小时更新。</p>
         <p id="marketStatus" role="status" aria-live="polite"></p>
         <div id="marketGroups"></div>
         <p class="market-help">销量来自已结束订单统计，仅供参考；首位卖单价格不代表实际成交价。点击物品名称可前往 Warframe Market。</p>

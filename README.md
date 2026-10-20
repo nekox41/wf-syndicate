@@ -1,1 +1,2 @@
-# wf-syndicate
+# Warframe Syndicate
+

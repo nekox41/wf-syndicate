@@ -1,0 +1,1177 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aaの集团声望</title>
+<link rel="icon" href="favicon.ico" />
+<style>
+:root{
+  --ink:#111111;
+  --paper:#ffffff;
+  --red:#e2001a;
+  --gray:#767676;
+  --line:#d5d5d5;
+  --pos:#0a7a45;
+  --neg:#d40000;
+}
+*{box-sizing:border-box;}
+html,body{margin:0;padding:0;}
+body{
+  font-family:"Inter","Helvetica Neue",Helvetica,"Segoe UI","Noto Sans SC","PingFang SC","Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif;
+  font-size:15px;line-height:1.55;color:var(--ink);background:var(--paper);
+  -webkit-font-smoothing:antialiased;
+  font-variant-numeric:tabular-nums;
+}
+h1,h2,h3,h4{margin:0;font-weight:800;letter-spacing:-.02em;line-height:1.05;}
+p{margin:0;}
+table{border-collapse:collapse;width:100%;}
+button,input{font:inherit;color:inherit;}
+button{cursor:pointer;}
+
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px;}
+
+/* ---------- 顶栏 + 标签页 ---------- */
+.topbar{height:6px;background:var(--red);}
+
+.tabs{
+  position:sticky;top:0;z-index:100;
+  background:var(--paper);
+  border-bottom:2px solid var(--ink);
+}
+.tabs-inner{
+  max-width:1180px;margin:0 auto;
+  display:flex;justify-content:center;gap:0;
+}
+.tab{
+  position:relative;
+  padding:19px 44px 16px;
+  background:transparent;border:none;
+  font-size:14px;font-weight:800;letter-spacing:.06em;
+  color:var(--gray);
+  border-bottom:3px solid transparent;
+  margin-bottom:-2px;
+}
+.tab:hover{color:var(--ink);}
+.tab.active{color:var(--ink);border-bottom-color:var(--red);}
+
+/* ---------- 页面通用 ---------- */
+.page{display:none;padding-bottom:80px;}
+.page.active{display:block;}
+
+.page-head{padding:52px 0 0;}
+.meta-row{
+  display:flex;gap:28px;flex-wrap:wrap;
+  font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--gray);padding-bottom:44px;
+}
+.meta-row span:last-child{margin-left:auto;}
+.page-head h1{
+  font-size:clamp(34px,7vw,76px);
+  letter-spacing:-.04em;line-height:.94;
+}
+.page-head h1 em{font-style:normal;color:var(--red);}
+.page-head .lede{
+  border-top:1px solid var(--ink);margin-top:32px;padding:14px 0 0;
+  font-size:13px;color:var(--gray);max-width:70ch;line-height:1.65;
+}
+.page-head .lede b{color:var(--ink);font-weight:800;}
+
+/* ---------- 区块 ---------- */
+.section{padding:62px 0 0;}
+.sec-head{
+  display:grid;grid-template-columns:64px 1fr;gap:0 20px;
+  border-top:2px solid var(--ink);padding-top:14px;margin-bottom:32px;
+}
+.sec-num{font-size:12px;font-weight:800;letter-spacing:.14em;color:var(--red);padding-top:7px;}
+.sec-head h2{font-size:clamp(22px,3.2vw,34px);}
+.sec-sub{
+  grid-column:2;font-size:14px;color:var(--gray);margin-top:11px;max-width:68ch;line-height:1.6;
+}
+
+/* ---------- 矩阵 ---------- */
+.matrix-wrap{overflow-x:auto;}
+.matrix{min-width:640px;font-size:13px;}
+.matrix th,.matrix td{border:1px solid var(--line);padding:8px 4px;text-align:center;}
+.matrix thead th{
+  background:var(--ink);color:#fff;font-weight:700;font-size:12px;
+  border-color:var(--ink);padding:10px 6px;
+}
+.matrix tbody th{
+  background:#f3f3f3;text-align:left;font-weight:800;padding-left:13px;
+  white-space:nowrap;font-size:13px;
+}
+.c-self{background:var(--ink);color:#fff;font-weight:800;}
+.c-allied{background:#dff3e7;color:#056033;font-weight:800;}
+.c-opposed{background:#fdf0d8;color:#a05c00;font-weight:800;}
+.c-enemy{background:#fde0e0;color:#b00000;font-weight:800;}
+.c-neutral{color:#c9c9c9;}
+.legend{display:flex;flex-wrap:wrap;gap:22px;margin-top:20px;font-size:12.5px;font-weight:700;}
+.legend span{display:flex;align-items:center;gap:8px;}
+.sw{width:13px;height:13px;display:inline-block;border:1px solid var(--line);}
+.sw.c-allied{background:#dff3e7;border-color:#9ed9bd;}
+.sw.c-opposed{background:#fdf0d8;border-color:#e5c183;}
+.sw.c-enemy{background:#fde0e0;border-color:#eba3a3;}
+.sw.c-neutral{background:#fff;}
+
+/* ---------- 策略：轴切换 ---------- */
+.axis-switch{
+  display:flex;border:1px solid var(--ink);margin-bottom:34px;
+}
+.axis-switch button{
+  flex:1;padding:15px 12px;background:#fff;border:none;
+  border-right:1px solid var(--ink);
+  font-size:14px;font-weight:800;letter-spacing:.02em;
+}
+.axis-switch button:last-child{border-right:none;}
+.axis-switch button.active{background:var(--ink);color:#fff;}
+
+.axis-panel{display:none;}
+.axis-panel.active{display:block;}
+
+.axis-overview{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  border:1px solid var(--ink);margin-bottom:34px;
+}
+.ao-item{padding:18px 20px;border-right:1px solid var(--line);}
+.ao-item:last-child{border-right:none;}
+.ao-label{
+  display:block;font-size:10.5px;letter-spacing:.14em;font-weight:800;
+  text-transform:uppercase;color:var(--gray);margin-bottom:11px;
+}
+.ao-value{display:flex;flex-wrap:wrap;gap:8px;align-items:center;}
+.chip{
+  border:1px solid var(--ink);padding:4px 11px;font-size:13px;font-weight:800;background:#fff;
+}
+.chip.primary{background:var(--ink);color:#fff;}
+.chip.muted{color:#aaa;border-color:#ccc;}
+.ao-link{font-weight:800;color:var(--red);}
+
+.phases{display:flex;flex-direction:column;gap:0;border-top:1px solid var(--ink);}
+.phase{
+  display:grid;grid-template-columns:78px 1fr;gap:0 22px;
+  padding:26px 0;border-bottom:1px solid var(--line);
+}
+.phase-num{
+  font-size:30px;font-weight:800;letter-spacing:-.03em;color:var(--red);
+  line-height:1;padding-top:2px;
+}
+.phase-body h4{font-size:17px;margin-bottom:9px;}
+.phase-body p{font-size:13.5px;color:#333;line-height:1.65;max-width:62ch;}
+.phase-body p b{font-weight:800;}
+.phase-outcomes{display:flex;flex-wrap:wrap;gap:7px;margin-top:13px;}
+.phase-outcomes span{
+  font-size:11.5px;font-weight:800;letter-spacing:.01em;
+  border:1px solid var(--line);padding:3px 9px;color:var(--gray);
+}
+.phase-outcomes span.g{color:var(--pos);border-color:#9ed9bd;background:#f2fbf6;}
+.phase-outcomes span.r{color:var(--neg);border-color:#eba3a3;background:#fdf4f4;}
+.phase-outcomes span.d{color:var(--ink);border-color:var(--ink);background:#f3f3f3;}
+
+.daily-table{margin-top:38px;}
+.daily-table h4{font-size:15px;margin-bottom:14px;}
+.daily-table .scroll{overflow-x:auto;}
+.daily-table table{min-width:620px;font-size:13px;}
+.daily-table th{
+  font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;font-weight:800;
+  color:var(--gray);text-align:right;padding:0 14px 11px 0;border-bottom:1px solid var(--ink);
+  white-space:nowrap;
+}
+.daily-table th:first-child{text-align:left;padding-left:0;}
+.daily-table td{
+  padding:11px 14px 11px 0;border-bottom:1px solid var(--line);
+  text-align:right;font-weight:800;white-space:nowrap;
+}
+.daily-table td:first-child{text-align:left;padding-left:0;font-weight:800;}
+.daily-table .pos{color:var(--pos);}
+.daily-table .neg{color:var(--neg);}
+.daily-table .zero{color:#ccc;}
+.daily-table .total{background:#f3f3f3;font-weight:800;}
+.daily-note{
+  margin-top:14px;font-size:12.5px;color:var(--gray);line-height:1.6;
+}
+.daily-note b{color:var(--ink);}
+
+.principles{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:0;border:1px solid var(--ink);margin-top:44px;
+}
+.principle{padding:22px 22px 24px;border-right:1px solid var(--line);}
+.principle:last-child{border-right:none;}
+.principle .pnum{
+  font-size:11px;font-weight:800;letter-spacing:.16em;color:var(--red);
+  text-transform:uppercase;margin-bottom:10px;display:block;
+}
+.principle h4{font-size:15px;margin-bottom:8px;}
+.principle p{font-size:13px;color:#444;line-height:1.62;}
+
+/* ---------- 计算器 ---------- */
+.calc-formula{
+  margin-top:26px;display:flex;flex-wrap:wrap;gap:0;
+  border:1px solid var(--ink);font-size:13px;font-weight:800;
+}
+.calc-formula div{
+  flex:1 1 150px;padding:13px 16px;border-right:1px solid var(--line);
+}
+.calc-formula div:last-child{border-right:none;background:var(--ink);color:#fff;}
+.calc-formula .fl{display:block;font-size:10.5px;letter-spacing:.14em;color:var(--gray);font-weight:800;text-transform:uppercase;margin-bottom:5px;}
+.calc-formula div:last-child .fl{color:#aaa;}
+.cf-pos{color:var(--pos);}
+.cf-neg{color:var(--neg);}
+
+.calc{
+  display:grid;grid-template-columns:320px 1fr;gap:52px;
+  border-top:1px solid var(--line);padding-top:34px;
+}
+.field{margin-bottom:26px;}
+.field-label{
+  display:block;font-size:10.5px;font-weight:800;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--gray);margin-bottom:10px;
+}
+input[type="range"]{width:100%;accent-color:var(--red);height:20px;}
+.range-row{display:flex;justify-content:space-between;font-size:12.5px;font-weight:700;color:var(--gray);margin-top:4px;}
+.range-row b{color:var(--ink);font-weight:800;font-size:14px;}
+.range-row b.red{color:var(--red);}
+
+input[type="number"]{
+  width:100%;border:1px solid var(--ink);padding:11px 13px;background:#fff;
+  font-size:17px;font-weight:800;outline:none;
+}
+input[type="number"]:focus{border-color:var(--red);}
+
+.presets{display:flex;gap:6px;margin-top:8px;flex-wrap:wrap;}
+.presets button{
+  border:1px solid var(--line);background:#fff;padding:4px 11px;
+  font-size:12px;font-weight:800;
+}
+.presets button:hover{border-color:var(--ink);background:var(--ink);color:#fff;}
+
+.syn-grid{display:grid;grid-template-columns:1fr 1fr;gap:6px;}
+.syn-btn{
+  border:1px solid var(--ink);background:#fff;padding:9px 11px;
+  font-size:13px;font-weight:800;text-align:left;
+}
+.syn-btn:hover{background:#f2f2f2;}
+.syn-btn.active{background:var(--ink);color:#fff;}
+
+.result-table th{
+  font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--gray);
+  font-weight:800;text-align:left;padding:0 14px 11px 0;border-bottom:1px solid var(--ink);
+}
+.result-table th.num{text-align:right;padding-right:0;}
+.result-table td{
+  padding:13px 14px 13px 0;border-bottom:1px solid var(--line);font-size:15px;
+}
+.result-table td.num{text-align:right;padding-right:0;font-weight:800;font-size:16px;}
+.rname{font-weight:800;}
+.pos{color:var(--pos);}
+.neg{color:var(--neg);}
+.zero{color:#bbb;}
+.rel-tag{
+  display:inline-block;font-size:11px;font-weight:800;letter-spacing:.06em;
+  padding:2px 8px;border:1px solid currentColor;
+}
+.rel-self{color:#fff;background:var(--ink);border-color:var(--ink);}
+.rel-allied{color:#056033;background:#dff3e7;border-color:#9ed9bd;}
+.rel-opposed{color:#a05c00;background:#fdf0d8;border-color:#e5c183;}
+.rel-enemy{color:#b00000;background:#fde0e0;border-color:#eba3a3;}
+.rel-neutral{color:#9a9a9a;background:#fff;border-color:#d5d5d5;}
+
+.summary{
+  display:flex;flex-wrap:wrap;gap:0;margin-top:26px;
+  border:1px solid var(--ink);
+}
+.sum-item{flex:1 1 150px;padding:14px 18px;border-right:1px solid var(--line);}
+.sum-item:last-child{border-right:none;}
+.sum-label{display:block;font-size:10.5px;letter-spacing:.14em;font-weight:800;
+  text-transform:uppercase;color:var(--gray);margin-bottom:6px;}
+.sum-value{font-size:21px;font-weight:800;letter-spacing:-.02em;}
+.note{margin-top:14px;font-size:12.5px;color:var(--red);font-weight:700;}
+
+.medal-spec{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+  border:1px solid var(--ink);margin-bottom:30px;
+}
+.medal-spec div{padding:16px 18px;border-right:1px solid var(--line);}
+.medal-spec div:last-child{border-right:none;background:var(--ink);color:#fff;}
+.medal-spec .fl{display:block;font-size:10.5px;letter-spacing:.14em;font-weight:800;
+  text-transform:uppercase;color:var(--gray);margin-bottom:6px;}
+.medal-spec div:last-child .fl{color:#aaa;}
+.medal-spec b{font-size:19px;font-weight:800;letter-spacing:-.01em;}
+
+footer{
+  margin-top:80px;border-top:2px solid var(--ink);padding:24px 0 60px;
+  font-size:11.5px;letter-spacing:.1em;font-weight:700;color:var(--gray);text-transform:uppercase;
+}
+footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;}
+
+@media (max-width:900px){
+  .calc{grid-template-columns:1fr;gap:34px;}
+  .phase{grid-template-columns:1fr;gap:10px;}
+  .phase-num{font-size:22px;}
+}
+@media (max-width:640px){
+  .sec-head{grid-template-columns:1fr;gap:8px;}
+  .sec-sub{grid-column:1;}
+  .meta-row span:last-child{margin-left:0;}
+  .tab{padding:16px 26px 13px;font-size:13px;}
+  .principle{border-right:none;border-bottom:1px solid var(--line);}
+  .principle:last-child{border-bottom:none;}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar"></div>
+
+<nav class="tabs">
+  <div class="tabs-inner">
+    <button class="tab active" data-tab="calc">声望计算器</button>
+    <button class="tab" data-tab="strategy">运营策略</button>
+  </div>
+</nav>
+
+<main>
+
+  <!-- ============================================================ -->
+  <!-- 页面 1：计算器                                                -->
+  <!-- ============================================================ -->
+  <section id="page-calc" class="page active">
+    <div class="wrap">
+
+      <header class="page-head">
+        <div class="meta-row">
+          <span>WARFRAME</span>
+          <span>SYNDICATE STANDING</span>
+          <span>CALCULATOR / 01</span>
+        </div>
+        <h1>声望<em>计算器</em></h1>
+        <p class="lede">
+          选择段位与获取集团，输入本次获取的声望量，查看六个集团各自的加减结果。
+          每日上限 = <b>16000 + 段位 × 500</b>
+          勋章兑换不受上限限制。
+        </p>
+      </header>
+
+      <!-- 每日声望 -->
+      <section class="section">
+        <div class="sec-head">
+          <span class="sec-num">01</span>
+          <h2>每日声望</h2>
+          <p class="sec-sub">目标 +100%，盟友 +50%，对立 −50%，敌人 −100%。</p>
+        </div>
+
+        <div class="calc-formula">
+          <div><span class="fl">目标集团</span><span class="cf-pos">+100%</span></div>
+          <div><span class="fl">同盟集团</span><span class="cf-pos">+50%</span></div>
+          <div><span class="fl">对立集团</span><span class="cf-neg">−50%</span></div>
+          <div><span class="fl">敌对集团</span><span class="cf-neg">−100%</span></div>
+          <div><span class="fl">有效转化率</span><span>1.50×</span></div>
+        </div>
+
+        <div class="calc" style="margin-top:30px;">
+          <div class="calc-controls">
+            <div class="field">
+              <span class="field-label">段位 / Mastery Rank</span>
+              <input id="rank" type="range" min="0" max="36" value="10">
+              <div class="range-row">
+                <span>段位 <b id="rankOut">10</b></span>
+                <span>上限 <b class="red" id="capOut">21,000</b></span>
+              </div>
+            </div>
+
+            <div class="field">
+              <span class="field-label">获取集团</span>
+              <div class="syn-grid" id="synGrid"></div>
+            </div>
+
+            <div class="field">
+              <span class="field-label">获取声望量</span>
+              <input id="amount" type="number" value="10000" min="0" step="500">
+              <div class="presets">
+                <button data-fill="cap">填入上限</button>
+                <button data-fill="5000">5000</button>
+                <button data-fill="10000">10000</button>
+                <button data-fill="20000">20000</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="calc-result">
+            <table class="result-table">
+              <thead>
+                <tr>
+                  <th>集团</th>
+                  <th>关系</th>
+                  <th class="num">声望变化</th>
+                </tr>
+              </thead>
+              <tbody id="resultBody"></tbody>
+            </table>
+            <div class="summary">
+              <div class="sum-item">
+                <span class="sum-label">获得总量</span>
+                <span class="sum-value pos" id="sumGain">+0</span>
+              </div>
+              <div class="sum-item">
+                <span class="sum-label">损失总量</span>
+                <span class="sum-value neg" id="sumLoss">−0</span>
+              </div>
+              <div class="sum-item">
+                <span class="sum-label">有效转化率</span>
+                <span class="sum-value" id="sumRatio">1.50×</span>
+              </div>
+            </div>
+            <p class="note" id="capNote" style="display:none;"></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 勋章兑换 -->
+      <section class="section">
+        <div class="sec-head">
+          <span class="sec-num">02</span>
+          <h2>勋章兑换</h2>
+          <p class="sec-sub">每次任务固定掉落 8 枚勋章：1 枚 5000、2 枚 1000，剩余 5 枚各有 25% 概率为 1000、75% 概率为 500。勋章兑换不占每日上限。任务总数最多 9 个（3 个集团 × 3 任务）。</p>
+        </div>
+
+        <div class="medal-spec">
+          <div><span class="fl">固定</span><b>1 × 5000</b></div>
+          <div><span class="fl">固定</span><b>2 × 1000</b></div>
+          <div><span class="fl">随机 ×5</span><b>25% → 1000</b></div>
+          <div><span class="fl">随机 ×5</span><b>75% → 500</b></div>
+          <div><span class="fl">单次任务期望</span><b>10,125</b></div>
+        </div>
+
+        <div class="calc">
+          <div class="calc-controls">
+            <div class="field">
+              <span class="field-label">任务总数（1 – 9）</span>
+              <input id="missions" type="number" value="3" min="1" max="9" step="1">
+              <div class="presets">
+                <button data-mission="1">1</button>
+                <button data-mission="3">3</button>
+                <button data-mission="6">6</button>
+                <button data-mission="9">9</button>
+              </div>
+            </div>
+
+            <div class="field">
+              <span class="field-label">兑换集团</span>
+              <div class="syn-grid" id="synGrid2"></div>
+            </div>
+
+            <div class="field">
+              <span class="field-label">勋章总数</span>
+              <input id="medalTotal" type="number" value="30375" min="0" step="1">
+              <div class="presets">
+                <button data-medal="min">最小值</button>
+                <button data-medal="exp">期望值</button>
+                <button data-medal="max">最大值</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="calc-result">
+            <table class="result-table">
+              <thead>
+                <tr>
+                  <th>集团</th>
+                  <th>关系</th>
+                  <th class="num">声望变化</th>
+                </tr>
+              </thead>
+              <tbody id="resultBody2"></tbody>
+            </table>
+            <div class="summary">
+              <div class="sum-item">
+                <span class="sum-label">获得总量</span>
+                <span class="sum-value pos" id="sumGain2">+0</span>
+              </div>
+              <div class="sum-item">
+                <span class="sum-label">损失总量</span>
+                <span class="sum-value neg" id="sumLoss2">−0</span>
+              </div>
+              <div class="sum-item">
+                <span class="sum-label">勋章区间</span>
+                <span class="sum-value" id="medalRange" style="font-size:15px;">28,500 – 36,000</span>
+              </div>
+            </div>
+            <p class="note" id="medalNote">勋章兑换不受每日上限限制，可全额入账。</p>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- 页面 2：策略                                                  -->
+  <!-- ============================================================ -->
+  <section id="page-strategy" class="page">
+    <div class="wrap">
+
+      <header class="page-head">
+        <div class="meta-row">
+          <span>WARFRAME</span>
+          <span>SYNDICATE STANDING</span>
+          <span>STRATEGY / 02</span>
+        </div>
+        <h1>三集团<em>运营策略</em></h1>
+        <p class="lede">
+          每条轴由 <b>一对互为盟友的核心集团</b> 与 <b>一个对两者都中立的第三方</b> 组成。
+          核心对负责每日声望，第三方负责白嫖勋章——三者互不扣减，形成闭环。
+          两条轴完全对称，选哪条取决于你最终想要哪一组奖励。以下示例均按
+          <b>段位 36（传奇 6）、每日上限 34,000</b> 计算。
+        </p>
+      </header>
+
+      <!-- 关系矩阵 -->
+      <section class="section">
+        <div class="sec-head">
+          <span class="sec-num">01</span>
+          <h2>关系矩阵</h2>
+          <p class="sec-sub">沿对角线完全对称。每个集团恰好拥有 1 个盟友、1 个对立、1 个敌人，剩余两个为中立。</p>
+        </div>
+        <div class="matrix-wrap">
+          <table class="matrix" id="matrix"></table>
+        </div>
+        <div class="legend">
+          <span><i class="sw c-allied"></i>同盟　+50%</span>
+          <span><i class="sw c-opposed"></i>对立　−50%</span>
+          <span><i class="sw c-enemy"></i>敌对　−100%</span>
+          <span><i class="sw c-neutral"></i>中立　±0</span>
+        </div>
+      </section>
+
+      <!-- 轴 -->
+      <section class="section">
+        <div class="sec-head">
+          <span class="sec-num">02</span>
+          <h2>选择一条轴</h2>
+          <p class="sec-sub">核心对内部可互换主刷目标——刷任意一个，另一个自动 +50%。第三方只需升到 1 级解锁任务，之后不再投入。</p>
+        </div>
+
+        <div class="axis-switch" id="axisSwitch">
+          <button class="active" data-axis="new">新世间轴</button>
+          <button data-axis="arbiter">苏达轴</button>
+        </div>
+
+        <!-- ===== 轴 A：新世间 ===== -->
+        <div class="axis-panel active" id="axis-new">
+          <div class="axis-overview">
+            <div class="ao-item">
+              <span class="ao-label">核心对（互为盟友）</span>
+              <div class="ao-value">
+                <span class="chip primary">新世间</span>
+                <span class="ao-link">⇄</span>
+                <span class="chip primary">佩兰数列</span>
+              </div>
+            </div>
+            <div class="ao-item">
+              <span class="ao-label">中立第三方</span>
+              <div class="ao-value">
+                <span class="chip">血色面纱</span>
+              </div>
+            </div>
+            <div class="ao-item">
+              <span class="ao-label">绝不触碰</span>
+              <div class="ao-value">
+                <span class="chip muted">钢铁防线</span>
+                <span class="chip muted">中枢苏达</span>
+                <span class="chip muted">均衡仲裁者</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="phases">
+            <div class="phase">
+              <div class="phase-num">01</div>
+              <div class="phase-body">
+                <h4>建立核心对</h4>
+                <p>主刷 <b>新世间</b>，佩兰数列自动 +50%。持续到两者都达到 <b>集团等级 1</b>——这是解锁集团任务的前置条件。</p>
+                <div class="phase-outcomes">
+                  <span class="g">新世间 +100%</span>
+                  <span class="g">佩兰数列 +50%</span>
+                  <span class="r">钢铁防线 −50%</span>
+                  <span class="r">中枢苏达 −100%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="phase">
+              <div class="phase-num">02</div>
+              <div class="phase-body">
+                <h4>点亮第三方</h4>
+                <p>切换到主升 <b>血色面纱</b>，升到 <b>集团等级 1</b>。血色面纱对新世间和佩兰数列都是中立，不会扣任何核心声望。</p>
+                <div class="phase-outcomes">
+                  <span class="g">血色面纱 +100%</span>
+                  <span class="g">钢铁防线 +50%</span>
+                  <span class="r">中枢苏达 −50%</span>
+                  <span class="r">均衡仲裁者 −100%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="phase">
+              <div class="phase-num">03</div>
+              <div class="phase-body">
+                <h4>稳定运转</h4>
+                <p>切回主刷 <b>新世间</b>。每日集团任务全部做：<b>新世间、佩兰数列、血色面纱</b>，每家 3 个任务、共 9 个。勋章不占每日上限，三家全部白拿。</p>
+                <div class="phase-outcomes">
+                  <span class="d">每日声望 → 新世间</span>
+                  <span class="d">勋章 → 新世间 / 佩兰 / 血色</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="daily-table">
+            <h4>每日收益示例（新世间· 段位 36 · 每日 34,000 · 每家勋章期望 30000）</h4>
+            <div class="scroll">
+              <table>
+                <thead>
+                  <tr>
+                    <th>集团</th>
+                    <th>每日声望</th>
+                    <th>新世间勋章</th>
+                    <th>佩兰勋章</th>
+                    <th>血色勋章</th>
+                    <th>合计</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>新世间</td>
+                    <td class="pos">+34,000</td>
+                    <td class="pos">+30,000</td>
+                    <td class="pos">+15,000</td>
+                    <td class="zero">0</td>
+                    <td class="pos total">+79,000</td>
+                  </tr>
+                  <tr>
+                    <td>佩兰数列</td>
+                    <td class="pos">+17,000</td>
+                    <td class="pos">+15,000</td>
+                    <td class="pos">+30,000</td>
+                    <td class="zero">0</td>
+                    <td class="pos total">+62,000</td>
+                  </tr>
+                  <tr>
+                    <td>血色面纱</td>
+                    <td class="zero">0</td>
+                    <td class="zero">0</td>
+                    <td class="zero">0</td>
+                    <td class="pos">+30,000</td>
+                    <td class="pos total">+30,000</td>
+                  </tr>
+                  <tr>
+                    <td>钢铁防线</td>
+                    <td class="neg">−17,000</td>
+                    <td class="neg">−15,000</td>
+                    <td class="neg">−30,000</td>
+                    <td class="pos">+15,000</td>
+                    <td class="neg total">−47,000</td>
+                  </tr>
+                  <tr>
+                    <td>中枢苏达</td>
+                    <td class="neg">−34,000</td>
+                    <td class="neg">−30,000</td>
+                    <td class="zero">0</td>
+                    <td class="neg">−15,000</td>
+                    <td class="neg total">−79,000</td>
+                  </tr>
+                  <tr>
+                    <td>均衡仲裁者</td>
+                    <td class="zero">0</td>
+                    <td class="zero">0</td>
+                    <td class="neg">−15,000</td>
+                    <td class="neg">−30,000</td>
+                    <td class="neg total">−45,000</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p class="daily-note">
+              核心三家（新世间 / 佩兰 / 血色）全程为正，被牺牲的三家（钢铁 / 中枢 / 均衡）与你的目标无关。
+              勋章任务<b>不占每日上限</b>，所以第三方血色面纱是纯粹的白嫖收益。
+            </p>
+          </div>
+        </div>
+
+        <!-- ===== 轴 B：苏达 ===== -->
+        <div class="axis-panel" id="axis-arbiter">
+          <div class="axis-overview">
+            <div class="ao-item">
+              <span class="ao-label">核心对（互为盟友）</span>
+              <div class="ao-value">
+                <span class="chip primary">中枢苏达</span>
+                <span class="ao-link">⇄</span>
+                <span class="chip primary">均衡仲裁者</span>
+              </div>
+            </div>
+            <div class="ao-item">
+              <span class="ao-label">中立第三方</span>
+              <div class="ao-value">
+                <span class="chip">钢铁防线</span>
+              </div>
+            </div>
+            <div class="ao-item">
+              <span class="ao-label">绝不触碰</span>
+              <div class="ao-value">
+                <span class="chip muted">血色面纱</span>
+                <span class="chip muted">新世间</span>
+                <span class="chip muted">佩兰数列</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="phases">
+            <div class="phase">
+              <div class="phase-num">01</div>
+              <div class="phase-body">
+                <h4>建立核心对</h4>
+                <p>主刷 <b>中枢苏达</b>，均衡仲裁者自动 +50%。持续到两者都达到 <b>集团等级 1</b>。</p>
+                <div class="phase-outcomes">
+                  <span class="g">中枢苏达 +100%</span>
+                  <span class="g">均衡仲裁者 +50%</span>
+                  <span class="r">血色面纱 −50%</span>
+                  <span class="r">新世间 −100%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="phase">
+              <div class="phase-num">02</div>
+              <div class="phase-body">
+                <h4>点亮第三方</h4>
+                <p>切换到主升 <b>钢铁防线</b>，升到 <b>集团等级 1</b>。钢铁防线对中枢苏达和均衡仲裁者都是中立，不会扣任何核心声望。</p>
+                <div class="phase-outcomes">
+                  <span class="g">钢铁防线 +100%</span>
+                  <span class="g">血色面纱 +50%</span>
+                  <span class="r">新世间 −50%</span>
+                  <span class="r">佩兰数列 −100%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="phase">
+              <div class="phase-num">03</div>
+              <div class="phase-body">
+                <h4>稳定运转</h4>
+                <p>切回主刷 <b>中枢苏达</b>。每日集团任务全部做：<b>中枢苏达、均衡仲裁者、钢铁防线</b>，每家 3 个任务、共 9 个。勋章不占每日上限，三家全部白拿。</p>
+                <div class="phase-outcomes">
+                  <span class="d">每日声望 → 中枢苏达</span>
+                  <span class="d">勋章 → 中枢 / 均衡 / 钢铁</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="daily-table">
+            <h4>每日收益示例（段位 36 · 上限 34,000 · 每家勋章期望 1w）</h4>
+            <div class="scroll">
+              <table>
+                <thead>
+                  <tr>
+                    <th>集团</th>
+                    <th>每日声望</th>
+                    <th>中枢勋章</th>
+                    <th>均衡勋章</th>
+                    <th>钢铁勋章</th>
+                    <th>合计</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>中枢苏达</td>
+                    <td class="pos">+34,000</td>
+                    <td class="pos">+10,000</td>
+                    <td class="pos">+5,000</td>
+                    <td class="zero">0</td>
+                    <td class="pos total">+49,000</td>
+                  </tr>
+                  <tr>
+                    <td>均衡仲裁者</td>
+                    <td class="pos">+17,000</td>
+                    <td class="pos">+5,000</td>
+                    <td class="pos">+10,000</td>
+                    <td class="zero">0</td>
+                    <td class="pos total">+32,000</td>
+                  </tr>
+                  <tr>
+                    <td>钢铁防线</td>
+                    <td class="zero">0</td>
+                    <td class="zero">0</td>
+                    <td class="zero">0</td>
+                    <td class="pos">+10,000</td>
+                    <td class="pos total">+10,000</td>
+                  </tr>
+                  <tr>
+                    <td>血色面纱</td>
+                    <td class="neg">−17,000</td>
+                    <td class="neg">−5,000</td>
+                    <td class="neg">−10,000</td>
+                    <td class="pos">+5,000</td>
+                    <td class="neg total">−27,000</td>
+                  </tr>
+                  <tr>
+                    <td>新世间</td>
+                    <td class="neg">−34,000</td>
+                    <td class="neg">−10,000</td>
+                    <td class="zero">0</td>
+                    <td class="neg">−5,000</td>
+                    <td class="neg total">−49,000</td>
+                  </tr>
+                  <tr>
+                    <td>佩兰数列</td>
+                    <td class="zero">0</td>
+                    <td class="zero">0</td>
+                    <td class="neg">−5,000</td>
+                    <td class="neg">−10,000</td>
+                    <td class="neg total">−15,000</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p class="daily-note">
+              两条轴完全对称：核心三家的收益结构一模一样，只是被牺牲的集团换成了另一组。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 关键原则 -->
+      <section class="section">
+        <div class="sec-head">
+          <span class="sec-num">03</span>
+          <h2>关键原则</h2>
+          <p class="sec-sub">四条规则支撑整套策略，记住它们就不会走弯路。</p>
+        </div>
+
+        <div class="principles">
+          <div class="principle">
+            <span class="pnum">Rule 01</span>
+            <h4>勋章不占上限</h4>
+            <p>每日声望有上限，勋章兑换没有。所以第三方集团（血色 / 钢铁）的勋章是纯额外收益，做多少赚多少，不占用核心集团的额度。</p>
+          </div>
+          <div class="principle">
+            <span class="pnum">Rule 02</span>
+            <h4>第三方必须中立</h4>
+            <p>第三方的选取标准是：对核心对的两个集团都中立。满足这一条，无论怎么兑换它的勋章，都不会倒扣核心声望。</p>
+          </div>
+          <div class="principle">
+            <span class="pnum">Rule 03</span>
+            <h4>阶段 2 只需 1 级</h4>
+            <p>第三方升到集团等级 1 是为了解锁它的集团任务，解锁后立即切回核心对，不需要继续投入资源。</p>
+          </div>
+          <div class="principle">
+            <span class="pnum">Rule 04</span>
+            <h4>核心对内部可互换</h4>
+            <p>刷新世间和刷佩兰数列完全等价，都是给另一方 +50%。选哪个当主刷目标纯看个人习惯。</p>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>by. Aameow</span>
+    <span>同盟 +50% / 对立 −50% / 敌对 −100%</span>
+  </div>
+</footer>
+
+<script>
+/* ================= 数据 ================= */
+const SYN = {
+  SM: { name:'钢铁防线',   allied:'RV', opposed:'NL', enemy:'PS' },
+  AH: { name:'均衡仲裁者', allied:'CS', opposed:'PS', enemy:'RV' },
+  CS: { name:'中枢苏达',   allied:'AH', opposed:'RV', enemy:'NL' },
+  PS: { name:'佩兰数列',   allied:'NL', opposed:'AH', enemy:'SM' },
+  RV: { name:'血色面纱',   allied:'SM', opposed:'CS', enemy:'AH' },
+  NL: { name:'新世间',     allied:'PS', opposed:'SM', enemy:'CS' }
+};
+const ORDER = ['SM','AH','CS','PS','RV','NL'];
+
+const REL_MARK  = { self:'—', allied:'盟', opposed:'对', enemy:'敌', neutral:'·' };
+const REL_LABEL = { self:'获取', allied:'同盟', opposed:'对立', enemy:'敌对', neutral:'中立' };
+
+function relationOf(from, to){
+  if (from === to) return 'self';
+  const s = SYN[from];
+  if (s.allied  === to) return 'allied';
+  if (s.opposed === to) return 'opposed';
+  if (s.enemy   === to) return 'enemy';
+  return 'neutral';
+}
+
+/* ================= 格式化 ================= */
+function fmtNum(n){
+  const r = Math.round(n * 10) / 10;
+  const s = Math.abs(r).toLocaleString('en-US', { maximumFractionDigits:1 });
+  if (r > 0) return '+' + s;
+  if (r < 0) return '−' + s;
+  return '0';
+}
+function fmtPlain(n){
+  return n.toLocaleString('en-US', { maximumFractionDigits:0 });
+}
+
+/* 段位显示：0–29 数字；30 传奇；31–36 传奇1–6 */
+function rankLabel(r){
+  if (r <= 29) return String(r);
+  if (r === 30) return '传奇';
+  return '传奇' + (r - 30);
+}
+
+/* ================= 标签页切换 ================= */
+(function(){
+  const tabs  = document.querySelectorAll('.tab');
+  const pages = {
+    calc: document.getElementById('page-calc'),
+    strategy: document.getElementById('page-strategy')
+  };
+  tabs.forEach(t => {
+    t.addEventListener('click', () => {
+      tabs.forEach(x => x.classList.remove('active'));
+      t.classList.add('active');
+      Object.values(pages).forEach(p => p.classList.remove('active'));
+      pages[t.dataset.tab].classList.add('active');
+      window.scrollTo({ top: 0, behavior: 'instant' });
+    });
+  });
+})();
+
+/* ================= 关系矩阵 ================= */
+(function buildMatrix(){
+  const table = document.getElementById('matrix');
+  const thead = document.createElement('thead');
+  const hr = document.createElement('tr');
+  const corner = document.createElement('th');
+  corner.textContent = '集团';
+  hr.appendChild(corner);
+  ORDER.forEach(k => {
+    const th = document.createElement('th');
+    th.textContent = SYN[k].name;
+    hr.appendChild(th);
+  });
+  thead.appendChild(hr);
+  table.appendChild(thead);
+
+  const tbody = document.createElement('tbody');
+  ORDER.forEach(from => {
+    const tr = document.createElement('tr');
+    const th = document.createElement('th');
+    th.textContent = SYN[from].name;
+    tr.appendChild(th);
+    ORDER.forEach(to => {
+      const rel = relationOf(from, to);
+      const td = document.createElement('td');
+      td.className = 'c-' + rel;
+      td.textContent = REL_MARK[rel];
+      tr.appendChild(td);
+    });
+    tbody.appendChild(tr);
+  });
+  table.appendChild(tbody);
+})();
+
+/* ================= 轴切换 ================= */
+(function(){
+  const btns = document.querySelectorAll('#axisSwitch button');
+  btns.forEach(b => {
+    b.addEventListener('click', () => {
+      btns.forEach(x => x.classList.remove('active'));
+      b.classList.add('active');
+      document.querySelectorAll('.axis-panel').forEach(p => p.classList.remove('active'));
+      document.getElementById('axis-' + b.dataset.axis).classList.add('active');
+    });
+  });
+})();
+
+/* ================= 变化计算 ================= */
+function compute(target, amount){
+  const d = {};
+  ORDER.forEach(k => d[k] = 0);
+  d[target] += amount;
+  const s = SYN[target];
+  d[s.allied]  += amount * 0.5;
+  d[s.opposed] -= amount * 0.5;
+  d[s.enemy]   -= amount;
+  return d;
+}
+
+function renderRows(tbodyId, target, deltas){
+  const tbody = document.getElementById(tbodyId);
+  tbody.innerHTML = '';
+  ORDER.forEach(k => {
+    const rel = relationOf(target, k);
+    const v = deltas[k];
+    const cls = v > 0 ? 'pos' : (v < 0 ? 'neg' : 'zero');
+    const tr = document.createElement('tr');
+    tr.innerHTML =
+      '<td class="rname">' + SYN[k].name + '</td>' +
+      '<td><span class="rel-tag rel-' + rel + '">' + REL_LABEL[rel] + '</span></td>' +
+      '<td class="num ' + cls + '">' + fmtNum(v) + '</td>';
+    tbody.appendChild(tr);
+  });
+}
+
+function summarize(deltas){
+  let gain = 0, loss = 0;
+  ORDER.forEach(k => {
+    if (deltas[k] > 0) gain += deltas[k];
+    if (deltas[k] < 0) loss += deltas[k];
+  });
+  return { gain, loss };
+}
+
+/* ================= 集团选择器 ================= */
+function buildPicker(containerId, defaultKey, onChange){
+  const box = document.getElementById(containerId);
+  let current = defaultKey;
+  ORDER.forEach(k => {
+    const btn = document.createElement('button');
+    btn.className = 'syn-btn' + (k === current ? ' active' : '');
+    btn.textContent = SYN[k].name;
+    btn.dataset.key = k;
+    btn.addEventListener('click', () => {
+      current = k;
+      Array.from(box.children).forEach(c => c.classList.toggle('active', c.dataset.key === k));
+      onChange(current);
+    });
+    box.appendChild(btn);
+  });
+  onChange(current);
+  return { get: () => current };
+}
+
+/* ================= 声望计算器 ================= */
+const rankEl   = document.getElementById('rank');
+const rankOut  = document.getElementById('rankOut');
+const capOut   = document.getElementById('capOut');
+const amountEl = document.getElementById('amount');
+const capNote  = document.getElementById('capNote');
+
+let currentSyn1 = 'NL';
+
+function getCap(){ return 16000 + Number(rankEl.value) * 500; }
+
+function refreshCap(){
+  const cap = getCap();
+  rankOut.textContent = rankLabel(Number(rankEl.value));
+  capOut.textContent = fmtPlain(cap);
+}
+
+function recalc1(){
+  const cap = getCap();
+  let amount = Number(amountEl.value) || 0;
+  let truncated = false;
+  if (amount > cap){ amount = cap; truncated = true; }
+
+  const deltas = compute(currentSyn1, amount);
+  renderRows('resultBody', currentSyn1, deltas);
+
+  const s = summarize(deltas);
+  document.getElementById('sumGain').textContent = fmtNum(s.gain);
+  document.getElementById('sumLoss').textContent = fmtNum(s.loss);
+
+  const ratio = amount > 0 ? (s.gain / amount) : 0;
+  document.getElementById('sumRatio').textContent = ratio.toFixed(2) + '×';
+
+  if (truncated){
+    capNote.style.display = 'block';
+    capNote.textContent = '输入已超出每日上限 ' + fmtPlain(cap) + '，本次按上限结算。';
+  } else {
+    capNote.style.display = 'none';
+  }
+}
+
+rankEl.addEventListener('input', () => { refreshCap(); recalc1(); });
+amountEl.addEventListener('input', recalc1);
+
+document.querySelectorAll('.presets [data-fill]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const v = btn.dataset.fill;
+    amountEl.value = (v === 'cap') ? getCap() : Number(v);
+    recalc1();
+  });
+});
+
+refreshCap();
+buildPicker('synGrid', currentSyn1, key => { currentSyn1 = key; recalc1(); });
+
+/* ================= 勋章计算器 ================= */
+const MISSIONS_EL = document.getElementById('missions');
+const MEDAL_TOTAL_EL = document.getElementById('medalTotal');
+const medalRangeEl = document.getElementById('medalRange');
+const medalNoteEl  = document.getElementById('medalNote');
+
+const PER_MISSION = { min: 9500, exp: 10125, max: 12000 };
+const MAX_MISSIONS = 9;   /* 3 个集团 × 3 任务 */
+let currentSyn2 = 'NL';
+
+function clampMissions(v){
+  let n = Number(v);
+  if (!Number.isFinite(n)) n = 1;
+  n = Math.round(n);
+  return Math.max(1, Math.min(MAX_MISSIONS, n));
+}
+
+function refreshMedalRange(){
+  const n = clampMissions(MISSIONS_EL.value);
+  const lo = PER_MISSION.min * n;
+  const hi = PER_MISSION.max * n;
+  medalRangeEl.textContent = fmtPlain(lo) + ' – ' + fmtPlain(hi);
+  medalNoteEl.textContent = n + ' 个任务：期望 ' + fmtPlain(PER_MISSION.exp * n) +
+    ' 枚，区间 ' + fmtPlain(lo) + ' – ' + fmtPlain(hi) + ' 枚。勋章不受每日上限限制。';
+}
+
+function recalc2(){
+  let amount = Math.max(0, Number(MEDAL_TOTAL_EL.value) || 0);
+  const deltas = compute(currentSyn2, amount);
+  renderRows('resultBody2', currentSyn2, deltas);
+
+  const s = summarize(deltas);
+  document.getElementById('sumGain2').textContent = fmtNum(s.gain);
+  document.getElementById('sumLoss2').textContent = fmtNum(s.loss);
+}
+
+MISSIONS_EL.addEventListener('input', () => {
+  const n = clampMissions(MISSIONS_EL.value);
+  MISSIONS_EL.value = n;
+  MEDAL_TOTAL_EL.value = Math.round(PER_MISSION.exp * n);
+  refreshMedalRange();
+  recalc2();
+});
+MEDAL_TOTAL_EL.addEventListener('input', recalc2);
+
+document.querySelectorAll('.presets [data-mission]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    MISSIONS_EL.value = btn.dataset.mission;
+    MISSIONS_EL.dispatchEvent(new Event('input'));
+  });
+});
+
+document.querySelectorAll('.presets [data-medal]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const n = clampMissions(MISSIONS_EL.value);
+    const type = btn.dataset.medal;
+    MEDAL_TOTAL_EL.value = Math.round(PER_MISSION[type] * n);
+    recalc2();
+  });
+});
+
+refreshMedalRange();
+buildPicker('synGrid2', currentSyn2, key => { currentSyn2 = key; recalc2(); });
+
+/* 初始化 */
+recalc1();
+</script>
+</body>
+</html>

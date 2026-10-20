@@ -45,7 +45,8 @@ function rankLabel(r){
   const tabs  = document.querySelectorAll('.tab');
   const pages = {
     calc: document.getElementById('page-calc'),
-    strategy: document.getElementById('page-strategy')
+    strategy: document.getElementById('page-strategy'),
+    market: document.getElementById('page-market')
   };
   tabs.forEach(t => {
     t.addEventListener('click', () => {
@@ -283,3 +284,169 @@ buildPicker('synGrid2', currentSyn2, key => { currentSyn2 = key; recalc2(); });
 
 /* 初始化 */
 recalc1();
+
+/* ================= 集团交易物品 ================= */
+(function(){
+  const container = document.getElementById('marketGroups');
+  const select = document.getElementById('marketSyndicate');
+  let groups = {};
+  const status = document.getElementById('marketStatus');
+  const retry = document.getElementById('marketRetry');
+  const cache = new Map();
+  const views = [];
+  let items = [];
+  let period = '48hours';
+  let initializing = false;
+  let initialized = false;
+  let loading = false;
+  let snapshotTime = null;
+  let snapshotError = false;
+  let snapshotProgress = '';
+
+  function nameOf(item){ return item.i18n?.['zh-hans']?.name || item.i18n?.en?.name || item.slug; }
+  function dataOf(item){ return cache.get(item.slug) || {}; }
+  function element(tag, className, text){
+    const node = document.createElement(tag);
+    if (className) node.className = className;
+    if (text !== undefined) node.textContent = text;
+    return node;
+  }
+  function buildGroup(){
+    container.replaceChildren();
+    views.length = 0;
+    const group = groups[select.value];
+    items = [...new Map(group.favours.map(item => [item.slug, item])).values()];
+    const section = element('section', 'market-group');
+    const heading = element('div', 'market-heading');
+    heading.appendChild(element('h2', '', group.name));
+    heading.appendChild(element('span', 'market-count', group.favours.length + ' 件可交易物品'));
+    section.appendChild(heading);
+    const grid = element('div', 'market-grid');
+    const cards = group.favours.map(item => {
+      const card = element('article', 'market-card');
+      const link = element('a', 'market-item-link');
+      link.href = 'https://warframe.market/items/' + encodeURIComponent(item.slug);
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+      link.appendChild(element('span', 'market-item-name', nameOf(item)));
+      card.appendChild(link);
+      card.appendChild(element('p', 'market-standing', fmtPlain(item.standingCost) + ' 声望'));
+      const metrics = element('div', 'market-metrics');
+      const volume = element('span', 'market-volume');
+      const price = element('span', 'market-price');
+      metrics.appendChild(volume);
+      metrics.appendChild(price);
+      card.appendChild(metrics);
+      grid.appendChild(card);
+      return { item, card, volume, price };
+    });
+    section.appendChild(grid);
+    if (!cards.length) section.appendChild(element('p', 'market-empty', '暂无可交易物品'));
+    container.appendChild(section);
+    views.push({ grid, cards });
+  }
+  function render(){
+    for (const view of views){
+      const sorted = [...view.cards].sort((a, b) =>
+        (dataOf(b.item).statistics?.[period] ?? -1) - (dataOf(a.item).statistics?.[period] ?? -1) ||
+        nameOf(a.item).localeCompare(nameOf(b.item), 'zh-CN'));
+      for (const { item, card, volume, price } of sorted){
+        const data = dataOf(item);
+        volume.textContent = data.statistics ? '销量 ' + fmtPlain(data.statistics[period]) : data.statisticsError ? '销量加载失败' : '销量 —';
+        volume.title = period === '48hours' ? '48 小时销量' : '90 天销量';
+        price.title = data.ordersError && data.orders !== undefined ? '本次更新失败，显示上次成功报价：' + (data.ordersUpdatedAt || '') : '首位卖单报价';
+        if (data.statisticsError && data.statistics) volume.title += ' · 本次更新失败，显示上次成功数据：' + (data.statisticsUpdatedAt || '');
+        price.textContent = data.orders === null ? '暂无卖单' : data.orders !== undefined ? fmtPlain(data.orders) + 'P' : data.ordersError ? '价格加载失败' : '—P';
+        view.grid.appendChild(card);
+      }
+    }
+    let complete = 0, failed = 0;
+    for (const item of items){
+      const data = dataOf(item);
+      if (data.statistics && data.orders !== undefined) complete++;
+      if (data.statisticsError || data.ordersError) failed++;
+    }
+    const timeLabel = snapshotTime ? new Date(snapshotTime).toLocaleString('zh-CN') : '尚未生成';
+    status.textContent = '已加载 ' + complete + ' / ' + items.length + ' 种物品 · 行情更新：' + timeLabel + snapshotProgress +
+      (failed ? ' · ' + failed + ' 种数据更新失败，已有数据保留。' : '') +
+      (snapshotError ? ' · 无法读取行情文件，请运行更新脚本后重新读取。' : '') +
+      (snapshotTime && Date.now() - Date.parse(snapshotTime) > 2 * 3600000 ? ' · 行情已超过 2 小时未更新。' : '');
+    retry.disabled = loading;
+  }
+  async function load(){
+    if (loading || !initialized) return;
+    loading = true;
+    retry.disabled = true;
+    try {
+      const response = await fetch('market-data.json', { cache: 'no-store' });
+      if (!response.ok) throw new Error('market-data.json unavailable');
+      const snapshot = await response.json();
+      if (snapshot.schemaVersion !== 1 || !snapshot.items || typeof snapshot.items !== 'object' || Array.isArray(snapshot.items) || !Number.isFinite(Date.parse(snapshot.updatedAt))) throw new Error('Invalid snapshot');
+      const records = new Map();
+      for (const [slug, record] of Object.entries(snapshot.items)){
+        if (!record || typeof record !== 'object') throw new Error('Invalid item record');
+        const data = {};
+        if (record.statistics && ['48hours', '90days'].every(k => Number.isFinite(record.statistics[k]) && record.statistics[k] >= 0)) data.statistics = record.statistics;
+        if (record.orders === null || (Number.isFinite(record.orders) && record.orders >= 0)) data.orders = record.orders;
+        data.statisticsError = record.statisticsError || !data.statistics;
+        data.ordersError = record.ordersError || data.orders === undefined;
+        data.statisticsUpdatedAt = record.statisticsUpdatedAt;
+        data.ordersUpdatedAt = record.ordersUpdatedAt;
+        records.set(slug, data);
+      }
+      cache.clear();
+      for (const [slug, data] of records) cache.set(slug, data);
+      snapshotTime = snapshot.updatedAt;
+      snapshotProgress = !snapshot.completedAt && Number.isFinite(snapshot.processed) && Number.isFinite(snapshot.total) ? ' · 后台抓取中 ' + snapshot.processed + '/' + snapshot.total : '';
+      snapshotError = false;
+    } catch { snapshotError = true; }
+    finally { loading = false; render(); }
+  }
+  async function init(){
+    if (initializing) return;
+    if (initialized) { render(); load(); return; }
+    initializing = true;
+    status.textContent = '正在读取集团物品…';
+    retry.disabled = true;
+    try {
+      const response = await fetch('items.json');
+      if (!response.ok) throw new Error('items.json unavailable');
+      groups = await response.json();
+      select.replaceChildren();
+      for (const [key, group] of Object.entries(groups)){
+        const option = element('option', '', group.name + '（' + group.favours.length + '）');
+        option.value = key;
+        select.appendChild(option);
+      }
+      buildGroup();
+      initialized = true;
+      render();
+      load();
+    } catch {
+      status.textContent = '无法读取物品数据，请通过静态服务器访问网页后重试。';
+      retry.disabled = false;
+    } finally { initializing = false; }
+  }
+  document.querySelector('[data-tab="market"]').addEventListener('click', init);
+  select.addEventListener('change', () => {
+    if (!initialized) return;
+    buildGroup();
+    render();
+  });
+  document.querySelectorAll('[data-period]').forEach(button => {
+    button.addEventListener('click', () => {
+      period = button.dataset.period;
+      document.querySelectorAll('[data-period]').forEach(b => {
+        b.classList.toggle('active', b === button);
+        b.setAttribute('aria-pressed', String(b === button));
+      });
+      if (initialized) render();
+    });
+  });
+  retry.addEventListener('click', () => {
+    if (!initialized) init();
+    else load();
+  });
+  // Re-read the generated file hourly while this page remains open.
+  setInterval(() => { if (initialized) load(); }, 3600000);
+})();

@@ -1,0 +1,13 @@
+[Unit]
+Description=Update Warframe Syndicate market snapshot
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=wf-market
+Group=wf-market
+WorkingDirectory=/opt/wf-syndicate
+ExecStart=/usr/bin/python3 /opt/wf-syndicate/scripts/update_market.py --items /opt/wf-syndicate/items.json --output /var/www/wf-syndicate/market-data.json
+TimeoutStartSec=45min
+UMask=0022

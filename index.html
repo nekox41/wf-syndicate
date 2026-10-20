@@ -15,6 +15,7 @@
   <div class="tabs-inner">
     <button class="tab active" data-tab="calc">声望计算器</button>
     <button class="tab" data-tab="strategy">运营策略</button>
+    <button class="tab" data-tab="market">集团好物</button>
   </div>
 </nav>
 
@@ -563,6 +564,26 @@
     </div>
   </section>
 
+  <section id="page-market" class="page">
+    <div class="wrap">
+      <header class="page-head">
+        <div class="meta-row"><span>WARFRAME MARKET</span><span>PC / 可交易物品</span><span>MARKET / 03</span></div>
+        <h1>集团<em>好物</em></h1>
+        <p class="lede">声望换什么？按成交量发现各集团的热门物品，查看当前卖单首位报价。</p>
+      </header>
+      <section class="section">
+        <div class="market-controls">
+          <label class="market-select" for="marketSyndicate">选择集团<select id="marketSyndicate"></select></label>
+          <fieldset class="market-period"><legend>销量统计周期</legend><button type="button" data-period="48hours" aria-pressed="true" class="active">48 小时</button><button type="button" data-period="90days" aria-pressed="false">90 天</button></fieldset>
+          <button type="button" id="marketRetry">重新读取行情</button>
+        </div>
+        <p class="market-help">当前集团按销量降序排列 · 行情每小时更新，相同物品共享数据。</p>
+        <p id="marketStatus" role="status" aria-live="polite"></p>
+        <div id="marketGroups"></div>
+        <p class="market-help">销量来自已结束订单统计，仅供参考；首位卖单价格不代表实际成交价。点击物品名称可前往 Warframe Market。</p>
+      </section>
+    </div>
+  </section>
 </main>
 
 <footer>

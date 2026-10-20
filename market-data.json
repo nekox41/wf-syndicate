@@ -1,0 +1,3980 @@
+{
+  "schemaVersion": 1,
+  "platform": "pc",
+  "startedAt": "2026-10-20T06:31:32+00:00",
+  "updatedAt": "2026-10-20T06:39:02+00:00",
+  "completedAt": "2026-10-20T06:39:02+00:00",
+  "total": 441,
+  "processed": 441,
+  "items": {
+    "abating_link": {
+      "statistics": {
+        "48hours": 29,
+        "90days": 1049
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:31:33+00:00",
+      "orders": 13,
+      "ordersUpdatedAt": "2026-10-20T06:31:34+00:00"
+    },
+    "abundant_mutation": {
+      "statistics": {
+        "48hours": 19,
+        "90days": 1433
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:31:33+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:31:35+00:00"
+    },
+    "accumulating_whipclaw": {
+      "statistics": {
+        "48hours": 106,
+        "90days": 4731
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:31:34+00:00",
+      "orders": 9,
+      "ordersUpdatedAt": "2026-10-20T06:31:36+00:00"
+    },
+    "adept_surge": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 2
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:31:34+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:31:36+00:00"
+    },
+    "aegis_gale": {
+      "statistics": {
+        "48hours": 166,
+        "90days": 8832
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:31:37+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:31:39+00:00"
+    },
+    "aerial_bond": {
+      "statistics": {
+        "48hours": 44,
+        "90days": 2264
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:31:37+00:00",
+      "orders": 19,
+      "ordersUpdatedAt": "2026-10-20T06:31:39+00:00"
+    },
+    "afterburn": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 38
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:31:38+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:31:40+00:00"
+    },
+    "agile_aim": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 32
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:31:39+00:00",
+      "orders": 2,
+      "ordersUpdatedAt": "2026-10-20T06:31:40+00:00"
+    },
+    "air_recon": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 7
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:31:41+00:00",
+      "orders": 2,
+      "ordersUpdatedAt": "2026-10-20T06:31:43+00:00"
+    },
+    "air_thrusters": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 2
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:31:42+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:31:44+00:00"
+    },
+    "air_time": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 27
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:31:42+00:00",
+      "orders": 13,
+      "ordersUpdatedAt": "2026-10-20T06:31:43+00:00"
+    },
+    "airburst_rounds": {
+      "statistics": {
+        "48hours": 11,
+        "90days": 417
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:31:42+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:31:44+00:00"
+    },
+    "ambush": {
+      "statistics": {
+        "48hours": 10,
+        "90days": 346
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:31:45+00:00",
+      "orders": 54,
+      "ordersUpdatedAt": "2026-10-20T06:31:47+00:00"
+    },
+    "anchored_glide": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 106
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:31:45+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:31:47+00:00"
+    },
+    "anti_flak_plating": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 2
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:31:46+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:31:48+00:00"
+    },
+    "anticipation": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 3
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:31:46+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:31:48+00:00"
+    },
+    "antimatter_absorb": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 140
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:31:49+00:00",
+      "orders": 8,
+      "ordersUpdatedAt": "2026-10-20T06:31:51+00:00"
+    },
+    "antimatter_mine": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 12
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:31:49+00:00",
+      "orders": 90,
+      "ordersUpdatedAt": "2026-10-20T06:31:51+00:00"
+    },
+    "apex_predator": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 2
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:31:50+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:31:52+00:00"
+    },
+    "argent_scourge": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 1
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:31:51+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:31:52+00:00"
+    },
+    "armored_acrobatics": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 3
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:31:53+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:31:55+00:00"
+    },
+    "armored_evade": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 4
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:31:53+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:31:55+00:00"
+    },
+    "armored_recovery": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 3
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:31:54+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:31:56+00:00"
+    },
+    "arum_spinosa_blueprint": {
+      "statistics": {
+        "48hours": 2,
+        "90days": 53
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:31:54+00:00",
+      "orders": 5,
+      "ordersUpdatedAt": "2026-10-20T06:31:56+00:00"
+    },
+    "assimilate": {
+      "statistics": {
+        "48hours": 42,
+        "90days": 1669
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:31:57+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:31:59+00:00"
+    },
+    "astral_autopsy": {
+      "statistics": {
+        "48hours": 2,
+        "90days": 94
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:31:57+00:00",
+      "orders": 48,
+      "ordersUpdatedAt": "2026-10-20T06:31:59+00:00"
+    },
+    "astral_bond": {
+      "statistics": {
+        "48hours": 6,
+        "90days": 335
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:31:58+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:32:00+00:00"
+    },
+    "avenging_truth": {
+      "statistics": {
+        "48hours": 2,
+        "90days": 103
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:31:58+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:32:01+00:00"
+    },
+    "axios_javelineers": {
+      "statistics": {
+        "48hours": 4,
+        "90days": 447
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:02+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:32:03+00:00"
+    },
+    "balefire_surge": {
+      "statistics": {
+        "48hours": 6,
+        "90days": 228
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:02+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:32:04+00:00"
+    },
+    "ballistic_bullseye": {
+      "statistics": {
+        "48hours": 2,
+        "90days": 176
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:02+00:00",
+      "orders": 9,
+      "ordersUpdatedAt": "2026-10-20T06:32:04+00:00"
+    },
+    "beguiling_lantern": {
+      "statistics": {
+        "48hours": 3,
+        "90days": 139
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:03+00:00",
+      "orders": 11,
+      "ordersUpdatedAt": "2026-10-20T06:32:05+00:00"
+    },
+    "bhisaj_bal": {
+      "statistics": {
+        "48hours": 23,
+        "90days": 992
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:05+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:32:07+00:00"
+    },
+    "biting_frost": {
+      "statistics": {
+        "48hours": 40,
+        "90days": 1596
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:06+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:32:08+00:00"
+    },
+    "biting_piranha": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 1
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:06+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:32:08+00:00"
+    },
+    "blade_of_truth": {
+      "statistics": {
+        "48hours": 2,
+        "90days": 72
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:07+00:00",
+      "orders": 9,
+      "ordersUpdatedAt": "2026-10-20T06:32:09+00:00"
+    },
+    "blazing_pillage": {
+      "statistics": {
+        "48hours": 23,
+        "90days": 878
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:10+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:32:11+00:00"
+    },
+    "blending_talons": {
+      "statistics": {
+        "48hours": 20,
+        "90days": 1251
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:10+00:00",
+      "orders": 12,
+      "ordersUpdatedAt": "2026-10-20T06:32:12+00:00"
+    },
+    "blinding_reave": {
+      "statistics": {
+        "48hours": 4,
+        "90days": 192
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:10+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:32:12+00:00"
+    },
+    "blood_forge": {
+      "statistics": {
+        "48hours": 3,
+        "90days": 148
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:11+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:32:13+00:00"
+    },
+    "bomb_the_landin": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 17
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:13+00:00",
+      "orders": 27,
+      "ordersUpdatedAt": "2026-10-20T06:32:15+00:00"
+    },
+    "botanist": {
+      "statistics": {
+        "48hours": 11,
+        "90days": 750
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:14+00:00",
+      "orders": 35,
+      "ordersUpdatedAt": "2026-10-20T06:32:16+00:00"
+    },
+    "bounty_hunter": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 3
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:14+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:32:16+00:00"
+    },
+    "bright_purity": {
+      "statistics": {
+        "48hours": 3,
+        "90days": 123
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:15+00:00",
+      "orders": 9,
+      "ordersUpdatedAt": "2026-10-20T06:32:17+00:00"
+    },
+    "broad_eye": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 2
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:17+00:00",
+      "orders": 2,
+      "ordersUpdatedAt": "2026-10-20T06:32:19+00:00"
+    },
+    "butchers_revelry": {
+      "statistics": {
+        "48hours": 12,
+        "90days": 643
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:18+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:32:20+00:00"
+    },
+    "calculated_spring": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 1
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:19+00:00",
+      "orders": 300,
+      "ordersUpdatedAt": "2026-10-20T06:32:20+00:00"
+    },
+    "calculated_victory": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 4
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:19+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:32:21+00:00"
+    },
+    "calm_and_frenzy": {
+      "statistics": {
+        "48hours": 2,
+        "90days": 162
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:22+00:00",
+      "orders": 13,
+      "ordersUpdatedAt": "2026-10-20T06:32:23+00:00"
+    },
+    "capacitance": {
+      "statistics": {
+        "48hours": 33,
+        "90days": 1816
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:22+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:32:24+00:00"
+    },
+    "cataclysmic_continuum": {
+      "statistics": {
+        "48hours": 4,
+        "90days": 150
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:23+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:32:25+00:00"
+    },
+    "cataclysmic_gate": {
+      "statistics": {
+        "48hours": 50,
+        "90days": 1701
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:23+00:00",
+      "orders": 14,
+      "ordersUpdatedAt": "2026-10-20T06:32:25+00:00"
+    },
+    "catapult": {
+      "statistics": {
+        "48hours": 11,
+        "90days": 363
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:26+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:32:28+00:00"
+    },
+    "cathode_current": {
+      "statistics": {
+        "48hours": 94,
+        "90days": 4295
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:26+00:00",
+      "orders": 14,
+      "ordersUpdatedAt": "2026-10-20T06:32:28+00:00"
+    },
+    "cedo_blueprint": {
+      "statistics": {
+        "48hours": 5,
+        "90days": 185
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:27+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:32:29+00:00"
+    },
+    "celestial_nightfall": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 1
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:27+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:32:30+00:00"
+    },
+    "celestial_stomp": {
+      "statistics": {
+        "48hours": 12,
+        "90days": 393
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:30+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:32:32+00:00"
+    },
+    "champions_blessing": {
+      "statistics": {
+        "48hours": 18,
+        "90days": 794
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:30+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:32:32+00:00"
+    },
+    "chaos_sphere": {
+      "statistics": {
+        "48hours": 3,
+        "90days": 157
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:31+00:00",
+      "orders": 12,
+      "ordersUpdatedAt": "2026-10-20T06:32:33+00:00"
+    },
+    "chilling_globe": {
+      "statistics": {
+        "48hours": 8,
+        "90days": 289
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:31+00:00",
+      "orders": 8,
+      "ordersUpdatedAt": "2026-10-20T06:32:33+00:00"
+    },
+    "chromatic_blade": {
+      "statistics": {
+        "48hours": 65,
+        "90days": 2550
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:34+00:00",
+      "orders": 9,
+      "ordersUpdatedAt": "2026-10-20T06:32:36+00:00"
+    },
+    "coil_recharge": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 136
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:34+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:32:36+00:00"
+    },
+    "cold_arrival": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 8
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:35+00:00",
+      "orders": 55,
+      "ordersUpdatedAt": "2026-10-20T06:32:37+00:00"
+    },
+    "comet_rounds": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 2
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:35+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:32:37+00:00"
+    },
+    "concentrated_arrow": {
+      "statistics": {
+        "48hours": 17,
+        "90days": 531
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:38+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:32:40+00:00"
+    },
+    "conductive_sphere": {
+      "statistics": {
+        "48hours": 46,
+        "90days": 1578
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:39+00:00",
+      "orders": 12,
+      "ordersUpdatedAt": "2026-10-20T06:32:40+00:00"
+    },
+    "conductor": {
+      "statistics": {
+        "48hours": 8,
+        "90days": 253
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:39+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:32:41+00:00"
+    },
+    "contagion_cloud": {
+      "statistics": {
+        "48hours": 7,
+        "90days": 319
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:40+00:00",
+      "orders": 8,
+      "ordersUpdatedAt": "2026-10-20T06:32:41+00:00"
+    },
+    "contagious_bond": {
+      "statistics": {
+        "48hours": 118,
+        "90days": 5913
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:42+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:32:44+00:00"
+    },
+    "controlled_slide": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 243
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:42+00:00",
+      "orders": 14,
+      "ordersUpdatedAt": "2026-10-20T06:32:44+00:00"
+    },
+    "counter_pulse": {
+      "statistics": {
+        "48hours": 11,
+        "90days": 382
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:43+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:32:45+00:00"
+    },
+    "counterweight": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 8
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:43+00:00",
+      "orders": 25,
+      "ordersUpdatedAt": "2026-10-20T06:32:45+00:00"
+    },
+    "covert_bond": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 106
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:46+00:00",
+      "orders": 9,
+      "ordersUpdatedAt": "2026-10-20T06:32:48+00:00"
+    },
+    "crash_shot": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 3
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:46+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:32:48+00:00"
+    },
+    "crashing_havoc": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 6
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:47+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:32:49+00:00"
+    },
+    "crashing_timber": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 1
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:47+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:32:49+00:00"
+    },
+    "creeping_terrify": {
+      "statistics": {
+        "48hours": 6,
+        "90days": 524
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:50+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:32:52+00:00"
+    },
+    "critical_surge": {
+      "statistics": {
+        "48hours": 23,
+        "90days": 663
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:51+00:00",
+      "orders": 9,
+      "ordersUpdatedAt": "2026-10-20T06:32:53+00:00"
+    },
+    "cunning_aspect": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 3
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:51+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:32:53+00:00"
+    },
+    "damage_decoy": {
+      "statistics": {
+        "48hours": 4,
+        "90days": 182
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:52+00:00",
+      "orders": 17,
+      "ordersUpdatedAt": "2026-10-20T06:32:54+00:00"
+    },
+    "damzav_vati": {
+      "statistics": {
+        "48hours": 2,
+        "90days": 183
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:54+00:00",
+      "orders": 13,
+      "ordersUpdatedAt": "2026-10-20T06:32:56+00:00"
+    },
+    "dark_propagation": {
+      "statistics": {
+        "48hours": 101,
+        "90days": 3978
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:55+00:00",
+      "orders": 13,
+      "ordersUpdatedAt": "2026-10-20T06:32:57+00:00"
+    },
+    "deadly_sequence": {
+      "statistics": {
+        "48hours": 5,
+        "90days": 90
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:55+00:00",
+      "orders": 9,
+      "ordersUpdatedAt": "2026-10-20T06:32:57+00:00"
+    },
+    "deceptive_bond": {
+      "statistics": {
+        "48hours": 5,
+        "90days": 73
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:56+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:32:58+00:00"
+    },
+    "defiled_reckoning": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 4
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:58+00:00",
+      "orders": 90,
+      "ordersUpdatedAt": "2026-10-20T06:33:00+00:00"
+    },
+    "desiccations_curse": {
+      "statistics": {
+        "48hours": 2,
+        "90days": 194
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:59+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:33:01+00:00"
+    },
+    "despoil": {
+      "statistics": {
+        "48hours": 121,
+        "90days": 5736
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:32:59+00:00",
+      "orders": 9,
+      "ordersUpdatedAt": "2026-10-20T06:33:01+00:00"
+    },
+    "detect_vulnerability": {
+      "statistics": {
+        "48hours": 6,
+        "90days": 132
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:00+00:00",
+      "orders": 55,
+      "ordersUpdatedAt": "2026-10-20T06:33:02+00:00"
+    },
+    "disarming_purity": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 24
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:02+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:33:04+00:00"
+    },
+    "discharge_strike": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 5
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:03+00:00",
+      "orders": 90,
+      "ordersUpdatedAt": "2026-10-20T06:33:05+00:00"
+    },
+    "dividing_blades": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 0
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:03+00:00",
+      "orders": 90,
+      "ordersUpdatedAt": "2026-10-20T06:33:05+00:00"
+    },
+    "divine_retribution": {
+      "statistics": {
+        "48hours": 32,
+        "90days": 1737
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:04+00:00",
+      "orders": 14,
+      "ordersUpdatedAt": "2026-10-20T06:33:06+00:00"
+    },
+    "double_barrel_drift": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 25
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:06+00:00",
+      "orders": 2,
+      "ordersUpdatedAt": "2026-10-20T06:33:08+00:00"
+    },
+    "dread_ward": {
+      "statistics": {
+        "48hours": 2,
+        "90days": 182
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:07+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:33:09+00:00"
+    },
+    "duality": {
+      "statistics": {
+        "48hours": 2,
+        "90days": 103
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:07+00:00",
+      "orders": 14,
+      "ordersUpdatedAt": "2026-10-20T06:33:09+00:00"
+    },
+    "duplex_bond": {
+      "statistics": {
+        "48hours": 110,
+        "90days": 5731
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:08+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:33:10+00:00"
+    },
+    "eject_magazine": {
+      "statistics": {
+        "48hours": 8,
+        "90days": 226
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:10+00:00",
+      "orders": 4,
+      "ordersUpdatedAt": "2026-10-20T06:33:13+00:00"
+    },
+    "elemental_sandstorm": {
+      "statistics": {
+        "48hours": 17,
+        "90days": 422
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:11+00:00",
+      "orders": 14,
+      "ordersUpdatedAt": "2026-10-20T06:33:13+00:00"
+    },
+    "elusive_retribution": {
+      "statistics": {
+        "48hours": 12,
+        "90days": 979
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:12+00:00",
+      "orders": 14,
+      "ordersUpdatedAt": "2026-10-20T06:33:13+00:00"
+    },
+    "empowered_quiver": {
+      "statistics": {
+        "48hours": 9,
+        "90days": 395
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:12+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:33:14+00:00"
+    },
+    "endless_lullaby": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 77
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:15+00:00",
+      "orders": 7,
+      "ordersUpdatedAt": "2026-10-20T06:33:17+00:00"
+    },
+    "enduring_bastille": {
+      "statistics": {
+        "48hours": 11,
+        "90days": 426
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:15+00:00",
+      "orders": 14,
+      "ordersUpdatedAt": "2026-10-20T06:33:17+00:00"
+    },
+    "energy_conversion": {
+      "statistics": {
+        "48hours": 80,
+        "90days": 4953
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:16+00:00",
+      "orders": 45,
+      "ordersUpdatedAt": "2026-10-20T06:33:18+00:00"
+    },
+    "energy_generator": {
+      "statistics": {
+        "48hours": 68,
+        "90days": 2469
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:16+00:00",
+      "orders": 49,
+      "ordersUpdatedAt": "2026-10-20T06:33:18+00:00"
+    },
+    "energy_transfer": {
+      "statistics": {
+        "48hours": 10,
+        "90days": 299
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:19+00:00",
+      "orders": 13,
+      "ordersUpdatedAt": "2026-10-20T06:33:21+00:00"
+    },
+    "enraged": {
+      "statistics": {
+        "48hours": 9,
+        "90days": 270
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:19+00:00",
+      "orders": 14,
+      "ordersUpdatedAt": "2026-10-20T06:33:21+00:00"
+    },
+    "entropy_burst": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 94
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:20+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:33:22+00:00"
+    },
+    "entropy_detonation": {
+      "statistics": {
+        "48hours": 3,
+        "90days": 194
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:20+00:00",
+      "orders": 14,
+      "ordersUpdatedAt": "2026-10-20T06:33:23+00:00"
+    },
+    "entropy_flight": {
+      "statistics": {
+        "48hours": 2,
+        "90days": 82
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:23+00:00",
+      "orders": 9,
+      "ordersUpdatedAt": "2026-10-20T06:33:25+00:00"
+    },
+    "entropy_spike": {
+      "statistics": {
+        "48hours": 2,
+        "90days": 42
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:23+00:00",
+      "orders": 14,
+      "ordersUpdatedAt": "2026-10-20T06:33:25+00:00"
+    },
+    "enveloping_cloud": {
+      "statistics": {
+        "48hours": 4,
+        "90days": 287
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:24+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:33:26+00:00"
+    },
+    "eroding_blight": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 48
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:24+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:33:26+00:00"
+    },
+    "escape_velocity": {
+      "statistics": {
+        "48hours": 6,
+        "90days": 829
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:27+00:00",
+      "orders": 8,
+      "ordersUpdatedAt": "2026-10-20T06:33:29+00:00"
+    },
+    "eternal_war": {
+      "statistics": {
+        "48hours": 169,
+        "90days": 5830
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:27+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:33:29+00:00"
+    },
+    "everlasting_ward": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 81
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:28+00:00",
+      "orders": 9,
+      "ordersUpdatedAt": "2026-10-20T06:33:30+00:00"
+    },
+    "exothermic": {
+      "statistics": {
+        "48hours": 11,
+        "90days": 511
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:29+00:00",
+      "orders": 8,
+      "ordersUpdatedAt": "2026-10-20T06:33:30+00:00"
+    },
+    "explosive_demise": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 5
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:31+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:33:33+00:00"
+    },
+    "explosive_legerdemain": {
+      "statistics": {
+        "48hours": 65,
+        "90days": 3032
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:32+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:33:33+00:00"
+    },
+    "extreme_velocity": {
+      "statistics": {
+        "48hours": 3,
+        "90days": 145
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:32+00:00",
+      "orders": 20,
+      "ordersUpdatedAt": "2026-10-20T06:33:34+00:00"
+    },
+    "fateful_truth": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 3
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:32+00:00",
+      "orders": 150,
+      "ordersUpdatedAt": "2026-10-20T06:33:34+00:00"
+    },
+    "felarx_blueprint": {
+      "statistics": {
+        "48hours": 7,
+        "90days": 352
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:35+00:00",
+      "orders": 7,
+      "ordersUpdatedAt": "2026-10-20T06:33:37+00:00"
+    },
+    "fireball_frenzy": {
+      "statistics": {
+        "48hours": 17,
+        "90days": 471
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:36+00:00",
+      "orders": 11,
+      "ordersUpdatedAt": "2026-10-20T06:33:37+00:00"
+    },
+    "flak_shot": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 3
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:36+00:00",
+      "orders": 180,
+      "ordersUpdatedAt": "2026-10-20T06:33:38+00:00"
+    },
+    "follow_through": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 5
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:36+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:33:38+00:00"
+    },
+    "fracturing_crush": {
+      "statistics": {
+        "48hours": 28,
+        "90days": 1665
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:39+00:00",
+      "orders": 17,
+      "ordersUpdatedAt": "2026-10-20T06:33:41+00:00"
+    },
+    "freeze_force": {
+      "statistics": {
+        "48hours": 27,
+        "90days": 838
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:40+00:00",
+      "orders": 13,
+      "ordersUpdatedAt": "2026-10-20T06:33:42+00:00"
+    },
+    "full_capacity": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 0
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:40+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:33:42+00:00"
+    },
+    "funnel_clouds": {
+      "statistics": {
+        "48hours": 13,
+        "90days": 383
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:41+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:33:43+00:00"
+    },
+    "furious_javelin": {
+      "statistics": {
+        "48hours": 25,
+        "90days": 639
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:43+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:33:45+00:00"
+    },
+    "fused_crucible": {
+      "statistics": {
+        "48hours": 21,
+        "90days": 739
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:44+00:00",
+      "orders": 14,
+      "ordersUpdatedAt": "2026-10-20T06:33:46+00:00"
+    },
+    "fused_reservoir": {
+      "statistics": {
+        "48hours": 69,
+        "90days": 3178
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:44+00:00",
+      "orders": 12,
+      "ordersUpdatedAt": "2026-10-20T06:33:46+00:00"
+    },
+    "gaseous_quake": {
+      "statistics": {
+        "48hours": 195,
+        "90days": 3173
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:45+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:33:47+00:00"
+    },
+    "gastro": {
+      "statistics": {
+        "48hours": 16,
+        "90days": 746
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:47+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:33:49+00:00"
+    },
+    "gilded_truth": {
+      "statistics": {
+        "48hours": 221,
+        "90days": 10791
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:48+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:33:50+00:00"
+    },
+    "gleaming_blight": {
+      "statistics": {
+        "48hours": 3,
+        "90days": 159
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:48+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:33:50+00:00"
+    },
+    "gourmand": {
+      "statistics": {
+        "48hours": 11,
+        "90days": 206
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:49+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:33:51+00:00"
+    },
+    "greedy_pull": {
+      "statistics": {
+        "48hours": 27,
+        "90days": 1877
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:52+00:00",
+      "orders": 12,
+      "ordersUpdatedAt": "2026-10-20T06:33:53+00:00"
+    },
+    "guardian_armor": {
+      "statistics": {
+        "48hours": 14,
+        "90days": 728
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:52+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:33:55+00:00"
+    },
+    "guided_effigy": {
+      "statistics": {
+        "48hours": 2,
+        "90days": 64
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:52+00:00",
+      "orders": 14,
+      "ordersUpdatedAt": "2026-10-20T06:33:54+00:00"
+    },
+    "gun_glide": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 20
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:53+00:00",
+      "orders": 2,
+      "ordersUpdatedAt": "2026-10-20T06:33:55+00:00"
+    },
+    "hall_of_malevolence": {
+      "statistics": {
+        "48hours": 83,
+        "90days": 3841
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:56+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:33:57+00:00"
+    },
+    "hallowed_eruption": {
+      "statistics": {
+        "48hours": 3,
+        "90days": 224
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:56+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:33:58+00:00"
+    },
+    "hallowed_reckoning": {
+      "statistics": {
+        "48hours": 13,
+        "90days": 356
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:57+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:33:58+00:00"
+    },
+    "hata_satya": {
+      "statistics": {
+        "48hours": 24,
+        "90days": 1812
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:33:57+00:00",
+      "orders": 12,
+      "ordersUpdatedAt": "2026-10-20T06:33:59+00:00"
+    },
+    "healing_flame": {
+      "statistics": {
+        "48hours": 13,
+        "90days": 835
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:00+00:00",
+      "orders": 8,
+      "ordersUpdatedAt": "2026-10-20T06:34:01+00:00"
+    },
+    "health_conversion": {
+      "statistics": {
+        "48hours": 196,
+        "90days": 7486
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:00+00:00",
+      "orders": 59,
+      "ordersUpdatedAt": "2026-10-20T06:34:02+00:00"
+    },
+    "heartseeker": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 3
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:00+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:34:02+00:00"
+    },
+    "hearty_nourishment": {
+      "statistics": {
+        "48hours": 23,
+        "90days": 521
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:01+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:34:03+00:00"
+    },
+    "hushed_invisibility": {
+      "statistics": {
+        "48hours": 5,
+        "90days": 199
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:04+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:34:06+00:00"
+    },
+    "hysterical_assault": {
+      "statistics": {
+        "48hours": 44,
+        "90days": 2151
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:04+00:00",
+      "orders": 14,
+      "ordersUpdatedAt": "2026-10-20T06:34:06+00:00"
+    },
+    "hysterical_fixation": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 9
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:05+00:00",
+      "orders": 90,
+      "ordersUpdatedAt": "2026-10-20T06:34:07+00:00"
+    },
+    "ice_wave_impedance": {
+      "statistics": {
+        "48hours": 3,
+        "90days": 104
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:05+00:00",
+      "orders": 8,
+      "ordersUpdatedAt": "2026-10-20T06:34:07+00:00"
+    },
+    "icy_avalanche": {
+      "statistics": {
+        "48hours": 47,
+        "90days": 1620
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:08+00:00",
+      "orders": 8,
+      "ordersUpdatedAt": "2026-10-20T06:34:10+00:00"
+    },
+    "immolated_radiance": {
+      "statistics": {
+        "48hours": 4,
+        "90days": 51
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:08+00:00",
+      "orders": 8,
+      "ordersUpdatedAt": "2026-10-20T06:34:10+00:00"
+    },
+    "impaler_munitions": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 2
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:09+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:34:11+00:00"
+    },
+    "impenetrable_offense": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 2
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:09+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:34:11+00:00"
+    },
+    "inertia_dampeners": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 163
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:12+00:00",
+      "orders": 16,
+      "ordersUpdatedAt": "2026-10-20T06:34:14+00:00"
+    },
+    "infiltrate": {
+      "statistics": {
+        "48hours": 20,
+        "90days": 901
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:12+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:34:14+00:00"
+    },
+    "innodem_blueprint": {
+      "statistics": {
+        "48hours": 5,
+        "90days": 83
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:13+00:00",
+      "orders": 5,
+      "ordersUpdatedAt": "2026-10-20T06:34:15+00:00"
+    },
+    "insatiable": {
+      "statistics": {
+        "48hours": 16,
+        "90days": 683
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:13+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:34:15+00:00"
+    },
+    "intrepid_stand": {
+      "statistics": {
+        "48hours": 81,
+        "90days": 3948
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:16+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:34:18+00:00"
+    },
+    "iron_shrapnel": {
+      "statistics": {
+        "48hours": 7,
+        "90days": 517
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:17+00:00",
+      "orders": 8,
+      "ordersUpdatedAt": "2026-10-20T06:34:19+00:00"
+    },
+    "ironclad_charge": {
+      "statistics": {
+        "48hours": 14,
+        "90days": 862
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:17+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:34:19+00:00"
+    },
+    "ironclad_flight": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 69
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:17+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:34:19+00:00"
+    },
+    "irradiating_disarm": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 74
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:20+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:34:22+00:00"
+    },
+    "jades_judgment": {
+      "statistics": {
+        "48hours": 7,
+        "90days": 356
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:20+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:34:23+00:00"
+    },
+    "jet_stream": {
+      "statistics": {
+        "48hours": 3,
+        "90days": 244
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:21+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:34:23+00:00"
+    },
+    "juice": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 47
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:21+00:00",
+      "orders": 100,
+      "ordersUpdatedAt": "2026-10-20T06:34:23+00:00"
+    },
+    "justice_blades": {
+      "statistics": {
+        "48hours": 2,
+        "90days": 57
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:24+00:00",
+      "orders": 8,
+      "ordersUpdatedAt": "2026-10-20T06:34:26+00:00"
+    },
+    "kinetic_collision": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 5
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:24+00:00",
+      "orders": 90,
+      "ordersUpdatedAt": "2026-10-20T06:34:26+00:00"
+    },
+    "kinetic_friction": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 8
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:25+00:00",
+      "orders": 55,
+      "ordersUpdatedAt": "2026-10-20T06:34:27+00:00"
+    },
+    "kumihimo_loading": {
+      "statistics": {
+        "48hours": 15,
+        "90days": 667
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:26+00:00",
+      "orders": 12,
+      "ordersUpdatedAt": "2026-10-20T06:34:27+00:00"
+    },
+    "laetum_blueprint": {
+      "statistics": {
+        "48hours": 5,
+        "90days": 215
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:28+00:00",
+      "orders": 5,
+      "ordersUpdatedAt": "2026-10-20T06:34:30+00:00"
+    },
+    "larva_burst": {
+      "statistics": {
+        "48hours": 33,
+        "90days": 897
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:28+00:00",
+      "orders": 18,
+      "ordersUpdatedAt": "2026-10-20T06:34:31+00:00"
+    },
+    "lashing_coil": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 1
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:29+00:00",
+      "orders": 225,
+      "ordersUpdatedAt": "2026-10-20T06:34:31+00:00"
+    },
+    "last_herald": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 0
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:30+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:34:32+00:00"
+    },
+    "lasting_covenant": {
+      "statistics": {
+        "48hours": 6,
+        "90days": 750
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:32+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:34:34+00:00"
+    },
+    "lasting_purity": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 70
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:33+00:00",
+      "orders": 12,
+      "ordersUpdatedAt": "2026-10-20T06:34:35+00:00"
+    },
+    "lie_in_wait": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 4
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:33+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:34:35+00:00"
+    },
+    "lingering_transmutation": {
+      "statistics": {
+        "48hours": 8,
+        "90days": 268
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:34+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:34:36+00:00"
+    },
+    "loaded_capacity": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 3
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:36+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:34:38+00:00"
+    },
+    "lock_and_load": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 146
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:37+00:00",
+      "orders": 4,
+      "ordersUpdatedAt": "2026-10-20T06:34:39+00:00"
+    },
+    "loose_chamber": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 0
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:37+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:34:39+00:00"
+    },
+    "loose_hatch": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 1
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:38+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:34:40+00:00"
+    },
+    "loose_magazine": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 1
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:40+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:34:42+00:00"
+    },
+    "looter": {
+      "statistics": {
+        "48hours": 7,
+        "90days": 226
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:41+00:00",
+      "orders": 40,
+      "ordersUpdatedAt": "2026-10-20T06:34:43+00:00"
+    },
+    "loyal_merulina": {
+      "statistics": {
+        "48hours": 62,
+        "90days": 2171
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:42+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:34:43+00:00"
+    },
+    "mach_crash": {
+      "statistics": {
+        "48hours": 4,
+        "90days": 315
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:42+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:34:44+00:00"
+    },
+    "mad_stack": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 25
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:44+00:00",
+      "orders": 55,
+      "ordersUpdatedAt": "2026-10-20T06:34:46+00:00"
+    },
+    "madurai_transmute_core": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 9
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:45+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:34:47+00:00"
+    },
+    "mafic_rain": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 1
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:45+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:34:47+00:00"
+    },
+    "mag_locks": {
+      "statistics": {
+        "48hours": 2,
+        "90days": 29
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:46+00:00",
+      "orders": 30,
+      "ordersUpdatedAt": "2026-10-20T06:34:48+00:00"
+    },
+    "magnetized_discharge": {
+      "statistics": {
+        "48hours": 22,
+        "90days": 1909
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:49+00:00",
+      "orders": 14,
+      "ordersUpdatedAt": "2026-10-20T06:34:50+00:00"
+    },
+    "manifold_bond": {
+      "statistics": {
+        "48hours": 162,
+        "90days": 8530
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:49+00:00",
+      "orders": 12,
+      "ordersUpdatedAt": "2026-10-20T06:34:51+00:00"
+    },
+    "martial_fury": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 4
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:49+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:34:51+00:00"
+    },
+    "martyr_symbiosis": {
+      "statistics": {
+        "48hours": 62,
+        "90days": 3000
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:50+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:34:52+00:00"
+    },
+    "maximum_capacity": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 1
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:52+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:34:55+00:00"
+    },
+    "mending_splinters": {
+      "statistics": {
+        "48hours": 2,
+        "90days": 193
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:53+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:34:55+00:00"
+    },
+    "merulina_guardian": {
+      "statistics": {
+        "48hours": 20,
+        "90days": 863
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:53+00:00",
+      "orders": 14,
+      "ordersUpdatedAt": "2026-10-20T06:34:56+00:00"
+    },
+    "mesas_waltz": {
+      "statistics": {
+        "48hours": 94,
+        "90days": 5510
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:54+00:00",
+      "orders": 9,
+      "ordersUpdatedAt": "2026-10-20T06:34:56+00:00"
+    },
+    "mesmer_shield": {
+      "statistics": {
+        "48hours": 97,
+        "90days": 4748
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:57+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:34:59+00:00"
+    },
+    "meteor_munitions": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 2
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:57+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:34:59+00:00"
+    },
+    "mind_freak": {
+      "statistics": {
+        "48hours": 9,
+        "90days": 564
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:58+00:00",
+      "orders": 14,
+      "ordersUpdatedAt": "2026-10-20T06:35:00+00:00"
+    },
+    "molecular_fission": {
+      "statistics": {
+        "48hours": 82,
+        "90days": 3929
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:34:59+00:00",
+      "orders": 9,
+      "ordersUpdatedAt": "2026-10-20T06:35:01+00:00"
+    },
+    "momentary_pause": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 5
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:00+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:35:02+00:00"
+    },
+    "momentous_bond": {
+      "statistics": {
+        "48hours": 166,
+        "90days": 6632
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:01+00:00",
+      "orders": 14,
+      "ordersUpdatedAt": "2026-10-20T06:35:03+00:00"
+    },
+    "muzzle_flash": {
+      "statistics": {
+        "48hours": 19,
+        "90days": 1531
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:02+00:00",
+      "orders": 13,
+      "ordersUpdatedAt": "2026-10-20T06:35:04+00:00"
+    },
+    "mystic_bond": {
+      "statistics": {
+        "48hours": 45,
+        "90days": 1693
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:03+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:35:05+00:00"
+    },
+    "naramon_transmute_core": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 7
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:04+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:35:06+00:00"
+    },
+    "necramech_augur": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 178
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:06+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:35:07+00:00"
+    },
+    "necramech_aviator": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 23
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:06+00:00",
+      "orders": 17,
+      "ordersUpdatedAt": "2026-10-20T06:35:08+00:00"
+    },
+    "necramech_blitz": {
+      "statistics": {
+        "48hours": 3,
+        "90days": 18
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:07+00:00",
+      "orders": 5,
+      "ordersUpdatedAt": "2026-10-20T06:35:09+00:00"
+    },
+    "necramech_continuity": {
+      "statistics": {
+        "48hours": 2,
+        "90days": 604
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:10+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:35:11+00:00"
+    },
+    "necramech_deflection": {
+      "statistics": {
+        "48hours": 3,
+        "90days": 312
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:09+00:00",
+      "orders": 7,
+      "ordersUpdatedAt": "2026-10-20T06:35:11+00:00"
+    },
+    "necramech_drift": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 182
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:11+00:00",
+      "orders": 8,
+      "ordersUpdatedAt": "2026-10-20T06:35:12+00:00"
+    },
+    "necramech_efficiency": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 280
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:11+00:00",
+      "orders": 9,
+      "ordersUpdatedAt": "2026-10-20T06:35:12+00:00"
+    },
+    "necramech_enemy_sense": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 67
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:13+00:00",
+      "orders": 7,
+      "ordersUpdatedAt": "2026-10-20T06:35:15+00:00"
+    },
+    "necramech_flow": {
+      "statistics": {
+        "48hours": 41,
+        "90days": 1506
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:14+00:00",
+      "orders": 13,
+      "ordersUpdatedAt": "2026-10-20T06:35:15+00:00"
+    },
+    "necramech_friction": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 38
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:14+00:00",
+      "orders": 5,
+      "ordersUpdatedAt": "2026-10-20T06:35:16+00:00"
+    },
+    "necramech_fury": {
+      "statistics": {
+        "48hours": 5,
+        "90days": 50
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:14+00:00",
+      "orders": 3,
+      "ordersUpdatedAt": "2026-10-20T06:35:16+00:00"
+    },
+    "necramech_hydraulics": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 165
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:17+00:00",
+      "orders": 7,
+      "ordersUpdatedAt": "2026-10-20T06:35:19+00:00"
+    },
+    "necramech_intensify": {
+      "statistics": {
+        "48hours": 14,
+        "90days": 1145
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:17+00:00",
+      "orders": 13,
+      "ordersUpdatedAt": "2026-10-20T06:35:19+00:00"
+    },
+    "necramech_pressure_point": {
+      "statistics": {
+        "48hours": 2,
+        "90days": 124
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:18+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:35:20+00:00"
+    },
+    "necramech_rage": {
+      "statistics": {
+        "48hours": 10,
+        "90days": 652
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:19+00:00",
+      "orders": 14,
+      "ordersUpdatedAt": "2026-10-20T06:35:21+00:00"
+    },
+    "necramech_reach": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 43
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:21+00:00",
+      "orders": 6,
+      "ordersUpdatedAt": "2026-10-20T06:35:23+00:00"
+    },
+    "necramech_rebuke": {
+      "statistics": {
+        "48hours": 4,
+        "90days": 73
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:22+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:35:24+00:00"
+    },
+    "necramech_redirection": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 249
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:22+00:00",
+      "orders": 4,
+      "ordersUpdatedAt": "2026-10-20T06:35:24+00:00"
+    },
+    "necramech_refuel": {
+      "statistics": {
+        "48hours": 4,
+        "90days": 188
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:23+00:00",
+      "orders": 11,
+      "ordersUpdatedAt": "2026-10-20T06:35:25+00:00"
+    },
+    "necramech_repair": {
+      "statistics": {
+        "48hours": 5,
+        "90days": 628
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:25+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:35:27+00:00"
+    },
+    "necramech_seismic_wave": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 45
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:26+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:35:28+00:00"
+    },
+    "necramech_slipstream": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 52
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:26+00:00",
+      "orders": 8,
+      "ordersUpdatedAt": "2026-10-20T06:35:28+00:00"
+    },
+    "necramech_steel_fiber": {
+      "statistics": {
+        "48hours": 5,
+        "90days": 639
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:27+00:00",
+      "orders": 13,
+      "ordersUpdatedAt": "2026-10-20T06:35:29+00:00"
+    },
+    "necramech_streamline": {
+      "statistics": {
+        "48hours": 13,
+        "90days": 773
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:29+00:00",
+      "orders": 6,
+      "ordersUpdatedAt": "2026-10-20T06:35:31+00:00"
+    },
+    "necramech_stretch": {
+      "statistics": {
+        "48hours": 3,
+        "90days": 242
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:30+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:35:32+00:00"
+    },
+    "necramech_thrusters": {
+      "statistics": {
+        "48hours": 6,
+        "90days": 525
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:30+00:00",
+      "orders": 14,
+      "ordersUpdatedAt": "2026-10-20T06:35:32+00:00"
+    },
+    "necramech_vitality": {
+      "statistics": {
+        "48hours": 3,
+        "90days": 750
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:31+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:35:33+00:00"
+    },
+    "negate": {
+      "statistics": {
+        "48hours": 135,
+        "90days": 3280
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:34+00:00",
+      "orders": 45,
+      "ordersUpdatedAt": "2026-10-20T06:35:35+00:00"
+    },
+    "negation_armor": {
+      "statistics": {
+        "48hours": 7,
+        "90days": 148
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:34+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:35:36+00:00"
+    },
+    "neutralizing_justice": {
+      "statistics": {
+        "48hours": 3,
+        "90days": 240
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:34+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:35:36+00:00"
+    },
+    "neutron_star": {
+      "statistics": {
+        "48hours": 88,
+        "90days": 4653
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:35+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:35:37+00:00"
+    },
+    "night_stalker": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 4
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:37+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:35:39+00:00"
+    },
+    "nitro_boost": {
+      "statistics": {
+        "48hours": 2,
+        "90days": 138
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:38+00:00",
+      "orders": 20,
+      "ordersUpdatedAt": "2026-10-20T06:35:40+00:00"
+    },
+    "no_current_leap": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 1
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:38+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:35:40+00:00"
+    },
+    "noble_cadence": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 1
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:39+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:35:42+00:00"
+    },
+    "noctua_swarm": {
+      "statistics": {
+        "48hours": 30,
+        "90days": 1408
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:42+00:00",
+      "orders": 18,
+      "ordersUpdatedAt": "2026-10-20T06:35:43+00:00"
+    },
+    "omikujis_fortune": {
+      "statistics": {
+        "48hours": 25,
+        "90days": 1038
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:43+00:00",
+      "orders": 14,
+      "ordersUpdatedAt": "2026-10-20T06:35:44+00:00"
+    },
+    "ore_gaze": {
+      "statistics": {
+        "48hours": 10,
+        "90days": 486
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:43+00:00",
+      "orders": 8,
+      "ordersUpdatedAt": "2026-10-20T06:35:45+00:00"
+    },
+    "overcharge_detectors": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 2
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:43+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:35:45+00:00"
+    },
+    "overcharged": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 6
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:46+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:35:48+00:00"
+    },
+    "overview": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 19
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:46+00:00",
+      "orders": 3,
+      "ordersUpdatedAt": "2026-10-20T06:35:48+00:00"
+    },
+    "pacifying_bolts": {
+      "statistics": {
+        "48hours": 13,
+        "90days": 552
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:47+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:35:49+00:00"
+    },
+    "parasitic_vitality": {
+      "statistics": {
+        "48hours": 33,
+        "90days": 2564
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:47+00:00",
+      "orders": 14,
+      "ordersUpdatedAt": "2026-10-20T06:35:49+00:00"
+    },
+    "partitioned_mallet": {
+      "statistics": {
+        "48hours": 2,
+        "90days": 124
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:50+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:35:52+00:00"
+    },
+    "path_of_statues": {
+      "statistics": {
+        "48hours": 6,
+        "90days": 374
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:50+00:00",
+      "orders": 13,
+      "ordersUpdatedAt": "2026-10-20T06:35:52+00:00"
+    },
+    "peaceful_provocation": {
+      "statistics": {
+        "48hours": 2,
+        "90days": 110
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:51+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:35:53+00:00"
+    },
+    "perfect_balance": {
+      "statistics": {
+        "48hours": 3,
+        "90days": 28
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:51+00:00",
+      "orders": 29,
+      "ordersUpdatedAt": "2026-10-20T06:35:53+00:00"
+    },
+    "phenmor_blueprint": {
+      "statistics": {
+        "48hours": 14,
+        "90days": 305
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:54+00:00",
+      "orders": 6,
+      "ordersUpdatedAt": "2026-10-20T06:35:56+00:00"
+    },
+    "phoenix_renewal": {
+      "statistics": {
+        "48hours": 14,
+        "90days": 379
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:54+00:00",
+      "orders": 8,
+      "ordersUpdatedAt": "2026-10-20T06:35:56+00:00"
+    },
+    "photon_repeater": {
+      "statistics": {
+        "48hours": 22,
+        "90days": 710
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:55+00:00",
+      "orders": 11,
+      "ordersUpdatedAt": "2026-10-20T06:35:57+00:00"
+    },
+    "piercing_fury": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 1
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:55+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:35:57+00:00"
+    },
+    "piercing_navigator": {
+      "statistics": {
+        "48hours": 2,
+        "90days": 75
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:58+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:36:00+00:00"
+    },
+    "piercing_roar": {
+      "statistics": {
+        "48hours": 41,
+        "90days": 1377
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:59+00:00",
+      "orders": 13,
+      "ordersUpdatedAt": "2026-10-20T06:36:00+00:00"
+    },
+    "pilfering_strangledome": {
+      "statistics": {
+        "48hours": 99,
+        "90days": 6476
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:35:59+00:00",
+      "orders": 9,
+      "ordersUpdatedAt": "2026-10-20T06:36:01+00:00"
+    },
+    "pilfering_swarm": {
+      "statistics": {
+        "48hours": 46,
+        "90days": 2360
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:00+00:00",
+      "orders": 9,
+      "ordersUpdatedAt": "2026-10-20T06:36:01+00:00"
+    },
+    "pool_of_life": {
+      "statistics": {
+        "48hours": 7,
+        "90days": 198
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:02+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:36:05+00:00"
+    },
+    "pop_top": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 36
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:03+00:00",
+      "orders": 30,
+      "ordersUpdatedAt": "2026-10-20T06:36:04+00:00"
+    },
+    "poppin_vert": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 62
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:03+00:00",
+      "orders": 20,
+      "ordersUpdatedAt": "2026-10-20T06:36:05+00:00"
+    },
+    "power_of_three": {
+      "statistics": {
+        "48hours": 2,
+        "90days": 66
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:03+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:36:05+00:00"
+    },
+    "praedos_blueprint": {
+      "statistics": {
+        "48hours": 23,
+        "90days": 803
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:06+00:00",
+      "orders": 7,
+      "ordersUpdatedAt": "2026-10-20T06:36:08+00:00"
+    },
+    "prey_of_dynar": {
+      "statistics": {
+        "48hours": 42,
+        "90days": 3488
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:07+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:36:08+00:00"
+    },
+    "primal_rage": {
+      "statistics": {
+        "48hours": 25,
+        "90days": 1069
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:07+00:00",
+      "orders": 9,
+      "ordersUpdatedAt": "2026-10-20T06:36:09+00:00"
+    },
+    "primo_flair": {
+      "statistics": {
+        "48hours": 8,
+        "90days": 306
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:07+00:00",
+      "orders": 25,
+      "ordersUpdatedAt": "2026-10-20T06:36:10+00:00"
+    },
+    "prism_guard": {
+      "statistics": {
+        "48hours": 24,
+        "90days": 1613
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:10+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:36:12+00:00"
+    },
+    "prismatic_companion": {
+      "statistics": {
+        "48hours": 167,
+        "90days": 4313
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:11+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:36:13+00:00"
+    },
+    "prize_kill": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 6
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:11+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:36:13+00:00"
+    },
+    "prolonged_paralysis": {
+      "statistics": {
+        "48hours": 11,
+        "90days": 256
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:12+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:36:14+00:00"
+    },
+    "purging_slash": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 54
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:14+00:00",
+      "orders": 9,
+      "ordersUpdatedAt": "2026-10-20T06:36:16+00:00"
+    },
+    "purifying_flames": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 86
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:15+00:00",
+      "orders": 13,
+      "ordersUpdatedAt": "2026-10-20T06:36:17+00:00"
+    },
+    "push_and_pull": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 5
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:15+00:00",
+      "orders": 90,
+      "ordersUpdatedAt": "2026-10-20T06:36:17+00:00"
+    },
+    "pyroclastic_flow": {
+      "statistics": {
+        "48hours": 3,
+        "90days": 71
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:16+00:00",
+      "orders": 13,
+      "ordersUpdatedAt": "2026-10-20T06:36:18+00:00"
+    },
+    "quaking_hand": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 1
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:18+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:36:20+00:00"
+    },
+    "quick_charge": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 3
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:19+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:36:21+00:00"
+    },
+    "quick_escape": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 14
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:19+00:00",
+      "orders": 30,
+      "ordersUpdatedAt": "2026-10-20T06:36:21+00:00"
+    },
+    "radiant_finish": {
+      "statistics": {
+        "48hours": 2,
+        "90days": 67
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:20+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:36:22+00:00"
+    },
+    "rail_guards": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 14
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:22+00:00",
+      "orders": 30,
+      "ordersUpdatedAt": "2026-10-20T06:36:24+00:00"
+    },
+    "rakta_ballistica": {
+      "statistics": {
+        "48hours": 33,
+        "90days": 1186
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:23+00:00",
+      "orders": 40,
+      "ordersUpdatedAt": "2026-10-20T06:36:25+00:00"
+    },
+    "rakta_cernos": {
+      "statistics": {
+        "48hours": 17,
+        "90days": 1102
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:23+00:00",
+      "orders": 45,
+      "ordersUpdatedAt": "2026-10-20T06:36:25+00:00"
+    },
+    "rakta_dark_dagger": {
+      "statistics": {
+        "48hours": 61,
+        "90days": 1984
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:24+00:00",
+      "orders": 40,
+      "ordersUpdatedAt": "2026-10-20T06:36:26+00:00"
+    },
+    "razor_mortar": {
+      "statistics": {
+        "48hours": 143,
+        "90days": 7499
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:27+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:36:28+00:00"
+    },
+    "razor_munitions": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 2
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:27+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:36:29+00:00"
+    },
+    "razorwing_blitz": {
+      "statistics": {
+        "48hours": 137,
+        "90days": 9193
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:28+00:00",
+      "orders": 9,
+      "ordersUpdatedAt": "2026-10-20T06:36:29+00:00"
+    },
+    "reactive_storm": {
+      "statistics": {
+        "48hours": 26,
+        "90days": 1691
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:28+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:36:30+00:00"
+    },
+    "reaping_chakram": {
+      "statistics": {
+        "48hours": 3,
+        "90days": 160
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:31+00:00",
+      "orders": 13,
+      "ordersUpdatedAt": "2026-10-20T06:36:32+00:00"
+    },
+    "reawaken": {
+      "statistics": {
+        "48hours": 4,
+        "90days": 75
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:31+00:00",
+      "orders": 40,
+      "ordersUpdatedAt": "2026-10-20T06:36:33+00:00"
+    },
+    "recharge_barrier": {
+      "statistics": {
+        "48hours": 19,
+        "90days": 716
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:32+00:00",
+      "orders": 14,
+      "ordersUpdatedAt": "2026-10-20T06:36:33+00:00"
+    },
+    "recover": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 6
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:32+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:36:34+00:00"
+    },
+    "recrystalize": {
+      "statistics": {
+        "48hours": 105,
+        "90days": 2492
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:35+00:00",
+      "orders": 14,
+      "ordersUpdatedAt": "2026-10-20T06:36:37+00:00"
+    },
+    "recuperate": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 5
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:35+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:36:37+00:00"
+    },
+    "reflex_draw": {
+      "statistics": {
+        "48hours": 2,
+        "90days": 60
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:35+00:00",
+      "orders": 3,
+      "ordersUpdatedAt": "2026-10-20T06:36:38+00:00"
+    },
+    "regenerative_molt": {
+      "statistics": {
+        "48hours": 18,
+        "90days": 696
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:36+00:00",
+      "orders": 8,
+      "ordersUpdatedAt": "2026-10-20T06:36:38+00:00"
+    },
+    "reinforced_bond": {
+      "statistics": {
+        "48hours": 148,
+        "90days": 7293
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:39+00:00",
+      "orders": 14,
+      "ordersUpdatedAt": "2026-10-20T06:36:41+00:00"
+    },
+    "reinforcing_stomp": {
+      "statistics": {
+        "48hours": 12,
+        "90days": 491
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:39+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:36:41+00:00"
+    },
+    "relentless_assault": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 5
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:40+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:36:42+00:00"
+    },
+    "rending_wind": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 1
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:40+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:36:42+00:00"
+    },
+    "repair_dispensary": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 60
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:43+00:00",
+      "orders": 9,
+      "ordersUpdatedAt": "2026-10-20T06:36:45+00:00"
+    },
+    "reroot_rampage": {
+      "statistics": {
+        "48hours": 13,
+        "90days": 554
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:43+00:00",
+      "orders": 13,
+      "ordersUpdatedAt": "2026-10-20T06:36:45+00:00"
+    },
+    "resonance": {
+      "statistics": {
+        "48hours": 180,
+        "90days": 4435
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:44+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:36:46+00:00"
+    },
+    "restorative_bond": {
+      "statistics": {
+        "48hours": 38,
+        "90days": 1600
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:45+00:00",
+      "orders": 14,
+      "ordersUpdatedAt": "2026-10-20T06:36:46+00:00"
+    },
+    "revealing_spores": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 57
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:47+00:00",
+      "orders": 9,
+      "ordersUpdatedAt": "2026-10-20T06:36:49+00:00"
+    },
+    "reverse_rotorswell": {
+      "statistics": {
+        "48hours": 30,
+        "90days": 703
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:48+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:36:50+00:00"
+    },
+    "rhythm_guard": {
+      "statistics": {
+        "48hours": 5,
+        "90days": 319
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:48+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:36:49+00:00"
+    },
+    "rift_haven": {
+      "statistics": {
+        "48hours": 5,
+        "90days": 90
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:48+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:36:50+00:00"
+    },
+    "rift_torrent": {
+      "statistics": {
+        "48hours": 8,
+        "90days": 388
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:51+00:00",
+      "orders": 14,
+      "ordersUpdatedAt": "2026-10-20T06:36:53+00:00"
+    },
+    "rime_vault": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 8
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:51+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:36:53+00:00"
+    },
+    "ripper_rounds": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 3
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:52+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:36:54+00:00"
+    },
+    "rising_skill": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 1
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:52+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:36:54+00:00"
+    },
+    "rising_steel": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 1
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:55+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:36:57+00:00"
+    },
+    "rising_storm": {
+      "statistics": {
+        "48hours": 4,
+        "90days": 146
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:55+00:00",
+      "orders": 9,
+      "ordersUpdatedAt": "2026-10-20T06:36:57+00:00"
+    },
+    "rousing_plunder": {
+      "statistics": {
+        "48hours": 9,
+        "90days": 238
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:56+00:00",
+      "orders": 14,
+      "ordersUpdatedAt": "2026-10-20T06:36:58+00:00"
+    },
+    "rubble_heap": {
+      "statistics": {
+        "48hours": 16,
+        "90days": 967
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:57+00:00",
+      "orders": 14,
+      "ordersUpdatedAt": "2026-10-20T06:36:58+00:00"
+    },
+    "rumbled": {
+      "statistics": {
+        "48hours": 7,
+        "90days": 249
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:59+00:00",
+      "orders": 9,
+      "ordersUpdatedAt": "2026-10-20T06:37:01+00:00"
+    },
+    "safeguard": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 57
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:36:59+00:00",
+      "orders": 8,
+      "ordersUpdatedAt": "2026-10-20T06:37:02+00:00"
+    },
+    "safeguard_switch": {
+      "statistics": {
+        "48hours": 4,
+        "90days": 167
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:00+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:37:02+00:00"
+    },
+    "sancti_castanas": {
+      "statistics": {
+        "48hours": 35,
+        "90days": 1302
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:01+00:00",
+      "orders": 30,
+      "ordersUpdatedAt": "2026-10-20T06:37:03+00:00"
+    },
+    "sancti_magistar": {
+      "statistics": {
+        "48hours": 122,
+        "90days": 5091
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:03+00:00",
+      "orders": 25,
+      "ordersUpdatedAt": "2026-10-20T06:37:05+00:00"
+    },
+    "sancti_tigris": {
+      "statistics": {
+        "48hours": 38,
+        "90days": 1642
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:04+00:00",
+      "orders": 38,
+      "ordersUpdatedAt": "2026-10-20T06:37:06+00:00"
+    },
+    "sapping_reach": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 5
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:04+00:00",
+      "orders": 420,
+      "ordersUpdatedAt": "2026-10-20T06:37:06+00:00"
+    },
+    "savage_silence": {
+      "statistics": {
+        "48hours": 25,
+        "90days": 656
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:05+00:00",
+      "orders": 14,
+      "ordersUpdatedAt": "2026-10-20T06:37:07+00:00"
+    },
+    "savior_decoy": {
+      "statistics": {
+        "48hours": 2,
+        "90days": 1053
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:07+00:00",
+      "orders": 12,
+      "ordersUpdatedAt": "2026-10-20T06:37:09+00:00"
+    },
+    "scarlet_hurricane": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 1
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:08+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:37:10+00:00"
+    },
+    "scattered_justice": {
+      "statistics": {
+        "48hours": 14,
+        "90days": 893
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:08+00:00",
+      "orders": 8,
+      "ordersUpdatedAt": "2026-10-20T06:37:10+00:00"
+    },
+    "searing_leap": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 7
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:09+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:37:11+00:00"
+    },
+    "secura_dual_cestra": {
+      "statistics": {
+        "48hours": 45,
+        "90days": 1531
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:11+00:00",
+      "orders": 30,
+      "ordersUpdatedAt": "2026-10-20T06:37:13+00:00"
+    },
+    "secura_lecta": {
+      "statistics": {
+        "48hours": 45,
+        "90days": 2043
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:12+00:00",
+      "orders": 30,
+      "ordersUpdatedAt": "2026-10-20T06:37:14+00:00"
+    },
+    "secura_penta": {
+      "statistics": {
+        "48hours": 51,
+        "90days": 1765
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:12+00:00",
+      "orders": 29,
+      "ordersUpdatedAt": "2026-10-20T06:37:14+00:00"
+    },
+    "seeking_shuriken": {
+      "statistics": {
+        "48hours": 5,
+        "90days": 230
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:13+00:00",
+      "orders": 6,
+      "ordersUpdatedAt": "2026-10-20T06:37:16+00:00"
+    },
+    "seismic_bond": {
+      "statistics": {
+        "48hours": 32,
+        "90days": 2681
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:16+00:00",
+      "orders": 19,
+      "ordersUpdatedAt": "2026-10-20T06:37:17+00:00"
+    },
+    "sequence_burn": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 46
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:16+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:37:18+00:00"
+    },
+    "serrated_edges": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 4
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:16+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:37:18+00:00"
+    },
+    "serrated_rounds": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 4
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:19+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:37:20+00:00"
+    },
+    "shadow_harvest": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 3
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:19+00:00",
+      "orders": 250,
+      "ordersUpdatedAt": "2026-10-20T06:37:21+00:00"
+    },
+    "shadow_haze": {
+      "statistics": {
+        "48hours": 106,
+        "90days": 3813
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:20+00:00",
+      "orders": 12,
+      "ordersUpdatedAt": "2026-10-20T06:37:21+00:00"
+    },
+    "sharpened_blade": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 2
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:20+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:37:22+00:00"
+    },
+    "shattered_storm": {
+      "statistics": {
+        "48hours": 27,
+        "90days": 1728
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:23+00:00",
+      "orders": 12,
+      "ordersUpdatedAt": "2026-10-20T06:37:24+00:00"
+    },
+    "shattering_justice": {
+      "statistics": {
+        "48hours": 4,
+        "90days": 167
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:23+00:00",
+      "orders": 8,
+      "ordersUpdatedAt": "2026-10-20T06:37:25+00:00"
+    },
+    "shield_of_shadows": {
+      "statistics": {
+        "48hours": 30,
+        "90days": 2245
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:24+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:37:26+00:00"
+    },
+    "shield_overload": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 8
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:24+00:00",
+      "orders": 90,
+      "ordersUpdatedAt": "2026-10-20T06:37:26+00:00"
+    },
+    "shock_trooper": {
+      "statistics": {
+        "48hours": 143,
+        "90days": 6652
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:27+00:00",
+      "orders": 9,
+      "ordersUpdatedAt": "2026-10-20T06:37:29+00:00"
+    },
+    "shocking_speed": {
+      "statistics": {
+        "48hours": 9,
+        "90days": 475
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:27+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:37:29+00:00"
+    },
+    "shred_shot": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 2
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:28+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:37:30+00:00"
+    },
+    "signal_flare": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 3
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:28+00:00",
+      "orders": 90,
+      "ordersUpdatedAt": "2026-10-20T06:37:30+00:00"
+    },
+    "singularity": {
+      "statistics": {
+        "48hours": 2,
+        "90days": 76
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:31+00:00",
+      "orders": 9,
+      "ordersUpdatedAt": "2026-10-20T06:37:33+00:00"
+    },
+    "slay_board": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 6
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:31+00:00",
+      "orders": 40,
+      "ordersUpdatedAt": "2026-10-20T06:37:33+00:00"
+    },
+    "smite_infusion": {
+      "statistics": {
+        "48hours": 7,
+        "90days": 203
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:32+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:37:34+00:00"
+    },
+    "smoke_shadow": {
+      "statistics": {
+        "48hours": 9,
+        "90days": 346
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:32+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:37:34+00:00"
+    },
+    "snap_shot": {
+      "statistics": {
+        "48hours": 8,
+        "90days": 17
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:35+00:00",
+      "orders": 4,
+      "ordersUpdatedAt": "2026-10-20T06:37:37+00:00"
+    },
+    "soft_hands": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 25
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:35+00:00",
+      "orders": 5,
+      "ordersUpdatedAt": "2026-10-20T06:37:37+00:00"
+    },
+    "sonic_boost": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 10
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:36+00:00",
+      "orders": 30,
+      "ordersUpdatedAt": "2026-10-20T06:37:38+00:00"
+    },
+    "sonic_siphon": {
+      "statistics": {
+        "48hours": 12,
+        "90days": 653
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:37+00:00",
+      "orders": 12,
+      "ordersUpdatedAt": "2026-10-20T06:37:38+00:00"
+    },
+    "soul_survivor": {
+      "statistics": {
+        "48hours": 2,
+        "90days": 113
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:39+00:00",
+      "orders": 11,
+      "ordersUpdatedAt": "2026-10-20T06:37:41+00:00"
+    },
+    "spectral_spirit": {
+      "statistics": {
+        "48hours": 19,
+        "90days": 1023
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:39+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:37:41+00:00"
+    },
+    "spectrosiphon": {
+      "statistics": {
+        "48hours": 6,
+        "90days": 639
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:40+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:37:42+00:00"
+    },
+    "spellbound_harvest": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 135
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:40+00:00",
+      "orders": 8,
+      "ordersUpdatedAt": "2026-10-20T06:37:42+00:00"
+    },
+    "sporothrix_blueprint": {
+      "statistics": {
+        "48hours": 2,
+        "90days": 43
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:43+00:00",
+      "orders": 4,
+      "ordersUpdatedAt": "2026-10-20T06:37:45+00:00"
+    },
+    "spring_loaded_broadhead": {
+      "statistics": {
+        "48hours": 2,
+        "90days": 105
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:44+00:00",
+      "orders": 3,
+      "ordersUpdatedAt": "2026-10-20T06:37:46+00:00"
+    },
+    "spry_sights": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 52
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:44+00:00",
+      "orders": 4,
+      "ordersUpdatedAt": "2026-10-20T06:37:45+00:00"
+    },
+    "staggering_shield": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 76
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:45+00:00",
+      "orders": 8,
+      "ordersUpdatedAt": "2026-10-20T06:37:46+00:00"
+    },
+    "stand_ground": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 4
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:47+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:37:49+00:00"
+    },
+    "star_divide": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 1
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:48+00:00",
+      "orders": 90,
+      "ordersUpdatedAt": "2026-10-20T06:37:49+00:00"
+    },
+    "stinging_truth": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 39
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:48+00:00",
+      "orders": 14,
+      "ordersUpdatedAt": "2026-10-20T06:37:50+00:00"
+    },
+    "stockpiled_blight": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 42
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:49+00:00",
+      "orders": 8,
+      "ordersUpdatedAt": "2026-10-20T06:37:51+00:00"
+    },
+    "strafing_slide": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 34
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:51+00:00",
+      "orders": 2,
+      "ordersUpdatedAt": "2026-10-20T06:37:53+00:00"
+    },
+    "surging_blades": {
+      "statistics": {
+        "48hours": 5,
+        "90days": 274
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:52+00:00",
+      "orders": 14,
+      "ordersUpdatedAt": "2026-10-20T06:37:54+00:00"
+    },
+    "surging_dash": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 121
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:52+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:37:55+00:00"
+    },
+    "surplus_diverters": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 5
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:53+00:00",
+      "orders": 400,
+      "ordersUpdatedAt": "2026-10-20T06:37:55+00:00"
+    },
+    "swift_bite": {
+      "statistics": {
+        "48hours": 13,
+        "90days": 1198
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:55+00:00",
+      "orders": 14,
+      "ordersUpdatedAt": "2026-10-20T06:37:57+00:00"
+    },
+    "swing_line": {
+      "statistics": {
+        "48hours": 16,
+        "90days": 749
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:56+00:00",
+      "orders": 14,
+      "ordersUpdatedAt": "2026-10-20T06:37:58+00:00"
+    },
+    "sword_alone": {
+      "statistics": {
+        "48hours": 2,
+        "90days": 5
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:56+00:00",
+      "orders": 80,
+      "ordersUpdatedAt": "2026-10-20T06:37:58+00:00"
+    },
+    "synoid_gammacor": {
+      "statistics": {
+        "48hours": 33,
+        "90days": 1786
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:37:57+00:00",
+      "orders": 25,
+      "ordersUpdatedAt": "2026-10-20T06:37:59+00:00"
+    },
+    "synoid_heliocor": {
+      "statistics": {
+        "48hours": 35,
+        "90days": 1699
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:00+00:00",
+      "orders": 34,
+      "ordersUpdatedAt": "2026-10-20T06:38:02+00:00"
+    },
+    "synoid_simulor": {
+      "statistics": {
+        "48hours": 41,
+        "90days": 1610
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:00+00:00",
+      "orders": 30,
+      "ordersUpdatedAt": "2026-10-20T06:38:02+00:00"
+    },
+    "tactical_reload": {
+      "statistics": {
+        "48hours": 4,
+        "90days": 119
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:00+00:00",
+      "orders": 3,
+      "ordersUpdatedAt": "2026-10-20T06:38:02+00:00"
+    },
+    "tainted_hydra": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 1
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:01+00:00",
+      "orders": 90,
+      "ordersUpdatedAt": "2026-10-20T06:38:03+00:00"
+    },
+    "tandem_bond": {
+      "statistics": {
+        "48hours": 32,
+        "90days": 1663
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:05+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:38:07+00:00"
+    },
+    "target_fixation": {
+      "statistics": {
+        "48hours": 4,
+        "90days": 267
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:04+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:38:06+00:00"
+    },
+    "tear_gas": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 5
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:05+00:00",
+      "orders": 90,
+      "ordersUpdatedAt": "2026-10-20T06:38:06+00:00"
+    },
+    "tectonic_fracture": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 36
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:05+00:00",
+      "orders": 8,
+      "ordersUpdatedAt": "2026-10-20T06:38:07+00:00"
+    },
+    "teeming_virulence": {
+      "statistics": {
+        "48hours": 28,
+        "90days": 1836
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:08+00:00",
+      "orders": 20,
+      "ordersUpdatedAt": "2026-10-20T06:38:10+00:00"
+    },
+    "teleport_rush": {
+      "statistics": {
+        "48hours": 9,
+        "90days": 346
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:08+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:38:10+00:00"
+    },
+    "telos_akbolto": {
+      "statistics": {
+        "48hours": 28,
+        "90days": 1187
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:09+00:00",
+      "orders": 30,
+      "ordersUpdatedAt": "2026-10-20T06:38:11+00:00"
+    },
+    "telos_boltace": {
+      "statistics": {
+        "48hours": 40,
+        "90days": 1463
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:09+00:00",
+      "orders": 30,
+      "ordersUpdatedAt": "2026-10-20T06:38:11+00:00"
+    },
+    "telos_boltor": {
+      "statistics": {
+        "48hours": 45,
+        "90days": 1864
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:11+00:00",
+      "orders": 27,
+      "ordersUpdatedAt": "2026-10-20T06:38:13+00:00"
+    },
+    "tempered_bound": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 1
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:12+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:38:15+00:00"
+    },
+    "temporal_artillery": {
+      "statistics": {
+        "48hours": 47,
+        "90days": 2209
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:13+00:00",
+      "orders": 11,
+      "ordersUpdatedAt": "2026-10-20T06:38:15+00:00"
+    },
+    "temporal_erosion": {
+      "statistics": {
+        "48hours": 50,
+        "90days": 1722
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:13+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:38:16+00:00"
+    },
+    "tenacious_bond": {
+      "statistics": {
+        "48hours": 166,
+        "90days": 8154
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:16+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:38:17+00:00"
+    },
+    "tesla_bank": {
+      "statistics": {
+        "48hours": 7,
+        "90days": 488
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:17+00:00",
+      "orders": 13,
+      "ordersUpdatedAt": "2026-10-20T06:38:19+00:00"
+    },
+    "tharros_lethality": {
+      "statistics": {
+        "48hours": 36,
+        "90days": 1799
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:17+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:38:19+00:00"
+    },
+    "the_relentless_lost": {
+      "statistics": {
+        "48hours": 2,
+        "90days": 80
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:18+00:00",
+      "orders": 12,
+      "ordersUpdatedAt": "2026-10-20T06:38:20+00:00"
+    },
+    "thermal_transfer": {
+      "statistics": {
+        "48hours": 83,
+        "90days": 3257
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:20+00:00",
+      "orders": 14,
+      "ordersUpdatedAt": "2026-10-20T06:38:21+00:00"
+    },
+    "thrall_pact": {
+      "statistics": {
+        "48hours": 23,
+        "90days": 1750
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:20+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:38:22+00:00"
+    },
+    "thrash_landing": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 8
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:22+00:00",
+      "orders": 40,
+      "ordersUpdatedAt": "2026-10-20T06:38:23+00:00"
+    },
+    "tidal_impunity": {
+      "statistics": {
+        "48hours": 9,
+        "90days": 452
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:23+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:38:24+00:00"
+    },
+    "titanic_rumbler": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 61
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:23+00:00",
+      "orders": 8,
+      "ordersUpdatedAt": "2026-10-20T06:38:25+00:00"
+    },
+    "total_eclipse": {
+      "statistics": {
+        "48hours": 82,
+        "90days": 4228
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:24+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:38:26+00:00"
+    },
+    "toxic_blight": {
+      "statistics": {
+        "48hours": 10,
+        "90days": 269
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:27+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:38:29+00:00"
+    },
+    "toxic_sequence": {
+      "statistics": {
+        "48hours": 2,
+        "90days": 61
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:27+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:38:28+00:00"
+    },
+    "trail_blazer": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 8
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:27+00:00",
+      "orders": 40,
+      "ordersUpdatedAt": "2026-10-20T06:38:29+00:00"
+    },
+    "transistor_shield": {
+      "statistics": {
+        "48hours": 3,
+        "90days": 91
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:28+00:00",
+      "orders": 8,
+      "ordersUpdatedAt": "2026-10-20T06:38:30+00:00"
+    },
+    "tribunal": {
+      "statistics": {
+        "48hours": 2,
+        "90days": 64
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:30+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:38:31+00:00"
+    },
+    "twitch": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 41
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:31+00:00",
+      "orders": 5,
+      "ordersUpdatedAt": "2026-10-20T06:38:33+00:00"
+    },
+    "ulfruns_endurance": {
+      "statistics": {
+        "48hours": 33,
+        "90days": 2712
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:31+00:00",
+      "orders": 12,
+      "ordersUpdatedAt": "2026-10-20T06:38:33+00:00"
+    },
+    "untime_rift": {
+      "statistics": {
+        "48hours": 14,
+        "90days": 621
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:33+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:38:34+00:00"
+    },
+    "valence_formation": {
+      "statistics": {
+        "48hours": 83,
+        "90days": 2827
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:34+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:38:36+00:00"
+    },
+    "vampire_leech": {
+      "statistics": {
+        "48hours": 23,
+        "90days": 708
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:35+00:00",
+      "orders": 8,
+      "ordersUpdatedAt": "2026-10-20T06:38:37+00:00"
+    },
+    "vampiric_grasp": {
+      "statistics": {
+        "48hours": 6,
+        "90days": 293
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:35+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:38:37+00:00"
+    },
+    "vanquished_prey": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 5
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:37+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:38:38+00:00"
+    },
+    "vapor_trail": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 46
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:38+00:00",
+      "orders": 40,
+      "ordersUpdatedAt": "2026-10-20T06:38:40+00:00"
+    },
+    "vaykor_hek": {
+      "statistics": {
+        "48hours": 29,
+        "90days": 1215
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:38+00:00",
+      "orders": 28,
+      "ordersUpdatedAt": "2026-10-20T06:38:41+00:00"
+    },
+    "vaykor_marelok": {
+      "statistics": {
+        "48hours": 20,
+        "90days": 1038
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:39+00:00",
+      "orders": 30,
+      "ordersUpdatedAt": "2026-10-20T06:38:41+00:00"
+    },
+    "vaykor_sydon": {
+      "statistics": {
+        "48hours": 21,
+        "90days": 1211
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:40+00:00",
+      "orders": 30,
+      "ordersUpdatedAt": "2026-10-20T06:38:42+00:00"
+    },
+    "vazarin_transmute_core": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 6
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:42+00:00",
+      "orders": 30,
+      "ordersUpdatedAt": "2026-10-20T06:38:44+00:00"
+    },
+    "venari_bodyguard": {
+      "statistics": {
+        "48hours": 6,
+        "90days": 421
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:43+00:00",
+      "orders": 12,
+      "ordersUpdatedAt": "2026-10-20T06:38:45+00:00"
+    },
+    "venerdo_hoverdrive": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 52
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:43+00:00",
+      "orders": 50,
+      "ordersUpdatedAt": "2026-10-20T06:38:45+00:00"
+    },
+    "venom_dose": {
+      "statistics": {
+        "48hours": 109,
+        "90days": 5390
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:45+00:00",
+      "orders": 9,
+      "ordersUpdatedAt": "2026-10-20T06:38:46+00:00"
+    },
+    "venomous_rise": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 8
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:46+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:38:48+00:00"
+    },
+    "vexing_retaliation": {
+      "statistics": {
+        "48hours": 2,
+        "90days": 41
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:47+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:38:49+00:00"
+    },
+    "vicious_approach": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 1
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:47+00:00",
+      "orders": null,
+      "ordersUpdatedAt": "2026-10-20T06:38:49+00:00"
+    },
+    "vicious_bond": {
+      "statistics": {
+        "48hours": 43,
+        "90days": 2216
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:49+00:00",
+      "orders": 13,
+      "ordersUpdatedAt": "2026-10-20T06:38:51+00:00"
+    },
+    "viral_tempest": {
+      "statistics": {
+        "48hours": 34,
+        "90days": 1439
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:50+00:00",
+      "orders": 14,
+      "ordersUpdatedAt": "2026-10-20T06:38:52+00:00"
+    },
+    "volatile_parasite": {
+      "statistics": {
+        "48hours": 7,
+        "90days": 274
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:51+00:00",
+      "orders": 14,
+      "ordersUpdatedAt": "2026-10-20T06:38:53+00:00"
+    },
+    "volatile_recompense": {
+      "statistics": {
+        "48hours": 26,
+        "90days": 2259
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:51+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:38:54+00:00"
+    },
+    "voltage_sequence": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 29
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:53+00:00",
+      "orders": 19,
+      "ordersUpdatedAt": "2026-10-20T06:38:55+00:00"
+    },
+    "voltaic_lance": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 6
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:54+00:00",
+      "orders": 400,
+      "ordersUpdatedAt": "2026-10-20T06:38:56+00:00"
+    },
+    "ward_recovery": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 5
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:55+00:00",
+      "orders": 90,
+      "ordersUpdatedAt": "2026-10-20T06:38:57+00:00"
+    },
+    "warding_thurible": {
+      "statistics": {
+        "48hours": 2,
+        "90days": 84
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:56+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:38:58+00:00"
+    },
+    "warriors_rest": {
+      "statistics": {
+        "48hours": 10,
+        "90days": 337
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:58+00:00",
+      "orders": 10,
+      "ordersUpdatedAt": "2026-10-20T06:39:00+00:00"
+    },
+    "winds_of_purity": {
+      "statistics": {
+        "48hours": 11,
+        "90days": 358
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:59+00:00",
+      "orders": 14,
+      "ordersUpdatedAt": "2026-10-20T06:39:01+00:00"
+    },
+    "wrath_of_ukko": {
+      "statistics": {
+        "48hours": 1,
+        "90days": 275
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:59+00:00",
+      "orders": 13,
+      "ordersUpdatedAt": "2026-10-20T06:39:00+00:00"
+    },
+    "wrecking_wall": {
+      "statistics": {
+        "48hours": 6,
+        "90days": 341
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:38:59+00:00",
+      "orders": 15,
+      "ordersUpdatedAt": "2026-10-20T06:39:01+00:00"
+    },
+    "zazvat_kar": {
+      "statistics": {
+        "48hours": 0,
+        "90days": 40
+      },
+      "statisticsUpdatedAt": "2026-10-20T06:39:02+00:00",
+      "orders": 25,
+      "ordersUpdatedAt": "2026-10-20T06:39:02+00:00"
+    }
+  }
+}

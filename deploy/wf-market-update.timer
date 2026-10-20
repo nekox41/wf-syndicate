@@ -1,0 +1,10 @@
+[Unit]
+Description=Update Warframe Syndicate market data every hour
+
+[Timer]
+OnCalendar=hourly
+Persistent=true
+Unit=wf-market-update.service
+
+[Install]
+WantedBy=timers.target

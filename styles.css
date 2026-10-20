@@ -311,3 +311,40 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
   .principle{border-right:none;border-bottom:1px solid var(--line);}
   .principle:last-child{border-bottom:none;}
 }
+
+/* ---------- 集团交易物品 ---------- */
+.market-controls{display:flex;align-items:flex-end;flex-wrap:wrap;gap:16px;}
+.market-select{display:flex;flex-direction:column;gap:8px;font-size:12px;font-weight:800;}
+.market-select select{font:inherit;font-size:14px;border:1px solid var(--ink);background:var(--paper);padding:12px;min-width:220px;max-width:100%;}
+.market-period{border:0;padding:0;margin:0;display:flex;}
+.market-period legend{font-size:12px;font-weight:800;margin-bottom:8px;}
+.market-period button,#marketRetry{padding:12px 18px;background:var(--paper);border:1px solid var(--ink);font-size:14px;font-weight:800;}
+.market-period button+button{border-left:0;}
+.market-period button.active{background:var(--ink);color:var(--paper);}
+#marketRetry{margin-left:auto;}
+#marketRetry:disabled{opacity:.4;cursor:default;}
+.market-help{font-size:12px;color:var(--gray);line-height:1.7;margin-top:18px;max-width:85ch;}
+#marketStatus{font-size:12px;color:var(--gray);margin:14px 0 24px;min-height:20px;}
+.market-group{margin-top:40px;}
+.market-heading{display:flex;align-items:baseline;flex-wrap:wrap;gap:16px;border-top:2px solid var(--ink);padding-top:18px;margin-bottom:22px;}
+.market-heading h2{font-size:26px;}
+.market-count,.market-empty{font-size:12px;color:var(--gray);}
+.market-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px;}
+.market-card{border:1px solid var(--line);padding:10px 12px;min-width:0;background:var(--paper);}
+.market-card:hover{border-color:var(--ink);}
+.market-item-link{display:flex;flex-direction:column;align-items:center;color:var(--ink);text-decoration:none;}
+.market-item-name{font-size:13px;font-weight:800;text-align:center;min-height:36px;line-height:1.4;overflow-wrap:anywhere;}
+.market-item-link:hover{color:var(--red);}
+.market-standing{text-align:center;font-size:13px;font-weight:800;border-top:1px solid var(--line);margin-top:6px;padding-top:6px;}
+.market-metrics{display:flex;justify-content:space-between;gap:6px;margin-top:6px;font-size:11px;color:var(--gray);}
+.market-price{color:var(--red);text-align:right;font-weight:800;}
+.market-controls :focus-visible,.market-item-link:focus-visible{outline:2px solid var(--red);outline-offset:3px;}
+@media (max-width:640px){
+  .tab{flex:1;padding:16px 10px 13px;white-space:nowrap;}
+  .market-controls{gap:14px;}
+  .market-select{width:100%;}
+  .market-select select{width:100%;}
+  .market-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;}
+  .market-card{padding:10px;}
+  .market-heading h2{font-size:23px;}
+}
